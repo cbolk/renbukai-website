@@ -1,0 +1,86 @@
+[{
+      "giornoinizio": "2015-12-26",
+      "giornofine": "2015-12-30",
+      "città": "Milano",
+      "dojo": "Aikikai Milano - Dojo Fujimoto",
+      "indirizzo": "via Lulli, 30 - 20132 Milano",
+      "diretto": "M&deg; Foglietta & M&deg; Travaglini",
+      "titolo": "Seminario di fine anno - 2015",
+      "immagine": "201512.jpg",
+      "locandina": "20151226.pdf"
+},{
+      "giornoinizio": "2016-01-09",
+      "giornofine": "2016-01-10",
+      "città": "Foligno",
+      "dojo": "Aikido Fujinami Foligno",
+      "indirizzo": "Centro Sportivo Pinco Pallino",
+      "diretto": "M&deg; Foglietta",
+      "titolo": "Seminario di Aikido",
+      "immagine": "20160109.png",
+      "locandina": "2016foligno.pdf"
+},
+{
+      "giornoinizio": "2016-01-30",
+      "giornofine": "2016-01-31",
+      "città": "Cassino",
+      "dojo": "",
+      "indirizzo": "Centro Sportivo Alfa",
+      "diretto": "M&deg; Foglietta",
+      "titolo": "Seminario di Aikido",
+      "immagine": "rf.jpg",
+      "locandina": "2016cassino.pdf"      
+},
+{
+      "giornoinizio": "2016-02-13",
+      "giornofine": "2016-02-14",
+      "città": "Milano",
+      "dojo": "Aikikai Milano - Dojo Fujimoto",
+      "indirizzo": "Centro Sportivo Saini, via Corelli, 136 - 20134 Milano (MI)",
+      "diretto": "M&deg; Osawa Shihan",
+      "titolo": "Seminario di Aikido",
+      "immagine": "osawa.png",
+      "locandina": "20160213.pdf"      
+},
+{
+      "giornoinizio": "2016-04-03",
+      "giornofine": "2016-04-03",
+      "città": "Orvieto",
+      "dojo": "",
+      "indirizzo": "Centro Sportivo Alfa",
+      "diretto": "M&deg; Foglietta",
+      "titolo": "Seminario di Aikido",
+      "immagine": "rf.jpg",
+      "locandina": "2016cassino.pdf"      
+},
+{
+      "giornoinizio": "2016-04-30",
+      "giornofine": "2016-05-01",
+      "città": "Milano",
+      "dojo": "Aikikai Milano - Dojo Fujimoto",
+       "indirizzo": "Centro Sportivo Saini, via Corelli, 136 - 20134 Milano (MI)",
+     "diretto": "M&deg; Foglietta & M&deg; Travaglini",
+      "titolo": "Seminario di armi",
+      "immagine": "foto_ft.png",
+      "locandina": ""
+},{
+      "giornoinizio": "2016-06-18",
+      "giornofine": "2016-06-19",
+      "città": "Pesaro",
+      "dojo": "Renbukai Pesaro",
+      "indirizzo": "Keikodojo, Via Pietro Gai, 19 - 61100 Pesaro",
+      "diretto": "M&deg; Foglietta & M&deg; D'Amico",
+      "titolo": "Seminario di aikido",
+      "immagine": "fogliettadamico.png",
+      "locandina": ""
+},{
+      "giornoinizio": "2016-07-02",
+      "giornofine": "2016-07-09",
+      "città": "Laces",
+      "dojo": "Aikikai Milano - Dojo Fujimoto",
+      "indirizzo": "Sportzentrum, Annaberg Strasse - 39021 Laces (BZ)",
+      "diretto": "M&deg; Foglietta & M&deg; Travaglini",
+      "titolo": "Seminario di aikido",
+      "immagine": "ft_laces.jpg",
+      "locandina": ""
+}
+]
