@@ -2,6 +2,12 @@
 
 	class utils {
 
+
+		function dowInItalian($dow){
+			$dowMap = array('dom', 'lun', 'mar', 'mer', 'gio', 'ven', 'sab');
+			return $dowMap[$dow];
+		}
+
     	function getSchedule($day){
 		  	$month = date('m', strtotime($day));
 	   			if($month == 7 || $month == 8 || $month == 9)
@@ -26,6 +32,33 @@
 			return $year;
 
 		}
+		
+
+		function longDate($day){
+			setlocale(LC_TIME, 'ita');
+			date_default_timezone_set('Europe/Rome');
+			$ld = $this->dowInItalian(date('w', strtotime($day)));
+			$ld = $ld . " " . ltrim(date('d', strtotime($day)), '0') . " " . $this->getMonthNameFromNumber(date('m', strtotime($day))) . ", " . date('Y', strtotime($day));
+			return $ld;
+		}
+	
+		function medDate($day){
+			$ld = $this->dowInItalian(date('w', strtotime($day)));
+			$ld = $ld . " " . ltrim(date('d', strtotime($day)), '0') . " " . $this->getMonthMedNameFromNumber(date('m', strtotime($day))) . ", " . date('Y', strtotime($day));
+			return $ld;
+		}
+
+		function shortDate($day){
+			$ld = $this->dowInItalian(date('w', strtotime($day)));
+			$ld = $ld . " " . ltrim(date('d', strtotime($day)), '0') . " " . $this->getMonthMedNameFromNumber(date('m', strtotime($day))) . " " . date('Y', strtotime($day));
+			return $ld;
+		}
+
+		function vDate($day){
+			$ld = "<div class='semdate'>" . ltrim(date('d', strtotime($day)), '0') . "<br/>" . $this->getMonthMedNameFromNumber(date('m', strtotime($day))) . "<br/>" . date('Y', strtotime($day)) . "</div>";
+			return $ld;
+		}
+
 
 		function getMonthNameFromNumber($month)
 		{
@@ -45,8 +78,8 @@
 				);
 				return strtr(date('F', mktime(0,0,0,$month,1)),$trans);
 		}
-		
-		function getMonthMedNameFromNumber($month)
+	
+			function getMonthMedNameFromNumber($month)
 		{
 				return substr($this->getMonthNameFromNumber($month),0,3) . ".";
 		}
@@ -57,7 +90,6 @@
 			$out = $out ."</span><br/><span class='day'>" . date('d', strtotime($date)) . "</span>";
 			return $out;
 		}
-
 
 	}
 ?>
