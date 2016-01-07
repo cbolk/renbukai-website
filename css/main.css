@@ -419,6 +419,10 @@ h1, h2, h3, h4 {margin-bottom: 0px;}
 .acenter{text-align: center}
 .noborder {border: 0px;}
 a.noborder  {border-bottom: 0px;text-decoration: none}
+.ev {font-weight: 400}
+.it {font-style: italic;}
+.ulined{border-bottom: 1px solid #005493;}
+
 
 @media (min-width:769px){.mobile{display:none}}
 @media (max-width:960px){.nomobile{display:none}}
@@ -440,6 +444,8 @@ img {max-width: 100%;}
     margin: 5px;
     padding: 5px;
 }
+.septop {border-top: 2px solid #005493; margin-top: 20px; line-height: 2.5em;  font-weight: 300}
+@media (max-width:960px){.semimage{display: none;}.ulined{border: 0; color: #005493; font-weight: 700;}.septop{border-top: 1px solid #005493;font-weight: 700;}}
 
 .rotate {
      -moz-transform: rotate(-90.0deg);  /* FF3.5+ */
