@@ -54,9 +54,9 @@
 						echo "<div class='seminarentry'>";
 						$a = strtotime($sem['giornoinizio']);
 						?>
-							<div class="semdate"><?php echo strtoupper($m) . "<br/>" . $d . "<br/>" . $y; ?></div>
+							<div class="semdate"><?php echo strtoupper($m) . "<br/>" . $d . "<br/>" . $y . "<br/><span class='septop'>" . $sem['città'] . "</span>" ;?></div>
 						<?
-    					echo "<div class='seminartext'><div class='semdetails'><strong>" . $sem['titolo'] . "</strong> | " . $sem['diretto'] . " a " . $sem['città'] . "</div>";
+    					echo "<div class='seminartext'><div class='semdetails'><strong>" . $sem['titolo'] . "</strong> <span class='nomobile'>|</span><span class='mobile'><br/></span> <span class='ulined'>" . $sem['diretto'] . "</span></div>";
     					if($firstday != $lastday)
 	    					echo "<div class='semdetails'><i class='fa fa-calendar'></i> dal " . $d . "-" . $m . "-" . $y . " al " . $d2 . "-" . $m2 . "-" . $y2 . "</div>";
 	    				else
@@ -64,7 +64,7 @@
 	    				if($sem['dojo'] != null)
 		    				echo "<div class='semdetails'>organizzato da " . $sem['dojo'] . "</div>";
 	    				if($sem['città'] != null)
-		    				echo "<div class='semdetails'><i class='fa fa-map-marker'></i> " . $sem['indirizzo'] . " " . $sem['città'] . "</div>";
+		    				echo "<div class='semdetails'><i class='fa fa-map-marker'></i> " . $sem['indirizzo'] . "</div>";
 	    				if($sem['locandina'] != null)
 		    				echo "<div class='semdetails'>locandina: <a href='./stages/" . $sem['locandina'] . "'><i class='fa fa-file-pdf-o'></i></a></div>";
     					echo "</div> <!-- .seminartext -->";

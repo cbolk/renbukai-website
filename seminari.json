@@ -3,8 +3,8 @@
       "giornofine": "2015-12-30",
       "città": "Milano",
       "dojo": "Aikikai Milano - Dojo Fujimoto",
-      "indirizzo": "via Lulli, 30 - 20132 Milano",
-      "diretto": "M&deg; Foglietta & M&deg; Travaglini",
+      "indirizzo": "via Lulli, 30 - 20132 Milano (MI)",
+      "diretto": "M&deg; Foglietta, M&deg; Travaglini & M&deg; Fabbretti",
       "titolo": "Seminario di fine anno - 2015",
       "immagine": "201512.jpg",
       "locandina": "20151226.pdf"
@@ -23,12 +23,12 @@
       "giornoinizio": "2016-01-30",
       "giornofine": "2016-01-31",
       "città": "Cassino",
-      "dojo": "",
-      "indirizzo": "Centro Sportivo Alfa",
+      "dojo": "Aikikai Cassino",
+      "indirizzo": "Sporting Club, via San Bartolomeo, 28 - 03043 Cassino (FR)",
       "diretto": "M&deg; Foglietta",
       "titolo": "Seminario di Aikido",
       "immagine": "rf.jpg",
-      "locandina": "2016cassino.pdf"      
+      "locandina": "20160131.jpg"      
 },
 {
       "giornoinizio": "2016-02-13",
@@ -45,12 +45,23 @@
       "giornoinizio": "2016-04-03",
       "giornofine": "2016-04-03",
       "città": "Orvieto",
-      "dojo": "",
-      "indirizzo": "Centro Sportivo Alfa",
+      "dojo": "Aikikai Orvieto",
+      "indirizzo": "Palestra 'Area 51', Via Velino (Loc. Fontanelle di Bardano), 05018 Orvieto (TR)",
       "diretto": "M&deg; Foglietta",
       "titolo": "Seminario di Aikido",
       "immagine": "rf.jpg",
-      "locandina": "2016cassino.pdf"      
+      "locandina": ""      
+},
+{
+      "giornoinizio": "2016-04-10",
+      "giornofine": "2016-04-10",
+      "città": "Casalpusterlengo",
+      "dojo": "ASD Aikikai Lodi",
+      "indirizzo": "Aikido Dojo Casalpusterlengo, ",
+      "diretto": "M&deg; Foglietta",
+      "titolo": "Seminario di Aikido",
+      "immagine": "rf.jpg",
+      "locandina": ""      
 },
 {
       "giornoinizio": "2016-04-30",
@@ -67,7 +78,7 @@
       "giornofine": "2016-06-19",
       "città": "Pesaro",
       "dojo": "Renbukai Pesaro",
-      "indirizzo": "Keikodojo, Via Pietro Gai, 19 - 61100 Pesaro",
+      "indirizzo": "Keikodojo, Via Pietro Gai, 19 - 61100 Pesaro (PU)",
       "diretto": "M&deg; Foglietta & M&deg; D'Amico",
       "titolo": "Seminario di aikido",
       "immagine": "fogliettadamico.png",
