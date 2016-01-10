@@ -1,0 +1,35 @@
+[
+{
+      "start": "2016-02-19",
+      "end": "2016-02-21",
+      "città": "Roma",
+      "dojo": "Aikido Dojo Kashin",
+      "indirizzo": "Aikido Dojo Kashin, via Casilina, 761 - 00177 Roma (ROMA)",
+      "diretto": "Endo Shihan",
+      "title": "Seminario di Aikido",
+      "immagine": "endo.png",
+      "locandina": "20160219endo.jpg"
+},
+{
+      "start": "2016-05-14",
+      "end": "2016-05-15",
+      "città": "Ostia",
+      "dojo": "Kikai",
+      "indirizzo": "Kikai, Via Genoese Zerbi, 27 - 00122 Ostia (ROMA)",
+      "diretto": "Bottacin",
+      "title": "Seminario di aikido",
+      "immagine": "fb.jpg",
+      "locandina": ""
+},
+{
+      "start": "2016-05-21",
+      "end": "2016-05-22",
+      "città": "Fano",
+      "dojo": "Shingen",
+      "indirizzo": "Shingen, Via 4 Novembre - 61032 Fano (PU)",
+      "diretto": "Re",
+      "title": "Seminario La spada nell'Aikido",
+      "immagine": "ar.jpg",
+      "locandina": "20160521re.pdf"
+}
+]

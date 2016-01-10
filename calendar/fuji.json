@@ -1,0 +1,111 @@
+[{
+      "start": "2015-12-26",
+      "end": "2015-12-30",
+      "città": "Milano",
+      "dojo": "Aikikai Milano - Dojo Fujimoto",
+      "indirizzo": "Aikikai Milano - Dojo Fujimoto, via Lulli, 30 - 20132 Milano (MI)",
+      "diretto": "Foglietta, Travaglini & Fabbretti",
+      "title": "Seminario di fine anno - 2015",
+      "immagine": "201512.jpg",
+      "locandina": "20151226.pdf"
+},
+{
+      "start": "2016-01-23",
+      "end": "2016-01-24",
+      "città": "Milano",
+      "dojo": "Aikikai Milano - Dojo Fujimoto",
+      "indirizzo": "Aikikai Milano - Dojo Fujimoto, via Lulli, 30 - 20132 Milano (MI)",
+      "diretto": "Sguinzo & Bellini",
+      "title": "Seminario di Aikido per 5° e 6° kyu",
+      "immagine": "sguinzobellini.png",
+      "locandina": "20160123.pdf"
+},
+{
+      "start": "2016-02-13",
+      "end": "2016-02-14",
+      "città": "Milano",
+      "dojo": "Aikikai Milano - Dojo Fujimoto",
+      "indirizzo": "c/o Centro Sportivo Saini, via Corelli, 136 - 20134 Milano (MI)",
+      "diretto": "M° Osawa",
+      "title": "Seminario di Aikido",
+      "immagine": "osawa.png",
+      "locandina": "20160213.pdf"
+},
+{
+      "start": "2016-02-27",
+      "end": "2016-02-28",
+      "città": "Milano",
+      "dojo": "Aikikai Milano - Dojo Fujimoto",
+      "indirizzo": "Aikikai Milano - Dojo Fujimoto, via Lulli, 30 - 20132 Milano (MI)",
+      "diretto": "Cardia & Bottacin",
+      "title": "Seminario di Aikido per 3° e 4° kyu",
+      "immagine": "",
+      "locandina": "20160226cardiabottacin.pdf"
+},
+{
+      "start": "2016-03-26",
+      "end": "2016-03-28",
+      "città": "Roma",
+      "dojo": "Aikikai D'Italia",
+      "indirizzo": "Villa Eur, P.zza Marcellino Champagnat, 2 - 00144 Roma (ROMA)",
+      "diretto": "M° Tada",
+      "title": "",
+      "immagine": "",
+      "locandina": ""
+},
+{
+      "start": "2016-04-30",
+      "end": "2016-05-01",
+      "città": "Milano",
+      "dojo": "Aikikai Milano - Dojo Fujimoto",
+      "indirizzo": "c/o Centro Sportivo Saini, via Corelli, 136 - 20134 Milano (MI)",
+      "diretto": "Foglietta & Travaglini",
+      "title": "Seminario di armi",
+      "immagine": "ft.jpg",
+      "locandina": ""
+},
+{
+      "start": "2016-05-07",
+      "end": "2016-05-08",
+      "città": "Roma",
+      "dojo": "Aikido Nozomi",
+      "indirizzo": "Villa Eur, P.zza Marcellino Champagnat, 2 - 00144 Roma (ROMA)",
+      "diretto": "M° Asai",
+      "title": "Seminario di aikido",
+      "immagine": "asai.jpg",
+      "locandina": ""
+},
+{
+      "start": "2016-07-02",
+      "end": "2016-07-09",
+      "città": "Laces",
+      "dojo": "Aikikai Milano - Dojo Fujimoto",
+      "indirizzo": "c/o Sportzentrum, Annaberg Strasse - 39021 Laces (BZ)",
+      "diretto": "Foglietta & Travaglini",
+      "title": "Seminario di aikido",
+      "immagine": "ft_laces.jpg",
+      "locandina": ""
+},
+{
+      "start": "2016-07-11",
+      "end": "2016-07-16",
+      "città": "La Spezia",
+      "dojo": "Aikikai D'Italia",
+      "indirizzo": "c/o Palazzetto dello Sport, Via Della Pianta - 19126 La Spezia (SP)",
+      "diretto": "M° Tada",
+      "title": "Kinorenma",
+      "immagine": "",
+      "locandina": ""
+},
+{
+      "start": "2016-07-18",
+      "end": "2016-07-23",
+      "città": "La Spezia",
+      "dojo": "Aikikai D'Italia",
+      "indirizzo": "c/o Palazzetto dello Sport, Via Della Pianta - 19126 La Spezia (SP)",
+      "diretto": "M° Tada",
+      "title": "Seminario internazionale di aikido",
+      "immagine": "",
+      "locandina": ""
+}
+]

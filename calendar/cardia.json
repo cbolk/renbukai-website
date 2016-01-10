@@ -1,0 +1,79 @@
+[
+{
+      "start": "2016-01-16",
+      "end": "2016-01-17",
+      "città": "Corsico",
+      "dojo": "Aikikai Corsico",
+      "indirizzo": "c/o Palestra 'Dante', Via Dante Alighieri, 20094 Corsico (MI)",
+      "diretto": "Devlin",
+      "title": "Seminario di Aikido",
+      "immagine": "ed.jpg",
+      "locandina": "20160116devlin.pdf"
+},
+{
+      "start": "2016-02-06",
+      "end": "2016-02-07",
+      "città": "Atene",
+      "dojo": "Aikido of Athens",
+      "indirizzo": "Aikido of Athens, Chrysippou 30, Zografou 15773, Atene",
+      "diretto": "Cardia",
+      "title": "Seminario di Aikido",
+      "immagine": "ec.jpg",
+      "locandina": ""
+},
+{
+      "start": "2016-02-12",
+      "end": "2016-02-12",
+      "città": "Corsico",
+      "dojo": "Aikikai Corsico",
+      "indirizzo": "c/o Palestra 'Dante', Via Dante Alighieri, 20094 Corsico (MI)",
+      "diretto": "Osawa Shihan",
+      "title": "Lezione di Aikido",
+      "immagine": "osawa.png",
+      "locandina": "20160213.pdf"
+},
+{
+      "start": "2016-03-05",
+      "end": "2016-03-05",
+      "città": "Corsico",
+      "dojo": "Aikikai Corsico",
+      "indirizzo": "c/o Palestra 'Dante', Via Dante Alighieri, 20094 Corsico (MI)",
+      "diretto": "Rizzi",
+      "title": "Seminario di Aikido",
+      "immagine": "",
+      "locandina": ""
+},
+{
+      "start": "2016-04-09",
+      "end": "2016-04-10",
+      "città": "Viareggio",
+      "dojo": "Hikari Dojo",
+      "indirizzo": "c/o Samurai Karate Do, Via Bartoletti - 55049 Viareggio (LU)",
+      "diretto": "Cardia",
+      "title": "Seminario di Aikido",
+      "immagine": "ec.jpg",
+      "locandina": "20160410.pdf"
+},
+{
+      "start": "2016-05-07",
+      "end": "2016-05-08",
+      "città": "Verona",
+      "dojo": "Aikikai Verona",
+      "indirizzo": "Centro Arti Marziali Yawara Verona, Via Maiella, 6 - 37132 Verona (VR)",
+      "diretto": "Cardia",
+      "title": "Seminario di aikido",
+      "immagine": "ec.jpg",
+      "locandina": ""
+},
+{
+      "start": "2016-05-22",
+      "end": "2016-05-22",
+      "città": "Casalpusterlengo",
+      "dojo": "ASD Aikikai Lodi",
+      "indirizzo": "c/o Palestra ex Pacle, Via Felice Cavallotti, 53 - 26841 Casalpusterlengo (LO)",
+      "diretto": "Cardia",
+      "title": "Seminario di Aikido",
+      "immagine": "ec.jpg",
+      "locandina": "20160522cardia.png"
+}
+]
