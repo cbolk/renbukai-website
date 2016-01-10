@@ -91,5 +91,13 @@
 			return $out;
 		}
 
+		function exists_in_array($arr, $val){
+			$num = count($arr);
+			for($i = 0 ; $i < $num; $i++)
+				if($arr[$i] == $val)
+					return $i;
+			return false;
+		}
+
 	}
 ?>

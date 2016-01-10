@@ -6,7 +6,7 @@
 
 /* blu #005493 */
 body,html{margin:0;padding:0;height:100%}
-body,html{font: 20px/26px 'Lato', 'Open Sans Condensed',  sans-serif; color: #666; font-weight: 300;}
+body,html{font: 18px/24px 'Lato', 'Open Sans Condensed',  sans-serif; color: #666; font-weight: 300;}
 a {text-decoration: none; color: #005493;}
 @media (max-width:640px){body,html{font: 16px/22px 'Open Sans Condensed','Helvetica', sans-serif;}}
 .site_wrapper{min-height:100%}
@@ -142,6 +142,8 @@ position: relative;}
 .note {color: #aaa;text-align: center;padding-top: 5px;display: block}
 .black{color:#000}
 .blue{color: #282658;}
+.colrenbukai{color: #282658;}
+.bgcolrenbukai{background-color: #282658;}
 .back-blue{background-color: #282658; color: #fff;}
 @media (max-width:960px){.note{font-size:0.8em}}
 @media (min-width:768px){.note{font-size:1em}}
@@ -431,8 +433,9 @@ a.main_link{text-decoration: none;color: #005493;border: 0}
 
 img {max-width: 100%;}
 
+.seminarwrapper {border-bottom: 1px solid #f2f2f2;}
 .seminarentry {display: table-row; padding-top: 15px; padding-bottom: 15px}
-.semdate {display: table-cell; color: #005493; padding: 15px; line-height: 1.2em; vertical-align: center; text-align: center; font-size: 16px; font-weight: bold; border-radius: 3px;}
+.semdate {display: table-cell; color: #005493; padding: 15px; line-height: 1.2em; vertical-align: center; text-align: center; font-size: 16px; font-weight: bold; border-radius: 3px; min-width: 120px}
 .seminartext{display: table-cell; padding: 15px}
 .semdetails{display: table-row; }
 .semimage{float: left;padding: 15px; vertical-align: center; }
@@ -445,7 +448,11 @@ img {max-width: 100%;}
     padding: 5px;
 }
 .septop {border-top: 2px solid #005493; margin-top: 20px; line-height: 2.5em;  font-weight: 300}
-@media (max-width:960px){.semimage{display: none;}.ulined{border: 0; color: #005493; font-weight: 700;}.septop{border-top: 1px solid #005493;font-weight: 700;}}
+@media (max-width:960px){.ulined{border: 0; color: #005493; font-weight: 700;}.septop{border-top: 1px solid #005493;font-weight: 700;}}
+@media (max-width:960px){.semimage img{width: 300px;margin-bottom: 0} .semimage img:after{clear: both}}
+.passed {color: #bbb;}
+.activeseminar {border: 2px solid #005493; border-radius: 3px}
+@media (max-width:960px){.activeseminar {border: 0; border-radius:0; border-left: 5px solid #005493;}}
 
 .rotate {
      -moz-transform: rotate(-90.0deg);  /* FF3.5+ */
@@ -454,3 +461,30 @@ img {max-width: 100%;}
              filter:  progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083);  /* IE6,IE7 */
          -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083)"; /* IE8 */
 }
+
+
+
+/** override bootstrap **/
+.nav > li a:hover {background-color: #fff;}
+
+.nav > li a {
+font-family: 'Open Sans';
+font-size: 15px;
+font-weight: 300;  
+    border: medium none;
+    color: #808080;
+    display: block;
+    padding: 10px 20px;
+    position: relative;
+    text-transform: uppercase;
+}
+#navbar{border-bottom: 1px solid #F2F2F2;
+margin-bottom: 15px;text-align: center}
+.row h3 {color: #005493;
+font-family: "Open Sans Condensed",sans-serif;
+font-size: 24px;
+font-weight: 700;
+line-height: 1.6;
+text-align: center;
+margin: 20px 0 15px 0;
+padding: 0px;}
