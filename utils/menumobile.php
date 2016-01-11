@@ -24,7 +24,9 @@
                 <li><a href="./index.php">home</a></li>
                 <li><a href="./aikidomain.php">aikido</a></li>
                 <li><a href="./onohaittoryu.php">onoha itto ryu</a></li>
+                <li><a href="./insegnante.php">insegnante</a></li>
                 <li><a href="./orario.php">orario</a></li>
+                <li><a href="./dojo.php">dojo</a></li>
                 <li><a href="./seminari.php#<?php echo $s->sid;?>">attivit&agrave;</a></li>
                 <li><a href="./gallery.php">foto</a></li>
                 <li><a href="./news.php">news</a></li>
