@@ -124,7 +124,7 @@ $(function() {
         </div>
 
 		<div class="row">
-			<h3>Seminari <?php echo $from . " - " . $filter; ?><?php echo "[" . $_GET['i'] ."]";?><?php echo "(" . $_POST['i'] . ")";?></h3>
+			<h3>Seminari <?php echo $from . " - " . $to; ?></h3>
 			<div class="col-lg-12">
     		  	<?php
 
