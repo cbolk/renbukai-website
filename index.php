@@ -21,7 +21,6 @@
 
 	<link rel="stylesheet" media="screen" href="css/main.css" /> <!--Load CSS-->
 	<link rel="stylesheet" media="screen" href="css/cal.css" /> <!--Load CSS-->
-	<link rel="stylesheet" href="css/slicknav.css" />
 </head>
 <body>
 	<div class="container">

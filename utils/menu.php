@@ -12,6 +12,8 @@
     <li class="mobile sidebar__link_item"><div class="sidebar__link_item__name"><a href="./aikidoinsegnante.php">insegnante</a></div></li>
     <li class="mobile sidebar__link_item"><div class="sidebar__link_item__name"><a href="./aikidoiscrizioni.php">iscrizioni</a></div></li>
     <li class="sidebar__link_item"><div class="sidebar__link_item__name"><a href="./onohaittoryu.php">onoha itto ryu</a></div></li>
+    <li class="nomobile sidebar__link_item"><div class="sidebar__link_item__name"><a href="./dojo.php">dojo</a></div></li>
+    <li class="nomobile sidebar__link_item"><div class="sidebar__link_item__name"><a href="./insegnante.php">insegnante</a></div></li>
     <li class="nomobile sidebar__link_item"><div class="sidebar__link_item__name"><a href="./orario.php">orario</a></div></li>
     <li class="nomobile sidebar__link_item"><div class="sidebar__link_item__name"><a href="./seminari.php">attivit&agrave;</a></div></li>
     <li class="sidebar__link_item"><div class="sidebar__link_item__name"><a href="./gallery.php">foto</a></div></li>

@@ -395,6 +395,7 @@ ul.weblinks li:before {
 
 h1, h2, h3, h4 {margin-bottom: 0px;}
 #seminari h3, #links h3, #insegnante h3, #orario h3 {text-align: center; color: #005493; margin: 20px 0 15px 0; }
+h4 {color: #005493; margin: 20px 0 15px 0; font: 24px/26px 'Open Sans Condensed','Helvetica', sans-serif; }
 
 .fullwidth{display: block;width:100%;}
 .w70{width: 70%}
