@@ -1,8 +1,8 @@
 <?php
     $current = $_SERVER['SCRIPT_NAME'];
-    $isaikido = "inactive";
-    if (substr($current,15,6) == "aikido")
-        $isaikido = "active";
+    $isdojo = "inactive";
+    if (substr($current,15,4) == "dojo")
+        $isdojo = "active";
     $s->getNextSeminar();
 
 ?>
@@ -22,7 +22,7 @@
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
                 <li><a href="./index.php">home</a></li>
-                <li><a href="./aikidomain.php">aikido</a></li>
+                <li><a href="./aikido.php">aikido</a></li>
                 <li><a href="./onohaittoryu.php">onoha itto ryu</a></li>
                 <li><a href="./insegnante.php">insegnante</a></li>
                 <li><a href="./orario.php">orario</a></li>
@@ -36,11 +36,11 @@
     </div>
 </nav>
 <div id="secondarymenu" class="sidebar__link_list">
-    <ul class="<?php echo $isaikido; ?>">
+    <ul class="<?php echo $isdojo; ?>">
         <!--li class="sidebar__link_item"><div class="sidebar__link_item__name"><a href="./aikido.php">l'aikido</a></div></li-->
-        <li class="sidebar__link_item"><div class="sidebar__link_item__name"><a href="./aikidopesaro.php">aikido Renbukai Pesaro</a></div></li>
-        <li class="sidebar__link_item"><div class="sidebar__link_item__name"><a href="./aikidorimini.php">aikido Renbukai Rimini</a></div></li>
-        <li class="sidebar__link_item"><div class="sidebar__link_item__name"><a href="./aikidoinsegnante.php">insegnante</a></div></li>
-        <li class="sidebar__link_item"><div class="sidebar__link_item__name"><a href="./aikidoiscrizioni.php">iscrizioni</a></div></li>
+        <li class="sidebar__link_item"><div class="sidebar__link_item__name"><a href="./dojopesaro.php">aikido Renbukai Pesaro</a></div></li>
+        <li class="sidebar__link_item"><div class="sidebar__link_item__name"><a href="./dojorimini.php">aikido Renbukai Rimini</a></div></li>
+        <!--li class="sidebar__link_item"><div class="sidebar__link_item__name"><a href="./aikidoinsegnante.php">insegnante</a></div></li-->
+        <li class="sidebar__link_item"><div class="sidebar__link_item__name"><a href="./dojoiscrizioni.php">iscrizioni</a></div></li>
     </ul>
 </div>

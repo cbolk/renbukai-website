@@ -37,9 +37,13 @@ class seminar {
 	}   	
 
 	 
-	public function getSeminars(){
+	public function getSeminars($sorted){
 		$string = file_get_contents($this->srcfile);
 		$json_a = json_decode($string, true);
+		if($sorted)
+			if(count($json_a) > 0)
+				usort($json_a, array('seminar','sort_by_date_asc'));				
+			
 			
 		return $json_a;
 	} 
@@ -50,7 +54,7 @@ class seminar {
 	
 		$string = file_get_contents($this->srcfile);
 		$json_a = json_decode($string, true);
-		if(count($json_a) >= 1){
+		if(count($json_a) > 0){
 			usort($json_a, array('seminar','sort_by_date_asc'));
 			$today = date("Y-m-d");
 			foreach ($json_a as $s => $sem) {
@@ -65,7 +69,9 @@ class seminar {
 					$y2 = substr($this->lastday,0,4);
 					$m2 = substr($util->getMonthMedNameFromNumber(substr($this->lastday,5,2)),0,3);
 					$d2 = substr($this->lastday,8,2);
-					if($m === $m2)
+					if(strcmp($d,$d2) == 0)
+						$this->dates = $d . " " . $m . " " . $y;
+					else if (strcmp($m,$m2) != 0)
 						$this->dates = $d . "-" . $d2 . " " . $m . " " . $y;
 					else	
 						$this->dates = $d . " " . $m . "-" . $d2 . " " . $m2 . " " . $y;

@@ -37,11 +37,10 @@
         	</div>
         </div>
         <div class="row">
-        	<div class="col-xs-4">
-        		<div class="acenter pad nomobile"><img src="./images/rf01.jpg"/></div>
-              	<div class="acenter mobile pad"><img src="./images/rf01.jpg"/></div>
+        	<div class="col-xs-12 col-sm-4 col-lg-4 ">
+              	<div class="acenter pad"><img src="./images/rf01.jpg"/></div>
         	</div>
-        	<div class="col-xs-8">
+        	<div class="col-xs-12 col-sm-8 col-lg-8">
         		<p>Il M&deg; Roberto Foglietta (6&deg; dan Aikikai Italia/Aikikai Tokyo) &egrave; nato ad Urbino il 12 aprile 1954, 
                 e nel 1976 inizia la pratica di Aikido con il M&deg; Marcolini Romeo (3&deg; dan) e poi con il M&deg; Romagnoli 
                 Ezechiele (3&deg; dan), dopo aver iniziato a praticare Judo con il M&deg; Romagnoli Ezechiele (5&deg; dan Judo) e 
@@ -60,11 +59,11 @@
             <p>Ha tenuto e tiene lezioni e seminari in Italia e all'estero (la lista aggiornata dei seminari di quest'anno &egrave; disponibile
                 a questa <a href="./seminari.php#<?php echo $s->sid;?>">pagina</a>).</p>
             </div>
-            <div class="col-xs-6">
-                <div class="acenter pad nomobile"><img src="./images/rf03.jpg"/></div>
-              	<div class="acenter mobile pad"><img src="./images/rf03.jpg"/></div>
+            <div class="col-xs-12 col-sm-6 col-lg-6">
+                <div class="acenter pad"><img src="./images/rf03.jpg"/></div>
             </div>
-            <div class="col-xs-6">
+
+            <div class="col-xs-12 col-sm-6 col-lg-6">
                 	<div class="rank"><span class="piece">&nbsp;</span> <span class="piece">&nbsp;</span> <span class="piece">&nbsp;</span> <span class="piece">&nbsp;</span></div>
                 	<div class="rank"><span class="piece">&nbsp;</span> <span class="piece">&nbsp;</span> <span class="piece">&nbsp;</span> <span class="piece">&nbsp;</span></div>
                 	<div class="rank"><span class="piece">30.07.1977</span> <span class="piece">Coverciano</span> <span class="piece">5&deg; kyu</span> <span class="piece">M&deg; Fujimoto</span></div>

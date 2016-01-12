@@ -27,5 +27,24 @@ class gallery {
         }
         return (count($images)) ? $images : false;   
     }   
+
+    public function getPreview($extensions = array()) {
+        $images = $this->getDirectory($this->path); //list all files
+        
+        foreach($images as $index => $image) {
+            $explode = explode('.', $image);
+            $extension = end($explode);
+            if(!in_array($extension, $extensions)) { //check if files extensions meet the criteria set in index.php
+                unset($images[$index]);
+            } else {
+            	return $this->path . '/' . $image;
+            }
+           
+        }
+        return (count($images)) ? $images : false;   
+    }   
+
+	
+    
 }
 ?>

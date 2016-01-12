@@ -8,7 +8,7 @@
 body,html{margin:0;padding:0;height:100%}
 body,html{font: 18px/24px 'Lato', 'Open Sans Condensed',  sans-serif; color: #666; font-weight: 300;}
 a {text-decoration: none; color: #005493;}
-@media (max-width:640px){body,html{font: 16px/22px 'Open Sans Condensed','Helvetica', sans-serif;}}
+@media (max-width:640px){body,html{font: 18px/22px 'Open Sans Condensed','Helvetica', sans-serif;margin-bottom: 35px}}
 .site_wrapper{min-height:100%}
 
 .japanese {font-family: 'Noto Sans Japanese', sans-serif;}
@@ -19,76 +19,28 @@ a {text-decoration: none; color: #005493;}
 @media (min-width:768px){.site_container{margin: 0 auto}}
 
 
-.header{margin: 0px auto}
-.header__left, .header__center, .header__right {padding-top:3px;padding-bottom:3px;}
-.header a{color: #005493;}
+.topheader{margin: 0px auto; margin-top: 10px; }
+.topheader__left, .topheader__center, .topheader__right {padding-top:3px;padding-bottom:3px;}
+.topheader a{color: #005493;}
 .title {font-size: 30px; margin-top: 12px}
-@media (max-width:960px){.title{margin-top: 2px}.header{padding-top: 5px; border-top: 1px solid #005493;}}
-
+@media (max-width:960px){.title{margin-top: 2px}.topheader{padding-top: 5px; border-top: 1px solid #005493;}}
+.padleft{padding-left: 20px;}
 .subtitle {font-size: 20px; margin-top: 10px}
 @media (max-width:960px){.subtitle{font-weight:400; }}
-@media (min-width:768px){.header__left{float:left;width:100px;}}
-@media (max-width:960px){.header__left{text-align:center}}
-@media (min-width:768px){.header__center{float:left}}
-@media (max-width:960px){.header__center{text-align:center}}
-@media (min-width:768px){.header__right{float:right}}
-@media (max-width:960px){.header__right{display:none}}
-
-.header__last{font-size: 14px; clear:both;color:#666;margin-bottom: 8px}
-@media (min-width:768px){.header__last{text-align:right}}
-@media (max-width:960px){.header__last{text-align:center}}
+@media (min-width:768px){.topheader__left{float:left;width:100px;}}
+@media (max-width:960px){.topheader__left{text-align:center}}
+@media (min-width:768px){.topheader__center{float:left}}
+@media (max-width:960px){.topheader__center{text-align:center}}
+@media (min-width:768px){.topheader__right{float:right}}
+@media (max-width:960px){.topheader__right{display:none}}
 .scritta{height: 80px;}
 @media (max-width:960px){.scritta{height:40px}}
 
+.topheader__last{font-size: 14px; clear:both;color:#666;margin-bottom: 8px}
+@media (min-width:768px){.topheader__last{text-align:right}}
+@media (max-width:960px){.topheader__last{text-align:center}}
 
-.sidebar__bottom{clear:both;background-color:#005493;font-size:1em;line-height:1.5em;text-align:center;font-variant:small-caps;font-weight:300;text-transform:lowercase;color:#fff;width:100%}
-.sidebar__bottom a{color:#fff;text-decoration:none}
-@media (min-width:768px){.sidebar__bottom{display:block}}
-@media (max-width:960px){.sidebar__bottom{position: fixed;bottom: 0pt;left: 0pt;font-size:0.9em;}}
-/* iphone */
-@media (max-width:640px){.sidebar__bottom{position: fixed;bottom: 0pt;left: 0pt;font-size:0.8em;}}
-
-
-/* menu */
-.sidebar{clear:both;font-size:18px;font-family:'Open Sans Condensed','Helvetica', sans-serif;color:#282658;margin-top: ; text-align: center;border-bottom: 1px solid #F2F2F2;margin-bottom: 15px;}
-@media (min-width:768px){.sidebar{width:100%}.slicknav_menu {display:none;}.submenu{display:none}}
-@media (max-width:960px){.sidebar{display:none}.js #menu {display:none;}.js .slicknav_menu {display:block;}}
-
-.sidebar__link_list{margin: 0px; padding: 0px; display: block;}
-.sidebar__link_list ul {list-style: outside none none;}
-@media (min-width:768px){.sidebar__link_list{}}
-@media (max-width:960px){.sidebar__link_list{text-align:left}}
-.sidebar__link_list li{}
-@media (min-width:768px){.sidebar__link_list{}}
-@media (max-width:960px){.sidebar__link_list{text-align:left; padding-bottom:0px; padding-top:0px}}
-
-.sidebar__link_item{display:inline-block;padding-bottom:0;padding-top:0}
-@media (min-width:768px){.sidebar__link_item{display:inline-block;margin-right:5px;color:#282658}}
-@media (max-width:960px){.sidebar__link_item{width:100%;color:#fff;padding: 2px 4px;margin: 2px 5px;}}
-.sidebar__link_item__name{font-family: 'Open Sans';font-size:15px;font-weight: 300; vertical-align:middle;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
-/*
-@media (max-width:960px){.sidebar__link_item__name{padding: 2px 4px;margin: 2px 5px;display:inline-block}}
-@media (min-width:768px){.sidebar__link_item__name{display:inline-block}}
-*/
-.sidebar__link_item__name a {
-    border: medium none;
-    color: #808080;
-    display: block;
-    padding: 10px 20px;
-    position: relative;
-    text-transform: uppercase;
-}
-@media (max-width:960px){.sidebar__link_item__name{color: #005493; font-family: 'Open Sans Condensed'; font-size: 16px; text-transform:lowercase;}}
-
-.sidebar__link_item, .sidebar__link_list > ul {
-    letter-spacing: 1px;
-    line-height: 1.5;
-}
-
-@media (max-width:960px){.sidebar__link_item, .sidebar__link_list > ul {
-    letter-spacing: 1px;
-    line-height: 1.2;
-}}
+.myfooter{margin-top: 30px}
 
 .link_is_active{border-bottom: 1px solid #282658}
 
@@ -112,8 +64,9 @@ ul.active{margin: 0px;}
 .icon__link_menu {text-align: center; width: 50px;color: #005493;padding-top: -0.5em;font-size:18px;line-height:15px}
 
 /* main page */
-.leftcolumn{width: 600px; float: left;}
-.rightcolumn{width: 280px; float: left}
+.mainpage{padding: 5px 20px;}
+.maintitle{font:18px/18px 'Lato', 'Open Sans Condensed',  sans-serif;}
+.maintxt{font:18px/18px 'Lato', 'Open Sans Condensed',  sans-serif;color: #666; font-weight: 300;}
 
 .photoset {border-bottom: 1px solid #ddd; font-size: 16px}
 .data {padding-left: 2px; padding-right: 2px;}
@@ -396,6 +349,8 @@ ul.weblinks li:before {
 h1, h2, h3, h4 {margin-bottom: 0px;}
 #seminari h3, #links h3, #insegnante h3, #orario h3 {text-align: center; color: #005493; margin: 20px 0 15px 0; }
 h4 {color: #005493; margin: 20px 0 15px 0; font: 24px/26px 'Open Sans Condensed','Helvetica', sans-serif; }
+@media (max-width:960px){h4{font-size: 20px;}}
+
 
 .fullwidth{display: block;width:100%;}
 .w70{width: 70%}
@@ -403,7 +358,7 @@ h4 {color: #005493; margin: 20px 0 15px 0; font: 24px/26px 'Open Sans Condensed'
 .w50{width: 50%}
 .w40{width: 40%}
 .w100p{width: 100px;}
-.w200p{width: 400px;}
+.w200p{width: 200px;}
 .top10{padding-top: 8px;}
 .pad{padding: 8px;}
 .notebox {margin: 5px;}
@@ -436,7 +391,7 @@ img {max-width: 100%;}
 
 .seminarwrapper {border-bottom: 1px solid #f2f2f2;}
 .seminarentry {display: table-row; padding-top: 15px; padding-bottom: 15px}
-.semdate {display: table-cell; color: #005493; padding: 15px; line-height: 1.2em; vertical-align: center; text-align: center; font-size: 16px; font-weight: bold; border-radius: 3px; min-width: 120px}
+.semdate {display: table-cell; color: #005493; padding: 15px; line-height: 1.2em; vertical-align: center; text-align: center; font-size: 16px; font-weight: bold; border-radius: 3px; min-width: 145px}
 .seminartext{display: table-cell; padding: 15px}
 .semdetails{display: table-row; }
 .semimage{float: left;padding: 15px; vertical-align: center; }
@@ -479,8 +434,13 @@ font-weight: 300;
     position: relative;
     text-transform: uppercase;
 }
-#navbar{border-bottom: 1px solid #F2F2F2;
-margin-bottom: 15px;text-align: center}
+.nav > li > a {padding: 15px 15px;}
+
+#navbar{border-bottom: 1px solid #F2F2F2; margin-bottom: 15px; margin-top: 5px }
+.navbar-nav {display: block;
+    margin: auto;
+}
+
 .row h3 {color: #005493;
 font-family: "Open Sans Condensed",sans-serif;
 font-size: 24px;
@@ -489,3 +449,5 @@ line-height: 1.6;
 text-align: center;
 margin: 20px 0 15px 0;
 padding: 0px;}
+
+.caption{font-family: "Open Sans Condensed",sans-serif;font-size: 20px;}

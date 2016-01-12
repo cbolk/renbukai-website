@@ -1,31 +1,43 @@
 <?php
-	//include("./utils/util.php");
+    setlocale(LC_TIME, 'ita');
+    date_default_timezone_set('Europe/Rome');
+	include("./utils/class.utils.php");
+    include("./utils/class.seminar.php");
+    $s = new seminar();
+    $s->setSource("./seminari.json");
 ?>
 <html>
-  <head lang="it">
-		<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,700,700italic,400italic' rel='stylesheet' type='text/css'>
-        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-        <title>ORARI</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="apple-touch-icon-precomposed" href="assets/favicon_t.png" />
-        <link rel="shortcut icon" href="assets/favicon.png">
-		<link rel="stylesheet" media="screen" href="css/main.css" /> <!--Load CSS-->
-		<link rel="stylesheet" media="screen" href="css/cal.css" /> <!--Load CSS-->
-		<link rel="stylesheet" href="css/slicknav.css" />
-		<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
-		<script src="js/jquery.slicknav.cb.js"></script>
-		<script src="js/jquery.slicknav.menu.js"></script>
-	</head>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>associazione renbukai - insegnante</title>
+    <link rel="apple-touch-icon-precomposed" href="assets/favicon_t.png" />
+    <link rel="shortcut icon" href="assets/favicon.png">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" media="screen" href="css/main.css" /> <!--Load CSS-->
+
+</head>
 <body id="orario">
-	<div class="site_wrapper">
-      <?php include('./utils/head_banner.php'); ?>
-      <div class="sidebar">
-      <?php include('./utils/menu.php'); ?>
-      </div><!-- sidebar -->
-		<div class="site_container">
-			<div class="generic-page">
-    		  <!--div class="generic__title">Orario</div-->
-                <h3>da settembre a giugno</h3>
+	<div class="container">
+        <div class="nomobile">
+            <?php include('./utils/head_banner.php'); ?>
+        </div>
+        <div class="header clearfix">
+            <?php include('./utils/menumobile.php'); ?>
+        </div>
+        <div class="mobile">
+            <?php include('./utils/head_banner.php'); ?>
+        </div>
+        <div class="row">
+        	<div class="col-xs-12">
+        		<h3>da settembre a giugno</h3>
+        	</div>
+        </div>
+        <div class="row">               
+        	<div class="col-xs-12">
+        
                 <table>
                     <thead>
                     <tr><th>Ora</th>
@@ -97,7 +109,15 @@
                         </tr>
                     </tbody>
                 </table>
-                <h3>luglio</h3>
+            </div>
+        </div>
+        <div class="row">
+        	<div class="col-xs-12">
+        		<h3>luglio</h3>
+        	</div>
+        </div>
+        <div class="row">               
+        	<div class="col-xs-12">
                 <table>
                     <thead>
                     <tr><th>Ora</th>
@@ -169,9 +189,18 @@
                             <td class="hour empty">&nbsp;</td>
                             <td class="time">21:00 - 21:30</td>
                         </tr>
+                        <tr>
+                        </tr>
                     </tbody>
                 </table>
-                <h3>agosto</h3>
+            </div>
+        </div>
+        <div class="row">
+        	<div class="col-xs-12">
+        		<h3>agosto</h3>
+        	</div>
+        </div>
+        <div class="row">               
                 <table>
                     <thead>
                     <tr><th>Ora</th>
@@ -210,10 +239,13 @@
                         </tr>
                     </tbody>
                 </table>
+        </div>
+        <div class="row">               
                 <div class="notice"><a name="note"><i class="fa fa-bookmark-o"></i></a> per motivi organizzativi, le persone interessate e gli ospiti di altri Gruppi di Pratica interessati a partecipare
                 sono cortesemente invitate ad annunciare la propria presenza tramite e-mail (info@onohaittoryuitalia.org) o telefono (3405996157).</div>
-            </div><!-- generic-page -->
-		</div><!-- site_container -->
-	</div><!-- site_wrapper -->
+        </div>
+	</div><!-- container -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>    
 </body>
 </html>

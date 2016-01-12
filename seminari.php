@@ -12,18 +12,15 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>associazione renbukai</title>
+    <title>associazione renbukai - seminari</title>
     <link rel="apple-touch-icon-precomposed" href="assets/favicon_t.png" />
     <link rel="shortcut icon" href="assets/favicon.png">
     <!-- bootstrap -->
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <link href="jumbotron-narrow.css" rel="stylesheet">
     <link rel="stylesheet" href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
     <link rel="stylesheet" href="css/bootstrap-image-gallery.min.css">
 
 	<link rel="stylesheet" media="screen" href="css/main.css" /> <!--Load CSS-->
-	<link rel="stylesheet" media="screen" href="css/cal.css" /> <!--Load CSS-->
-	<link rel="stylesheet" href="css/slicknav.css" />
 </head>
 <body>
 	<div class="container">
@@ -41,7 +38,7 @@
 			  <h3>Seminari</h3><!--?php echo $today; ?-->
 			<div class="col-lg-12">
     		  	<?php
-    		  		$sem = $s->getSeminars();
+    		  		$sem = $s->getSeminars(true);
     		  		$num = count($sem);
     		  		for($i = 0; $i < $num; $i++) {
 						$firstday = $sem[$i]['giornoinizio'];
@@ -67,7 +64,10 @@
 						?>
 							<div class="semdate"><?php echo strtoupper($m) . "<br/>" . $d . "<br/>" . $y . "<br/><span class='septop'>" . $sem[$i]['città'] . "</span>" ;?></div>
 						<?
-    					echo "<div class='seminartext'><div class='semdetails'><strong>" . $sem[$i]['titolo'] . "</strong> <span class='nomobile'>|</span><span class='mobile'><br/></span> <span class='ulined'>" . $sem[$i]['diretto'] . "</span></div>";
+    					echo "<div class='seminartext'><div class='semdetails'><strong>" . $sem[$i]['titolo'] . "</strong>";
+    					if($sem[$i]['diretto'] != "") 
+    						echo " <span class='nomobile'>|</span><span class='mobile'><br/></span> <span class='ulined'>" . $sem[$i]['diretto'] . "</span>";
+    					echo "</div>";
     					if($firstday != $lastday)
 	    					echo "<div class='semdetails'><i class='fa fa-calendar'></i> dal " . $d . "-" . $m . "-" . $y . " al " . $d2 . "-" . $m2 . "-" . $y2 . "</div>";
 	    				else
@@ -92,12 +92,10 @@
 				?>
                 <p></p>
                 </div>
-            </div><!-- row -->
+		</div><!-- row -->
 	</div><!-- container -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>    
-    <script src="js/jquery.slicknav.cb.js"></script>
-    <script src="js/jquery.slicknav.menu.js"></script>
     <script src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
     <script src="js/bootstrap-image-gallery.min.js"></script>    
 </body>

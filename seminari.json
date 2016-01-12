@@ -1,4 +1,48 @@
 [{
+      "giornoinizio": "2015-09-12",
+      "giornofine": "2015-09-13",
+      "città": "Pordenone",
+      "dojo": "Aikido Pordenone",
+      "indirizzo": "c/o Polisportivo 'Ex Fiera', Via Molinari - 33170 Pordenone (PN)",
+      "diretto": "M&deg; Foglietta, M&deg; Travaglini",
+      "titolo": "Seminario per il ventennale del dojo",
+      "immagine": "foto_ft.png",
+      "locandina": "20150912.jpg"
+},
+{
+      "giornoinizio": "2015-09-26",
+      "giornofine": "2015-09-27",
+      "città": "Bologna",
+      "dojo": "Dojo Fujinami",
+      "indirizzo": "Dojo Fujinami, Via Gaspare Nadi, 13 - 40139 Bologna (BO)",
+      "diretto": "M&deg; Foglietta &amp; M&deg; Travaglini",
+      "titolo": "Seminario di inaugurazione del dojo",
+      "immagine": "foto_ft.png",
+      "locandina": "fujinami_sett15.pdf"
+},
+{
+      "giornoinizio": "2015-11-06",
+      "giornofine": "2015-11-08",
+      "città": "Yekatrinburg (Russia)",
+      "dojo": "Aikikai Milano - Dojo Fujimoto",
+      "indirizzo": "Aikikai Milano - Dojo Fujimoto, via Lulli, 30 - 20132 Milano (MI)",
+      "diretto": "M&deg; Foglietta",
+      "titolo": "Seminario di aikido",
+      "immagine": "rf.jpg",
+      "locandina": ""
+},
+{
+      "giornoinizio": "2015-11-22",
+      "giornofine": "2015-11-22",
+      "città": "Ostia",
+      "dojo": "Kikai",
+      "indirizzo": "Kikai, Via Genoese Zerbi, 27 - 00122 Ostia (ROMA)",
+      "diretto": "M&deg; Foglietta",
+      "titolo": "Seminario di aikido",
+      "immagine": "rf.jpg",
+      "locandina": ""
+},
+{
       "giornoinizio": "2015-12-26",
       "giornofine": "2015-12-30",
       "città": "Milano",
@@ -52,6 +96,17 @@
       "titolo": "Seminario di Aikido",
       "immagine": "osawa.png",
       "locandina": "20160213.pdf"
+},
+{
+      "giornoinizio": "2016-03-12",
+      "giornofine": "2016-03-13",
+      "città": "Ostia",
+      "dojo": "Kikai",
+      "indirizzo": "Kikai, Via Genoese Zerbi, 27 - 00122 Ostia (ROMA)",
+      "diretto": "M&deg; Foglietta",
+      "titolo": "Ventennale del dojo",
+      "immagine": "rf.jpg",
+      "locandina": ""
 },
 {
       "giornoinizio": "2016-04-03",
@@ -125,6 +180,38 @@
       "diretto": "M&deg; Foglietta & M&deg; Travaglini",
       "titolo": "Seminario di aikido",
       "immagine": "ft_laces.jpg",
+      "locandina": ""
+},{
+      "giornoinizio": "2015-10-04",
+      "giornofine": "2015-10-04",
+      "città": "Pesaro",
+      "dojo": "Pesaro Keikodojo",
+      "indirizzo": "Pesaro Keikodojo, Via Pietro Gai, 19 - 61100 Pesaro (PU)",
+      "diretto": "",
+      "titolo": "Incontro di Pratica Inter-Gruppi",
+      "immagine": "oir_logo.gif",
+      "locandina": "20150912.jpg"
+},
+{
+      "giornoinizio": "2016-01-17",
+      "giornofine": "2016-01-17",
+      "città": "Ferrara",
+      "dojo": "Ferrara Keikodojo",
+      "indirizzo": "Ferrara Keikodojo, Via Eridania, 165 - 45030 Santa Maria Maddalena (RO)",
+      "diretto": "",
+      "titolo": "Incontro di Pratica Inter-Gruppi",
+      "immagine": "oir_logo.gif",
+      "locandina": ""
+},
+{
+      "giornoinizio": "2016-03-20",
+      "giornofine": "2016-03-20",
+      "città": "Pesaro",
+      "dojo": "Pesaro Keikodojo",
+      "indirizzo": "Pesaro Keikodojo, Via Pietro Gai, 19 - 61100 Pesaro (PU)",
+      "diretto": "",
+      "titolo": "Incontro di Pratica Inter-Gruppi",
+      "immagine": "oir_logo.gif",
       "locandina": ""
 }
 ]

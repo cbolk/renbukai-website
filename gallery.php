@@ -64,8 +64,8 @@
             $images = $gallery->getImages(array('jpg','png')); //array of possible image extensions (useful if you have mixed galleries)
             ?>
                 <div class="row">
-                    <div class="col-xs-12">
-                        <h4><?php echo $title; ?></h4>
+                    <div class="col-xs-12">                    	
+                        <h4><?php echo $title; ?><a name='<?php echo $folder; ?>'></a></h4>
                         <p><strong><?php echo $photo['copyright']; ?></strong></p>
                         <!--small><?php echo $data; ?>&nbsp;<?php echo $photo['copyright']; ?></small-->
                     </div>
