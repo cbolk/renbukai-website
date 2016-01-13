@@ -36,6 +36,31 @@ class seminar {
     	return $dB - $dA;
 	}   	
 
+
+	public function add(){
+		$string = file_get_contents($this->srcfile);
+		$initial = json_decode($string, true);
+		$num = count($initial); 	
+		$arr = array('giornoinizio' => $this->firstday, 
+		'giornofine' => $this->lastday, 
+		'titolo' => $this->title, 
+		'dojo' => $this->dojo, 
+		'locandina' => $this->pdf, 
+		'immagine' => $this->image, 
+		'diretto' => $this->instructor, 
+		'città' => $this->city, 
+		'indirizzo' => $this->address); 
+		array_push($initial, $arr);
+		//echo count($initial);
+		$string = json_encode($initial);
+		// $n = json_encode($arr);
+		//$initial[$num]['giornoinizio'] = $this->firstday;
+		//$initial[$num]['giornofine'] = $this->lastday;
+		//$fp = fopen("../json/prova.json", 'w');
+		file_put_contents($this->srcfile , $string);
+		return $this->firstday;
+	} 
+
 	 
 	public function getSeminars($sorted){
 		$string = file_get_contents($this->srcfile);

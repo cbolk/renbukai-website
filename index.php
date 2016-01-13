@@ -38,7 +38,6 @@
     <link rel="stylesheet" href="css/bootstrap-image-gallery.min.css">
 
 	<link rel="stylesheet" media="screen" href="css/main.css" /> <!--Load CSS-->
-	<link rel="stylesheet" media="screen" href="css/cal.css" /> <!--Load CSS-->
 </head>
 <body>
 	<div class="container">
