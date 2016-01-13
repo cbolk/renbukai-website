@@ -28,16 +28,20 @@ class gallery {
         return (count($images)) ? $images : false;   
     }   
 
-    public function getPreview($extensions = array()) {
+    public function getPreview($extensions = array(), $n = 1) {
         $images = $this->getDirectory($this->path); //list all files
-        
+        $photos = array();
+        $i = 0;
         foreach($images as $index => $image) {
             $explode = explode('.', $image);
             $extension = end($explode);
             if(!in_array($extension, $extensions)) { //check if files extensions meet the criteria set in index.php
                 unset($images[$index]);
             } else {
-            	return $this->path . '/' . $image;
+            	$photos[$i]['image'] =  $this->path . '/' . $image;
+            	$i++;
+            	if($i == $n)
+	            	return $photos;
             }
            
         }

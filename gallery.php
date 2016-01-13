@@ -51,7 +51,6 @@
         		<h3>Gallerie fotografiche</h3>
         	</div>
         </div>
-        <div class="row">
     <?php
         $string = file_get_contents("./photos.json");
         $json_a = json_decode($string, true);
@@ -63,19 +62,17 @@
             $gallery->setPath('./photos/' . $folder . '/'); //path to the image folder
             $images = $gallery->getImages(array('jpg','png')); //array of possible image extensions (useful if you have mixed galleries)
             ?>
-                <div class="row">
                     <div class="col-xs-12">                    	
                         <h4><?php echo $title; ?><a name='<?php echo $folder; ?>'></a></h4>
                         <p><strong><?php echo $photo['copyright']; ?></strong></p>
                         <!--small><?php echo $data; ?>&nbsp;<?php echo $photo['copyright']; ?></small-->
                     </div>
-                </div>
-                <div class="row">
+                    <div class="col-xs-12">
             <?php
             if($images){
                 foreach($images as $image){
                     ?>
-                        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                        <div class="col-lg-3 col-md-3 col-xs-4 thumb">
                             <a class="thumbnail" href="<?php echo $image['full']; ?>">
                                 <img  class="img-responsive" src="<?php echo $image['full']; ?>" alt="">
                             </a>
@@ -83,15 +80,15 @@
                     <?php
                 }
             }?>
-          </div>
-                <div class="row">
+          			</div>
                     <div class="col-xs-12">
                         <?php if(!($photo['more'] === "" || $photo['more'] == "")) { ?>
-                        <p><em>ulteriori scatti:</em> <a href='<?php echo $photo['more']; ?>' target='_blank'>qui</a></p>
+                        <em>ulteriori scatti:</em> <a href='<?php echo $photo['more']; ?>' target='_blank'>qui</a>
                         <?php } ?>
 	                </div>
-                </div>
-                <hr/>
+	                <div class="col-xs-12">
+	                <hr/>
+	                </div>
 <?php
         }
 

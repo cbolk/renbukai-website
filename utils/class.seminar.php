@@ -49,6 +49,44 @@ class seminar {
 	} 
 
 	 	 
+	public function getNextNSeminars($n){
+		$util = new utils();
+	
+		$string = file_get_contents($this->srcfile);
+		$json_a = json_decode($string, true);
+		if(count($json_a) > 0){
+			usort($json_a, array('seminar','sort_by_date_asc'));
+			$today = date("Y-m-d");
+			$i = 0;
+			$ss = array();
+			foreach ($json_a as $s => $sem) {
+				$firstday = $sem['giornoinizio'];
+				if($firstday > $today){
+					$sid = str_replace("-","",$sem['giornoinizio']);
+					$lastday = $sem['giornofine'];
+					$y = substr($firstday,0,4);
+					$m = substr($util->getMonthMedNameFromNumber(substr($firstday,5,2)),0,3);
+					$d = substr($firstday,8,2);	
+					$y2 = substr($this->lastday,0,4);
+					$m2 = substr($util->getMonthMedNameFromNumber(substr($lastday,5,2)),0,3);
+					$d2 = substr($this->lastday,8,2);
+					if(strcmp($d,$d2) == 0)
+						$dates = $d . " " . $m . " " . $y;
+					else if (strcmp($m,$m2) != 0)
+						$dates = $d . "-" . $d2 . " " . $m . " " . $y;
+					else	
+						$dates = $d . " " . $m . "-" . $d2 . " " . $m2 . " " . $y;
+					$ss[$i] = $sem;
+					$ss[$i]['dates'] = $dates;
+					$ss[$i]['sid'] = $sid;					
+					$i++;
+					if($i == $n)
+						return $ss;
+				}
+			}
+		}
+	}  
+	
 	public function getNextSeminar(){
 		$util = new utils();
 	
@@ -82,12 +120,11 @@ class seminar {
 					$this->city = $sem['città'];
 					$this->pdf = $sem['locandina'];
 					$this->image = $sem['immagine'];
-					return $this;
 				}
 			}
 		}
-	}  
-	
+	} 
+	 	
 	public function getInstructors(){
 		$u = new utils();
 		$string = file_get_contents($this->srcfile);

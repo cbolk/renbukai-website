@@ -10,9 +10,11 @@
 
         return $dB - $dA;
     }
-    $s = new seminar();
     $util = new utils();
+    $s = new seminar();
     $s->setSource("./seminari.json");
+	$semdata = $s->getNextNSeminars(2);
+	
     $string = file_get_contents("./photos.json");
     $json_a = json_decode($string, true);
     usort($json_a, 'sort_by_date');
@@ -21,7 +23,7 @@
     $folder = $json_a[0]['folder'];
     $title = $json_a[0]['title'];
     $gallery->setPath('./photos/' . $folder . '/'); //path to the image folder
-    $image = $gallery->getPreview(array('jpg','png')); //array of possible image extensions (useful if you have mixed 
+    $image = $gallery->getPreview(array('jpg','png'),2); //array of possible image extensions (useful if you have mixed 
 ?>
 <html>
     <meta charset="utf-8">
@@ -59,38 +61,60 @@
                 <p>L'Associazione Renbukai &egrave; affiliata all'Associazione di Cultura Tradizionale Giapponese Aikikai d'Italia - Ente Morale (D.P.R. luglio 1978 n. 528).</p>
         </div><!-- jumbotron -->
         <div class="container marketing">
-            <div class="col-xs-12 col-sm-4 col-lg-4">
-               <h4><span class="glyphicon glyphicon-copy" aria-hidden="true"></span> Prossimi appuntamenti</h4>
-               <div class='maintitle'><?php echo $s->dates; ?> @ <?php echo $s->city; ?></div>
+            <div class="col-xs-12 col-sm-8 col-lg-8">
+               <h4 class='acenter'><span class="glyphicon glyphicon-copy" aria-hidden="true"></span> Prossimi appuntamenti</h4>
+               <div class="col-xs-12 col-sm-6 col-lg-6">
+               <div class='maintitle'><?php echo $semdata[0]['dates']; ?> @ <?php echo $semdata[0]['città']; ?></div>
                <?php
-                    if($s->image != "" && $s->image != null){
+                    if($semdata[0]['immagine'] != "" && $semdata[0]['immagine'] != null){
                         ?>
-                           <div class='semimage'><img src='./stages/<?php echo $s->image; ?>' /></div>
+                           <div class='col-xs-12 col-sm-12 col-lg-12 semimage'><img src='./stages/<?php echo $semdata[0]['immagine']; ?>' /></div>
 
                         <?php
                     }
                ?>
-               <div class="clearfix">&nbsp;</div>
+               <div class='clearfix'>&nbsp;</div>
                <div class="caption">
-                    <p><?php echo $s->title; ?> 
-                    <?php if($s->instructor != "") echo " | " . $s->instructor; ?> 
-                     <a title='tutte le informazioni' href='./seminari.php#<?php echo $s->sid; ?>'>&nbsp;<i class="fa fa-angle-double-right"></i></a></p>
+                    <p><?php echo $semdata[0]['titolo']; ?> 
+                    <?php if($semdata[0]['diretto'] != "") echo " | " . $semdata[0]['diretto']; ?> 
+                     <a title='tutte le informazioni' href='./seminari.php#<?php echo $semdata[0]['sid']; ?>'>&nbsp;<i class="fa fa-angle-double-right"></i></a></p>
                 </div>
+                </div>
+               <div class="col-xs-12 col-sm-6 col-lg-6">
+               <div class='maintitle'><?php echo $semdata[1]['dates']; ?> @ <?php echo $semdata[1]['città']; ?></div>
+               <?php
+                    if($semdata[1]['immagine'] != "" && $semdata[1]['immagine'] != null){
+                        ?>
+                           <div class='col-xs-12 col-sm-12 col-lg-12 semimage'><img src='./stages/<?php echo $semdata[1]['immagine']; ?>' /></div>
+
+                        <?php
+                    }
+               ?>
+               <div class='clearfix'>&nbsp;</div>
+               <div class="caption">
+                    <p><?php echo $semdata[1]['titolo']; ?> 
+                    <?php if($semdata[1]['diretto'] != "") echo " | " . $semdata[1]['diretto']; ?> 
+                     <a title='tutte le informazioni' href='./seminari.php#<?php echo $semdata[1]['sid']; ?>'>&nbsp;<i class="fa fa-angle-double-right"></i></a></p>
+                </div>
+                </div>
+                
             </div>
-           <div class="col-xs-12 col-sm-4 col-lg-4">
-                <h4><span class="glyphicon glyphicon-comment" aria-hidden="true"></span> Ultime notizie</h4>
-                   <div class='maintitle'></div>
-                   <div class='maintxt'></div>
-                </div>
             <div class="col-xs-12 col-sm-4 col-lg-4">
             <?php
                     if($image != "" && $image != null){
                         ?>
-		                <h4><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> Galleria foto</h4>
-                             <a class="thumbnail" href="<?php echo $image; ?>">
-                                <img  class="img-responsive" src="<?php echo $image; ?>" alt="">
+		                <h4 class='acenter'><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> Galleria foto</h4>
+            			<div class="caption"><?php echo $title; ?><a title='tutte le informazioni' href='./gallery.php#<?php echo $folder; ?>'>&nbsp;<i class="fa fa-angle-double-right"></i></a><p></p></div>
+                        <div class="col-xs-12 col-sm-6 col-lg-6">
+                             <a class="thumbnail" href="<?php echo $image[0]['image']; ?>">
+                                <img  class="img-responsive" src="<?php echo $image[0]['image']; ?>" alt="">
                             </a>
-            			<div class="caption"><?php echo $title; ?><a title='tutte le informazioni' href='./gallery.php#<?php echo $folder; ?>'>&nbsp;<i class="fa fa-angle-double-right"></i></a></div>
+            			</div>
+                        <div class="col-xs-12 col-sm-6 col-lg-6">
+                             <a class="thumbnail" href="<?php echo $image[1]['image']; ?>">
+                                <img  class="img-responsive" src="<?php echo $image[1]['image']; ?>" alt="">
+                            </a>
+            			</div>
                         <?php
                     }
                ?>

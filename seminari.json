@@ -151,7 +151,19 @@
       "titolo": "Seminario di armi",
       "immagine": "foto_ft.png",
       "locandina": ""
-},{
+},
+{
+      "giornoinizio": "2016-05-14",
+      "giornofine": "2016-05-15",
+      "città": "Fano",
+      "dojo": "Shingen",
+      "indirizzo": "Shingen, Via 4 Novembre - 61032 Fano (PU)",
+      "diretto": "M&deg; Foglietta",
+      "titolo": "Seminario di Aikido",
+      "immagine": "rf.jpg",
+      "locandina": "20160515foglietta.pdf"
+},
+{
       "giornoinizio": "2016-06-09",
       "giornofine": "2016-06-12",
       "città": "Pskov (Russia)",
@@ -215,3 +227,5 @@
       "locandina": ""
 }
 ]
+
+

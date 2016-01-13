@@ -26,7 +26,7 @@ a {text-decoration: none; color: #005493;}
 @media (max-width:960px){.title{margin-top: 2px}.topheader{padding-top: 5px; border-top: 1px solid #005493;}}
 .padleft{padding-left: 20px;}
 .subtitle {font-size: 20px; margin-top: 10px}
-@media (max-width:960px){.subtitle{font-weight:400; }}
+@media (max-width:960px){.subtitle{font-weight:400; margin-bottom: 20px;}}
 @media (min-width:768px){.topheader__left{float:left;width:100px;}}
 @media (max-width:960px){.topheader__left{text-align:center}}
 @media (min-width:768px){.topheader__center{float:left}}
@@ -39,6 +39,8 @@ a {text-decoration: none; color: #005493;}
 .topheader__last{font-size: 14px; clear:both;color:#666;margin-bottom: 8px}
 @media (min-width:768px){.topheader__last{text-align:right}}
 @media (max-width:960px){.topheader__last{text-align:center}}
+img.navheader {width: 20px; margin-top: -20px; margin-bottom: -20px;}
+
 
 .myfooter{margin-top: 30px}
 
