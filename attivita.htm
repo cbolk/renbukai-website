@@ -1,0 +1,162 @@
+<html>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>associazione renbukai - seminari</title>
+    <link rel="apple-touch-icon-precomposed" href="assets/favicon_t.png" />
+    <link rel="shortcut icon" href="assets/favicon.png">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
+    <link rel="stylesheet" href="./css/bootstrap-image-gallery.min.css">
+
+	<link rel="stylesheet" media="screen" href="css/main.css" /> <!--Load CSS-->
+
+<script>
+
+function createSeminar(sem){
+	var body = document.body,
+		divw = document.createElement('div'),
+		aname = document.createElement('a'),
+		divimg = document.createElement('div'),
+		diventry = document.createElement('div'),
+		divcal = document.createElement('div'),
+		divtext = document.createElement('div'),
+		divtitle = document.createElement('div'),
+		divdates = document.createElement('div'),
+		divaddress = document.createElement('div');
+
+	moment.locale('it');
+	var today = new Date().getTime()/1000;
+
+	if(sem.firstdayunix < today)
+		divw.className = 'seminarwrapper passed';
+	else if (today >= sem.firstdayunix && today <= sem.lastdayunix)
+		divw.className= 'seminarwrapper activeseminar';
+	else
+		divw.className= 'seminarwrapper';
+
+	aname.setAttribute("name", sem.sid);
+
+	diventry.className = 'seminarentry';
+
+	divimg.className = 'semimage';
+	divimg.innerHTML = "<img src='./stages/" + sem.immagine + "' />";
+
+	divcal.className= 'semdate';
+	var nicedate = moment(sem.giornoinizio).format('MMM', 'it').toUpperCase() + "<br/>" + moment(sem.giornoinizio).format('D') + "<br/>" +  moment(sem.giornoinizio).format('YYYY') + "<br/>";
+	divcal.innerHTML = nicedate + "<span class='septop'>" + sem.città + "</span>";
+
+	divtitle.className= 'semdetails';
+	var titlerow = '<strong>' + sem.titolo + '</strong>';
+	if(sem.diretto != null){
+		titlerow = titlerow +  "<span class='nomobile'>|</span><span class='mobile'><br/></span> <span class='ulined'>" + sem.diretto + "</span>";
+	}
+	divtitle.innerHTML = titlerow;
+
+	divdates.className= 'semdetails';
+	var d;
+	if(sem.firstdayunix == sem.lastdayunix){
+		d = "<i class='fa fa-calendar'></i> il " + moment(sem.giornoinizio).format('D MMM YYYY');
+	} else {
+		d = "<i class='fa fa-calendar'></i> dal " + moment(sem.giornoinizio).format('D MMM YYYY')  + " al " + moment(sem.giornofine).format('D MMM YYYY');
+	}
+	divdates.innerHTML = d;
+
+	if(sem.dojo != null  && sem.dojo != ""){
+		var divdojo = document.createElement('div');
+		divdojo.className= 'semdetails';
+		divdojo.innerHTML = "<i class='fa fa-home'></i> organizzato da " + sem.dojo;
+	}
+
+	var divaddr = "<i class='fa fa-map-marker'></i> ";
+	if(sem.indirizzo != null  && sem.indirizzo != ""){
+		divaddr = divaddr + sem.indirizzo + " ";
+		var via = sem.indirizzo.indexOf(",")
+		var map = sem.indirizzo.substring(via+2);
+		var divaddr = divaddr + "<a target=_blank title='apre google maps' href='http://maps.google.com?q=" + map + "'><img src='./assets/gmaps.png' width='20px'/>&nbsp;<span class='mobile'>apri in GoogleMaps</span></a>";
+	}	else {
+		divaddr = divaddr + sem.città;
+	}
+
+	divaddress.className= 'semdetails';
+	divaddress.innerHTML = divaddr;
+
+	if(sem.locandina != null && sem.locandina != ""){
+		var divpdf = document.createElement('div');
+		divpdf.className= 'semdetails';
+		divpdf.innerHTML = "<i class='fa fa-file-o'></i> locandina: <a href='./stages/" + sem.locandina + "'><i class='fa fa-file-pdf-o'></i></a>";
+	}
+
+	divtext.appendChild(divtitle);
+	divtext.appendChild(divdates);
+	if(divdojo != null)
+		divtext.appendChild(divdojo);
+	divtext.className= 'seminartext';
+	divtext.appendChild(divaddress);
+	if(divpdf != null)
+		divtext.appendChild(divpdf);
+
+	diventry.appendChild(divcal);
+	diventry.appendChild(divtext);
+
+	divw.appendChild(aname);
+	divw.appendChild(divimg);
+	divw.appendChild(diventry);
+
+	var displayDiv = document.getElementById('seminarlist');
+	displayDiv.appendChild(divw);
+
+}
+
+//var s = seminar("2016-01-09", "2016-01-10", "Seminario di Aikido", "M&deg; Foglietta", "Aikido Fujinami Foligno", "c/o Fisiogym Foligno, piazza Vanvitelli, 1 - 06034 Foligno (PG)", "rf.jpg", "2016foligno.pdf");
+//createSeminar(s);
+
+</script>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			  <h3>Seminari</h3><!--?php echo $today; ?-->
+			<div class="col-lg-12" id="seminarlist">
+             </div>
+		</div><!-- row -->
+	</div><!-- container -->
+
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="./js/bootstrap.js"></script>    
+    <script src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+    <script src="./js/bootstrap-image-gallery.min.js"></script>    
+    <script src="./js/moment-with-locales.js"></script>  
+
+<script>
+(function() {
+  $.getJSON( './seminari.json', function() {
+  		console.log( "success" );
+	})
+    .done(function( data ) {
+      data.sort(function (a, b) {
+      	au = new Date(a.giornoinizio).getTime();
+      	bu = new Date(b.giornoinizio).getTime();
+    if (au > bu) 
+        return 1
+    
+    if (au < bu)
+        return -1
+    
+    	return 0;
+	 });
+      $.each(data, function(index, s){
+      	s.sid = s.giornoinizio.replace(/-/g, "");
+		s.firstdayunix = new Date(s.giornoinizio).getTime() / 1000;
+		s.lastdayunix = new Date(s.giornofine).getTime() / 1000;
+      	createSeminar(s);
+//        $( "<img>" ).attr( "src", "./stages/"+ s.immagine ).appendTo( "#seminarlist" );
+      });
+    });
+})();
+</script>      
+</body>
+</html>

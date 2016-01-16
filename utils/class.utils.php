@@ -85,6 +85,22 @@
 		}
 
 
+		function it2date($date){
+			/* 13-01-2016 --> 2016-01-13 */
+			$y = substr($date, 6, 4);
+			$m = substr($date, 3, 2);
+			$d = substr($date, 0, 2);
+			return $y . '-' . $m . '-' . $d; 
+		}
+
+		function fixAccents($val)
+		{
+			$vowelssrc = array("a'", "e'", "i'", "o'", "u'", "A'", "E'", "I'", "O'", "U'");
+			$vowelsdst = array("à", "è", "ì", "ò", "ù", "À", "È", "Ì", "Ò", "Ù");
+			return str_replace($vowelssrc,$vowelsdst,$val);
+
+		}
+
 		function date2monthday($date){
 			$out = "<span class='month'>". $this->getMonthMedNameFromNumber(date('m', strtotime($date)));
 			$out = $out ."</span><br/><span class='day'>" . date('d', strtotime($date)) . "</span>";
