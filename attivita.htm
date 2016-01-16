@@ -11,6 +11,13 @@
     <link rel="stylesheet" href="./css/bootstrap-image-gallery.min.css">
 
 	<link rel="stylesheet" media="screen" href="css/main.css" /> <!--Load CSS-->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<script>
+$.get("head_banner.htm", function(data){
+    $("#headernomobile").html(data);
+});
+</script>
 
 <script>
 
@@ -49,7 +56,7 @@ function createSeminar(sem){
 
 	divtitle.className= 'semdetails';
 	var titlerow = '<strong>' + sem.titolo + '</strong>';
-	if(sem.diretto != null){
+	if(sem.diretto != null && sem.diretto != ""){
 		titlerow = titlerow +  "<span class='nomobile'>|</span><span class='mobile'><br/></span> <span class='ulined'>" + sem.diretto + "</span>";
 	}
 	divtitle.innerHTML = titlerow;
@@ -82,20 +89,30 @@ function createSeminar(sem){
 	divaddress.className= 'semdetails';
 	divaddress.innerHTML = divaddr;
 
-	if(sem.locandina != null && sem.locandina != ""){
-		var divpdf = document.createElement('div');
-		divpdf.className= 'semdetails';
+	var divpdf = document.createElement('div');
+	divpdf.className= 'semdetails';
+	if(sem.locandina != null && sem.locandina != "")
 		divpdf.innerHTML = "<i class='fa fa-file-o'></i> locandina: <a href='./stages/" + sem.locandina + "'><i class='fa fa-file-pdf-o'></i></a>";
-	}
+	else 
+		divpdf.innerHTML = "<i class='fa fa-file-o'></i> locandina: in arrivo ";
+	
 
 	divtext.appendChild(divtitle);
 	divtext.appendChild(divdates);
 	if(divdojo != null)
 		divtext.appendChild(divdojo);
+	else{
+		var divempty = document.createElement('div');
+		divempty.className= 'semdetails';
+		divempty.innerHTML = "&nbsp;";
+	}
 	divtext.className= 'seminartext';
 	divtext.appendChild(divaddress);
 	if(divpdf != null)
 		divtext.appendChild(divpdf);
+
+	if(divempty != null)
+		divtext.appendChild(divempty);
 
 	diventry.appendChild(divcal);
 	diventry.appendChild(divtext);
@@ -116,6 +133,14 @@ function createSeminar(sem){
 </head>
 <body>
 	<div class="container">
+        <div id="headernomobile" class="nomobile ">
+        </div>
+        <div class="header clearfix">
+            <?php include('./utils/menumobile.php'); ?>
+        </div>
+        <div class="mobile">
+            <?php include('./utils/head_banner.php'); ?>
+        </div>
 		<div class="row">
 			  <h3>Seminari</h3><!--?php echo $today; ?-->
 			<div class="col-lg-12" id="seminarlist">
@@ -125,7 +150,6 @@ function createSeminar(sem){
 
 
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="./js/bootstrap.js"></script>    
     <script src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
     <script src="./js/bootstrap-image-gallery.min.js"></script>    
