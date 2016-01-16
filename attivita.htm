@@ -1,14 +1,14 @@
 <html>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>associazione renbukai - seminari</title>
     <link rel="apple-touch-icon-precomposed" href="assets/favicon_t.png" />
-    <link rel="shortcut icon" href="assets/favicon.png">
+    <link rel="shortcut icon" href="assets/favicon.png" />
     <!-- bootstrap -->
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <link rel="stylesheet" href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
-    <link rel="stylesheet" href="./css/bootstrap-image-gallery.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap-image-gallery.min.css" />
 
 	<link rel="stylesheet" media="screen" href="css/main.css" /> <!--Load CSS-->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -16,6 +16,10 @@
 <script>
 $.get("head_banner.htm", function(data){
     $("#headernomobile").html(data);
+    $("#headermobile").html(data);
+});
+$.get("mainmenu.htm", function(data){
+    $("#mmenu").html(data);
 });
 </script>
 
@@ -125,21 +129,18 @@ function createSeminar(sem){
 	displayDiv.appendChild(divw);
 
 }
-
-//var s = seminar("2016-01-09", "2016-01-10", "Seminario di Aikido", "M&deg; Foglietta", "Aikido Fujinami Foligno", "c/o Fisiogym Foligno, piazza Vanvitelli, 1 - 06034 Foligno (PG)", "rf.jpg", "2016foligno.pdf");
-//createSeminar(s);
-
 </script>
+
 </head>
 <body>
 	<div class="container">
-        <div id="headernomobile" class="nomobile ">
+        <div id="headernomobile" class="nomobile col-lg-12">
         </div>
         <div class="header clearfix">
-            <?php include('./utils/menumobile.php'); ?>
+        	<div id="mmenu"></div>
+        	<div id="smenu"></div>        	
         </div>
-        <div class="mobile">
-            <?php include('./utils/head_banner.php'); ?>
+        <div id="headermobile" class="mobile">
         </div>
 		<div class="row">
 			  <h3>Seminari</h3><!--?php echo $today; ?-->

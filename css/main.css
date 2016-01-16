@@ -425,6 +425,19 @@ img {max-width: 100%;}
 /** override bootstrap **/
 .nav > li a:hover {background-color: #fff;}
 
+
+.nav > li a:before{content: "";
+position: absolute;
+top: 49%;
+left: 0px;
+margin-top: -2px;
+width: 5px;
+height: 5px;
+border-radius: 50%;
+background: #DEDEDE none repeat scroll 0% 0%;}
+
+.nav > li:first-child a:before {display: none;}
+
 .nav > li a {
 font-family: 'Open Sans';
 font-size: 15px;
@@ -432,11 +445,12 @@ font-weight: 300;
     border: medium none;
     color: #808080;
     display: block;
-    padding: 10px 20px;
     position: relative;
     text-transform: uppercase;
+    text-align: center;
 }
-.nav > li > a {padding: 15px 15px;}
+.nav > li > a {padding-top: 15px; padding-bottom: 15px; padding-right: 10px;}
+
 
 #navbar{border-bottom: 1px solid #F2F2F2; margin-bottom: 15px; margin-top: 5px }
 .navbar-nav {display: block;
