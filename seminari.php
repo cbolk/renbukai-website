@@ -50,7 +50,7 @@
 						$y2 = substr($lastday,0,4);
 						$m2 = substr($util->getMonthMedNameFromNumber(substr($lastday,5,2)),0,3);
 						$d2 = substr($lastday,8,2);
-						echo "<div class='seminarwrapper";
+						echo "<div class='seminarwrapper col-lg-12 col-xs-12 col-md-12 ";
 						if(strtotime($today) > strtotime($lastday))
 							echo " passed";
 						else 						if (strtotime($today) >= strtotime($firstday) && strtotime($today) <= strtotime($lastday))
@@ -58,13 +58,9 @@
 
 						echo "'>";
 						echo "<a name='" . str_replace("-", "", $firstday) ."'></a>";
-						echo "<div class='semimage'><img src='./stages/" . $sem[$i]['immagine'] . "' /></div>";
-						echo "<div class='seminarentry'>";
-						$a = strtotime($sem['giornoinizio']);
-						?>
-							<div class="semdate"><?php echo strtoupper($m) . "<br/>" . $d . "<br/>" . $y . "<br/><span class='septop'>" . $sem[$i]['città'] . "</span>" ;?></div>
-						<?
-    					echo "<div class='seminartext'><div class='semdetails'><strong>" . $sem[$i]['titolo'] . "</strong>";
+						echo "<div class='semimage col-lg-2 col-xs-6 col-md-2 '><img src='./stages/" . $sem[$i]['immagine'] . "' /></div>";
+						echo "<div class='semdate col-lg-2 col-xs-6 col-md-2 '>" . strtoupper($m) . "<br/>" . $d . "<br/>" . $y . "<br/><span class='septop'>" . $sem[$i]['città'] . "</span></div>";
+    					echo "<div class='seminartext col-lg-8 col-xs-12 col-md-8 '><div class='semdetails'><strong>" . $sem[$i]['titolo'] . "</strong>";
     					if($sem[$i]['diretto'] != "") 
     						echo " <span class='nomobile'>|</span><span class='mobile'><br/></span> <span class='ulined'>" . $sem[$i]['diretto'] . "</span>";
     					echo "</div>";
@@ -85,9 +81,9 @@
 	    				if($sem[$i]['locandina'] != null)
 		    				echo "<div class='semdetails'><i class='fa fa-file-o'></i> locandina: <a href='./stages/" . $sem[$i]['locandina'] . "'><i class='fa fa-file-pdf-o'></i></a></div>";
     					echo "</div> <!-- .seminartext -->";
-    					echo "</div> <!-- .seminarentry -->";
+    					//echo "</div> <!-- .seminarentry -->";
     					echo "</div> <!-- .seminarwrapper -->";
-    					echo "<div class='clear'></div>";
+    					echo "<div class='clearfix'></div>";
 					}
 				?>
                 <p></p>

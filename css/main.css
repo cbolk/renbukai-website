@@ -392,10 +392,6 @@ a.main_link{text-decoration: none;color: #005493;border: 0}
 img {max-width: 100%;}
 
 .seminarwrapper {border-bottom: 1px solid #f2f2f2;}
-.seminarentry {display: table-row; padding-top: 15px; padding-bottom: 15px}
-.semdate {display: table-cell; color: #005493; padding: 15px; line-height: 1.2em; vertical-align: center; text-align: center; font-size: 16px; font-weight: bold; border-radius: 3px; min-width: 145px}
-.seminartext{display: table-cell; padding: 15px}
-.semdetails{display: table-row; }
 .semimage{float: left;padding: 15px; vertical-align: center; }
 .semimage img {
     width: 140px;
@@ -405,6 +401,9 @@ img {max-width: 100%;}
     margin: 5px;
     padding: 5px;
 }
+.semdate {color: #005493; padding: 15px; padding-top: 20px; line-height: 1.2em; vertical-align: middle; text-align: center; font-size: 16px; font-weight: bold; border-radius: 3px; min-width: 145px}
+.seminartext{padding: 15px}
+.semdetails{display: table-row; }
 .septop {border-top: 2px solid #005493; margin-top: 20px; line-height: 2.5em;  font-weight: 300}
 @media (max-width:960px){.ulined{border: 0; color: #005493; font-weight: 700;}.septop{border-top: 1px solid #005493;font-weight: 700;}}
 @media (max-width:960px){.semimage img{width: 300px;margin-bottom: 0} .semimage img:after{clear: both}}

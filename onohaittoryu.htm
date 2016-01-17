@@ -1,42 +1,42 @@
-<?php
-    setlocale(LC_TIME, 'ita');
-    date_default_timezone_set('Europe/Rome');
-	include("./utils/class.utils.php");
-    include("./utils/class.seminar.php");
-    $s = new seminar();
-    $s->setSource("./seminari.json");
-?>
 <html>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>associazione renbukai - oir</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>associazione renbukai</title>
     <link rel="apple-touch-icon-precomposed" href="assets/favicon_t.png" />
-    <link rel="shortcut icon" href="assets/favicon.png">
+    <link rel="shortcut icon" href="assets/favicon.png" />
     <!-- bootstrap -->
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <link href="jumbotron-narrow.css" rel="stylesheet">
-	<link rel="stylesheet" media="screen" href="css/main.css" /> <!--Load CSS-->
-</head>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap-image-gallery.min.css" />
 
+    <link rel="stylesheet" media="screen" href="css/main.css" /> <!--Load CSS-->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="./js/moment-with-locales.js"></script>  
+
+<script>
+$.get("head_banner.htm", function(data){
+    $("#headernomobile").html(data);
+    $("#headermobile").html(data);
+});
+$.get("mainmenu.htm", function(data){
+    $("#mmenu").html(data);
+});
+</script>
+</head>
 <body>
-	<div class="container">
-        <div class="nomobile">
-            <?php include('./utils/head_banner.php'); ?>
+    <div class="container">
+        <div id="headernomobile" class="nomobile col-lg-12">
         </div>
         <div class="header clearfix">
-            <?php include('./utils/menumobile.php'); ?>
+            <div id="mmenu"></div>
+            <div id="smenu"></div>          
         </div>
-        <div class="mobile">
-            <?php include('./utils/head_banner.php'); ?>
+        <div id="headermobile" class="mobile">
         </div>
         <div class="row">
-        	<div class="col-xs-12">
-        		<h3>Onoha Itto Ryu</h3>
-        	</div>
-        </div>
-        	<div class="col-xs-12">
+              <h3>Onoha Itto Ryu</h3>
+            <div class="col-lg-12">
                 <h4>Cenni storici</h4>
                 <p>L'origine dell'Ittō Ryū risale alla seconda metà del ‘500, un'epoca di forti tensioni, caratterizzata da continue lotte di potere tra i signori della guerra, tra i quali spiccano i nomi di Oda Nobunaga, Toyotomi Hideyoshi e Tokugawa Ieyasu, nella loro ambizione di unificare il Giappone sotto un'unico dominio.</p>
                 
@@ -52,7 +52,7 @@
                 
                 <p><strong>Il novecento</strong></p>
                 
-                <p>Nei primi decenni del ‘900 il sedicesimo Caposcuola (Sōke) dell'Onoha Ittō Ryū Kenjutsu, Sasamori Junzō (1886-1976), grande maestro dell'arte della spada, importante uomo di cultura ed educatore, deputato e ministro nel Giappone del dopoguerra, fu tra coloro che diedero un contributo decisivo alla nascita della moderna Via della Spada giapponese, il Kendo.</p>
+                <p>Nei primi decenni del '900 il sedicesimo Caposcuola (Sōke) dell'Onoha Ittō Ryū Kenjutsu, Sasamori Junzō (1886-1976), grande maestro dell'arte della spada, importante uomo di cultura ed educatore, deputato e ministro nel Giappone del dopoguerra, fu tra coloro che diedero un contributo decisivo alla nascita della moderna Via della Spada giapponese, il Kendo.</p>
                 <p>Questo permise la sopravvivenza di una pratica altrimenti destinata, con molta probabilità, a scomparire e allo stesso tempo di preservare un nucleo spirituale e tradizionale verso il quale il Kendo potesse rivolgersi alla ricerca del suo senso più profondo.</p>
                 
                 
@@ -79,8 +79,11 @@ Solo così il "Setsunin tō" (Spada che dona la Morte) diviene "Katsujin ken" (S
 
 
 "Il vero Maestro di spada è colui che, superati i confini della vittoria e della sconfitta, posa la spada e diviene uomo di pace".</p>
- 				<p>Per maggiori informazioni: <a href="http://www.onohaittoryuitalia.org" target=_blank>sito</a>.</p>
- 			</div>
-	</div><!-- container -->
+                <p>Per maggiori informazioni: <a href="http://www.onohaittoryuitalia.org" target=_blank>sito</a>.</p>
+            </div>
+        </div><!-- row -->
+    </div><!-- container -->
+
+    <script src="./js/bootstrap.js"></script>    
 </body>
 </html>
