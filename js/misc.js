@@ -1,3 +1,44 @@
+function seminarPreview(sem){
+	var divtitle = document.createElement('div'),
+		divimage = document.createElement('div'),
+		divcaption = document.createElement('div'),
+		divpreview = document.createElement('div');
+
+	moment.locale('it');
+//	sem.firstdayunix = new Date(s.giornoinizio).getTime() / 1000;
+//	sem.lastdayunix = new Date(s.giornofine).getTime() / 1000;
+	if(sem.giornoinizio == sem.giornofine)
+		sem.dates = moment(sem.giornoinizio).format('D MMM YYYY');
+	else if (moment(sem.giornoinizio).format('MMM') == moment(sem.giornofine).format('MMM'))
+		sem.dates = moment(sem.giornoinizio).format('D') + "-" + moment(sem.giornofine).format('D MMM YYYY');
+	else	
+		sem.dates = moment(sem.giornoinizio).format('D MMM') + "-" + moment(sem.giornofines).format('D MMM YYYY');
+
+	divtitle.className = 'maintitle clearfix';
+	divtitle.innerHTML = sem.dates + " @ " + sem.città;
+
+	if(sem.immagine != null && sem.immagine != ""){
+		divimage.className = "col-xs-12 col-sm-12 col-lg-12 semimage clearfix";
+		divimage.innerHTML = "<img src='./stages/" + sem.immagine + "' />";
+	}
+
+	divcaption.className = 'caption';
+	var captext =  sem.titolo ;
+	if(sem.diretto != null && sem.diretto != "")
+		captext = captext + " | " + sem.diretto;
+	var alink = "<a href='./seminari.htm#" + sem.sid + "'>&nbsp;<i class='fa fa-angle-double-right'></i></a>";
+	captext = "<p>" + captext + alink + "</p>";
+	divcaption.innerHTML = captext;
+
+	divpreview.className = "col-xs-12 col-sm-6 col-lg-6";
+	divpreview.appendChild(divtitle);
+	if(divimage != null)
+		divpreview.appendChild(divimage);
+	divpreview.appendChild(divcaption);
+
+	return divpreview;
+
+}
 
 function createSeminar(sem){
 	var body = document.body,
@@ -225,11 +266,55 @@ function createSeminarBootstrap(sem){
 function getIDNextSeminar(seminars){
 	/* loads all seminars */
 	/* sort by date */
-	var num = seminars.length;
+	var dim = seminars.length;
 	var today = Math.round(new Date().getTime() / 1000);
-	for (var i = 0; i < num; i++) {
+	for (var i = 0; i < dim; i++) {
 		var firstday = Math.round(new Date(seminars[i].giornoinizio).getTime() / 1000);
 		if(firstday > today)
 			return seminars[i].giornoinizio.replace(/-/g, "");		
 	};
+}
+
+function getNextNSeminars(seminars, num){
+	/* loads all seminars */
+	/* sort by date */
+	var dim = seminars.length;
+	var today = Math.round(new Date().getTime() / 1000);
+	var s = new Array();
+	var i; 
+	var j;
+	for (i = 0, j = 0; i < dim && j < num; i++) {
+		var firstday = Math.round(new Date(seminars[i].giornoinizio).getTime() / 1000);
+		if(firstday > today){
+			s[j] = seminars[i];
+			j++;
+		}			
+	};
+	return s;
+}
+
+function getPhotoGallery(path){
+	return;
+}
+
+function galleryPreview(path, g, num){
+	var divcaption = document.createElement('div'),
+		divpreview = document.createElement('div');
+
+	divcaption.className = 'caption';
+	var captext =  g.title ;
+	var alink = "<a alt='la galleria' href='./gallery.htm#" + g.folder + "'>&nbsp;<i class='fa fa-angle-double-right'></i></a>";
+	captext = "<p>" + captext + alink + "</p>";
+	divcaption.innerHTML = captext;
+
+	divpreview.appendChild(divcaption);
+	for(var i = 0; i < num; i++){
+		var divp = document.createElement('div');
+		divp.className = "col-xs-12 col-sm-6 col-lg-6";
+		divp.innerHTML = "<a class='thumbnail' href='" + path + g[i].image + "'>" + "<img  class='img-responsive' src='" +  path + g[i].image + " alt=''></a>";
+		divpreview.appendChild(divp);
+	}
+	
+	return divpreview;
+
 }

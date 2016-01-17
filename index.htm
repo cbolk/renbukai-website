@@ -40,9 +40,30 @@ $.get("mainmenu.htm", function(menudata){
       var link = "./seminari.htm#" + sid;
       var newmenu = menudata.replace(/seminari.htm/g, link);
       $("#mmenu").html(newmenu);
+
+      /* upcoming events */
+      var sems = getNextNSeminars(data, 2);
+      var s0 = seminarPreview(sems[0]);
+      var s1 = seminarPreview(sems[1]);
+      $("#sempreview").append(s0);
+      $("#sempreview").append(s1);      
    });
 });
 </script>
+<script>
+var folder = "photos/20160109/";
+
+$.ajax({
+    url : folder,
+    success: function (data) {
+        $(data).find("a").attr("href", function (i, val) {
+            if( val.match(/\.jpg|\.png|\.gif/) ) { 
+                $("photopreview").append( "<img src='"+ folder + val +"'>" );
+            } 
+        });
+    }
+});
+</script>    
 </head>
 <body>
     <div class="container">
@@ -62,6 +83,16 @@ $.get("mainmenu.htm", function(menudata){
                 <p>L'Associazione Renbukai &egrave; affiliata all'Associazione di Cultura Tradizionale Giapponese <a href="http://aikikai.it" target="_blank">Aikikai d'Italia</a> - Ente Morale (D.P.R. luglio 1978 n. 528).</p>
              </div>
     </div><!-- container -->
+    <div class="container marketing">
+        <div class="col-xs-12 col-sm-8 col-lg-8">
+           <h4 class='acenter'><span class="glyphicon glyphicon-copy" aria-hidden="true"></span> Prossimi appuntamenti</h4>
+           <div id='sempreview'></div>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-lg-4">
+           <h4 class='acenter'><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> Gallerie foto</h4>
+           <div id='photopreview'></div>
+        </div>
+    </div>
     <div class="container marketing">
         <div class="clearfix mobile">&nbsp;</div>
         <footer class="footer mobile">
