@@ -120,16 +120,18 @@
         </div>
         <div class="row">               
         	<div class="col-xs-12">
+            <center>
                 <table>
                     <thead>
-                    <tr><th>Ora</th>
+                    <tr><th class="dayh">Ora</th>
                         <th class="dayh w100p"><span class="nomobile">Luned&igrave;</span><span class="mobile">Lu</span></th>
                         <th class="dayh w100p"><span class="nomobile">Marted&igrave;</span><span class="mobile">Ma</span><br/><a href="./aikidopesaro.php">Pesaro</a></th>
                         <th class="dayh w100p"><span class="nomobile">Mercoled&igrave;</span><span class="mobile">Me</span><br/><a href="./aikidorimini.php">Rimini</a></th>
                         <th class="dayh w100p"><span class="nomobile">Gioved&igrave;</span><span class="mobile">Gi</span><br/><a href="./aikidopesaro.php">Pesaro</a></th>
                         <th class="dayh w100p"><span class="nomobile">Venerd&igrave;</span><span class="mobile">Ve</span><br/><a href="./aikidorimini.php">Rimini</a></th>
                         <th class="dayh w100p"><span class="nomobile">Sabato</span><span class="mobile">Sa</span><br/><a href="./aikidopesaro.php">Pesaro</a></th>
-                        <th>Ora</th>
+                        <th class="dayh">Ora</th>
+                        </tr>
                     </thead>
                     <tbody>
                        <tr>
@@ -195,6 +197,7 @@
                         </tr>
                     </tbody>
                 </table>
+            </center>
             </div>
         </div>
         <div class="row">
@@ -203,16 +206,18 @@
         	</div>
         </div>
         <div class="row">               
+            <center>
                 <table>
                     <thead>
-                    <tr><th>Ora</th>
+                    <tr><th class="dayh">Ora</th>
                         <th class="dayh w100p"><span class="nomobile">Luned&igrave;</span><span class="mobile">Lu</span></th>
                         <th class="dayh w100p"><span class="nomobile">Marted&igrave;</span><span class="mobile">Ma</span><br/><a href="./aikidopesaro.php">Pesaro</a></th>
                         <th class="dayh w100p"><span class="nomobile">Mercoled&igrave;</span><span class="mobile">Me</span><br/><a href="./aikidorimini.php">Rimini</a></th>
                         <th class="dayh w100p"><span class="nomobile">Gioved&igrave;</span><span class="mobile">Gi</span><br/><a href="./aikidopesaro.php">Pesaro</a></th>
                         <th class="dayh w100p"><span class="nomobile">Venerd&igrave;</span><span class="mobile">Ve</span><br/><a href="./aikidorimini.php">Rimini</a></th>
                         <th class="dayh w100p"><span class="nomobile">Sabato</span><span class="mobile">Sa</span><br/><a href="./aikidopesaro.php">Pesaro</a></th>
-                        <th>Ora</th>
+                        <th class="dayh">Ora</th>
+                        </tr>
                     </thead>
                     <tbody>
                        <tr>
@@ -241,6 +246,7 @@
                         </tr>
                     </tbody>
                 </table>
+            </center>
         </div>
         <div class="row">               
                 <div class="notice"><a name="note"><i class="fa fa-bookmark-o"></i></a> per motivi organizzativi, le persone interessate e gli ospiti di altri Gruppi di Pratica interessati a partecipare
