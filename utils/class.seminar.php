@@ -145,6 +145,7 @@ class seminar {
 					$this->city = $sem['città'];
 					$this->pdf = $sem['locandina'];
 					$this->image = $sem['immagine'];
+					return ;
 				}
 			}
 		}
