@@ -11,7 +11,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>associazione renbukai - insegnante</title>
+    <title>associazione renbukai - orario</title>
     <link rel="apple-touch-icon-precomposed" href="assets/favicon_t.png" />
     <link rel="shortcut icon" href="assets/favicon.png">
     <!-- bootstrap -->
@@ -34,7 +34,6 @@
         <div class="row">
     		<h3>da settembre a giugno</h3>
         </div>
-        <div class="row">               
         	<div class="col-xs-12">
             <center>
                 <table class="orario">
@@ -110,11 +109,9 @@
                 </table>
                 </center>
             </div>
-        </div>
         <div class="row">
     		<h3>luglio</h3>
         </div>
-        <div class="row">               
         	<div class="col-xs-12">
             <center>
                 <table class="orario">
@@ -192,11 +189,10 @@
                 </table>
             </center>
             </div>
-        </div>
         <div class="row">
     		<h3>agosto</h3>
         </div>
-        <div class="row">               
+        	<div class="col-xs-12">
             <center>
                 <table class="orario">
                     <thead>

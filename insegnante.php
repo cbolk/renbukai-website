@@ -20,8 +20,7 @@
     <link rel="stylesheet" media="screen" href="css/main.css" /> <!--Load CSS-->
 
 </head>
-<body id="links">
-    <div class="container">
+	<div class="container">
         <div id="headernomobile" class="nomobile col-lg-12">
             <?php include('./utils/head_banner.php'); ?>
         </div>
@@ -32,10 +31,9 @@
         <div id="headermobile" class="mobile">
             <?php include('./utils/head_banner.php'); ?>
         </div>
-        <div class="row">
-            <h3>M&deg; Roberto Foglietta</h3>
+       	<div class="row">
+    	        <h3>M&deg; Roberto Foglietta</h3>
 		</div>            
-        <div class="row">
         	<div class="col-xs-12 col-sm-4 col-lg-4 ">
               	<div class="acenter pad"><img src="./images/rf01.jpg"/></div>
         	</div>
@@ -52,8 +50,6 @@
                 <p>Nel 1982 soggiorna per la prima volta in Giappone per due mesi, e ripete l'esperienza anche in seguito fermandosi per periodi dai due ai quattro mesi
                 per poter praticare presso l'Honbu Dojo, il Gessoju Dojo del M&deg; Tada, e il Satomi Hakken Kai del M&deg; Nomoto.<br/></p>
             </div>
-        </div>
-        <div class="row">
             <div class="col-xs-12">
             <p>Ha tenuto e tiene lezioni e seminari in Italia e all'estero (la lista aggiornata dei seminari di quest'anno &egrave; disponibile
                 a questa <a href="./seminari.php#<?php echo $s->sid;?>">pagina</a>).</p>
@@ -77,14 +73,11 @@
                 	<div class="rank"><span class="piece">29.07.2000</span> <span class="piece">La Spezia</span> <span class="piece">5&deg; dan</span> <span class="piece">M&deg; Tada</span></div>
                 	<div class="rank"><span class="piece">25.07.2009</span> <span class="piece">La Spezia</span> <span class="piece">6&deg; dan</span> <span class="piece">M&deg; Tada</span></div>
             </div>
-        </div>
-        <div class="row">
         	<div class="col-xs-12">
             <h4>Aikido Renbukai Pesaro: insegnante ragazzi - Claudio Gabucci, 4&deg; dan Aikikai</h4>
 
             <h4>Aikido Renbukai Rimini: insegnante bambini/ragazzi - Simona Campagna, 4&deg; dan Aikikai</h4>
         	</div>        
-        </div>
         <div class="clearfix mobile">&nbsp;</div>
             <footer class="footer mobile">
                 <div class="container acenter">

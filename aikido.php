@@ -32,7 +32,7 @@
 	<link rel="stylesheet" media="screen" href="css/main.css" /> <!--Load CSS-->
 </head>
 
-<body id="photo">
+<body id="aikido">
 	<div class="container">
         <div id="headernomobile" class="nomobile col-lg-12">
             <?php include('./utils/head_banner.php'); ?>
@@ -44,9 +44,9 @@
         <div id="headermobile" class="mobile">
             <?php include('./utils/head_banner.php'); ?>
         </div>
-        	<div class="row">
-        		<h3>Aikido</h3>
-        	</div>
+       	<div class="row">
+       		<h3>Aikido</h3>
+       	</div>
         	<div class="col-xs-8">
             <p>L'Aikido è un'arte marziale tradizionale giapponese creata dal fondatore, dal Maestro Morihei Ueshiba (1883-1969) come disciplina del corpo, della mente e dello spirito.</p>
             <p>L'ideogramma Dō (道) che compare nel nome dell'Arte si può infatti tradurre con Via, cammino spirituale, mentre Ai (合) significa Armonia e Ki (気) energia, spirito.</p>

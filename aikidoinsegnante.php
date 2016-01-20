@@ -32,11 +32,8 @@
             <?php include('./utils/head_banner.php'); ?>
         </div>
         <div class="row">
-        	<div class="col-xs-12">
         		<h3>M&deg; Roberto Foglietta</h3>
-        	</div>
-        </div>
-        <div class="row">
+       </div>
         	<div class="col-xs-4">
         		<div class="acenter pad nomobile"><img src="./images/rf01.jpg"/></div>
               	<div class="acenter mobile pad"><img src="./images/rf01.jpg"/></div>
@@ -54,8 +51,6 @@
                 <p>Nel 1982 soggiorna per la prima volta in Giappone per due mesi, e ripete l'esperienza anche in seguito fermandosi per periodi dai due ai quattro mesi
                 per poter praticare presso l'Honbu Dojo, il Gessoju Dojo del M&deg; Tada, e il Satomi Hakken Kai del M&deg; Nomoto.<br/></p>
             </div>
-        </div>
-        <div class="row">
             <div class="col-xs-12">
             <p>Ha tenuto e tiene lezioni e seminari in Italia e all'estero (la lista aggiornata dei seminari di quest'anno &egrave; disponibile
                 a questa <a href="./seminari.php#<?php echo $s->sid;?>">pagina</a>).</p>
@@ -79,15 +74,11 @@
                 	<div class="rank"><span class="piece">29.07.2000</span> <span class="piece">La Spezia</span> <span class="piece">5&deg; dan</span> <span class="piece">M&deg; Tada</span></div>
                 	<div class="rank"><span class="piece">25.07.2009</span> <span class="piece">La Spezia</span> <span class="piece">6&deg; dan</span> <span class="piece">M&deg; Tada</span></div>
             </div>
-        </div>
-        <div class="row">
         	<div class="col-xs-12">
             <h4>Aikido Renbukai Pesaro: insegnante ragazzi - Claudio Gabucci, 4&deg; dan Aikikai</h4>
 
             <h4>Aikido Renbukai Rimini: insegnante bambini/ragazzi - Simona Campagna, 4&deg; dan Aikikai</h4>
         	</div>        
-        </div>
-
 	</div><!-- container -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>    

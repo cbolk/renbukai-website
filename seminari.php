@@ -37,7 +37,7 @@
 		<div class="row">
 			  <h3>Seminari</h3><!--?php echo $today; ?-->
         </div>
-			<div class="col-lg-12">
+			<div class="col-lg-12 col-xm-12">
     		  	<?php
     		  		$sem = $s->getSeminars(true);
     		  		$num = count($sem);

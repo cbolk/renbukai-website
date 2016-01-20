@@ -47,9 +47,7 @@
             <?php include('./utils/head_banner.php'); ?>
         </div>
         <div class="row">
-        	<div class="col-xs-12">
         		<h3>Gallerie fotografiche</h3>
-        	</div>
         </div>
     <?php
         $string = file_get_contents("./photos.json");
@@ -94,8 +92,7 @@
 
 
     ?>
-       <hr>
-		</div><!-- row -->
+       <hr/>
         <div class="clearfix mobile">&nbsp;</div>
             <footer class="footer mobile">
                 <div class="container acenter">
