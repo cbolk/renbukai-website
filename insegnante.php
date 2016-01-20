@@ -1,7 +1,7 @@
 <?php
     setlocale(LC_TIME, 'ita');
     date_default_timezone_set('Europe/Rome');
-	include("./utils/class.utils.php");
+    include("./utils/class.utils.php");
     include("./utils/class.seminar.php");
     $s = new seminar();
     $s->setSource("./seminari.json");
@@ -17,25 +17,24 @@
     <!-- bootstrap -->
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link href="jumbotron-narrow.css" rel="stylesheet">
-	<link rel="stylesheet" media="screen" href="css/main.css" /> <!--Load CSS-->
+    <link rel="stylesheet" media="screen" href="css/main.css" /> <!--Load CSS-->
 
 </head>
-<body id="insegnante">
-	<div class="container">
-        <div class="nomobile">
+<body id="links">
+    <div class="container">
+        <div id="headernomobile" class="nomobile col-lg-12">
             <?php include('./utils/head_banner.php'); ?>
         </div>
         <div class="header clearfix">
-            <?php include('./utils/menumobile.php'); ?>
+            <div id="mmenu"><?php include('./utils/menumobile.php'); ?></div>
+            <div id="smenu"></div>          
         </div>
-        <div class="mobile">
+        <div id="headermobile" class="mobile">
             <?php include('./utils/head_banner.php'); ?>
         </div>
         <div class="row">
-        	<div class="col-xs-12">
-        		<h3>M&deg; Roberto Foglietta</h3>
-        	</div>
-        </div>
+            <h3>M&deg; Roberto Foglietta</h3>
+		</div>            
         <div class="row">
         	<div class="col-xs-12 col-sm-4 col-lg-4 ">
               	<div class="acenter pad"><img src="./images/rf01.jpg"/></div>
