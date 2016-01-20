@@ -205,13 +205,14 @@ tbody{}
 .principianti{background-color: #7DCDB6;color:#fff;}
 .ragazzi{background-color: #F3C12C;color:#fff;}
 .bambini{background-color: #E87544;color:#fff;height: 40px;}
-.pesaro{background-color: #7DA0BD;}
-.rimini{background-color: #547144; color: #fff;}
+.pesaro{color: #65bd4a;}
+.rimini{color: #bd4a65;}
 .onohaittoryu{background-color: #9DC6D8; color: #fff;}
 .libero{background-color: #ecf0f1;color:#000;}
 .hour {border: 1px solid #2E2E2E; text-align: center; padding:1px }
 .emptyspace {border-top: 0px; border-bottom: 0px} 
 .warn{color: #aaa;padding-top: 5px;display: block;border-top: 1px solid #F2F2F2;}
+.asterisk{color: red;}
 
 @media(max-width:960px){
 .timeh{width:15%;}
@@ -241,6 +242,20 @@ tbody{}
 .timet span {display: table-cell; padding-left: 12px; padding-right: 12px; padding-bottom: 5px; text-align: center}
 .timet span.row {display: table-cell; padding-left: 12px; padding-right: 12px; padding-bottom: 5px; text-align: center; border-top: 1px solid #ddd;}
 .timet span.day{display: table-cell; padding-right: 12px; padding-bottom: 5px; text-align: left; }
+
+
+ul.warn {list-style: none;}
+ul.warn li:before {
+  content: "\f02e";
+  color: #005493;
+  font-family: FontAwesome;
+  margin-right: 10px;
+  margin-left: -25px;
+  display: inline;
+  vertical-align: middle;
+  font-size: 1em;
+  font-weight: normal;
+}
 
 /* news */
 .piecenews {

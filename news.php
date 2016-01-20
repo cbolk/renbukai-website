@@ -1,30 +1,51 @@
 <?php
-	//include("./utils/util.php");
+    setlocale(LC_TIME, 'ita');
+    date_default_timezone_set('Europe/Rome');
+    include("./utils/class.utils.php");
+    include("./utils/class.seminar.php");
+    $s = new seminar();
+    $s->setSource("./seminari.json");
 ?>
 <html>
-  <head lang="it">
-		<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,700,700italic,400italic' rel='stylesheet' type='text/css'>
-        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-        <title>associazione renbukai</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="apple-touch-icon-precomposed" href="assets/favicon_t.png" />
-        <link rel="shortcut icon" href="assets/favicon.png">
-		<link rel="stylesheet" media="screen" href="css/main.css" /> <!--Load CSS-->
-		<link rel="stylesheet" media="screen" href="css/cal.css" /> <!--Load CSS-->
-		<link rel="stylesheet" href="css/slicknav.css" />
-		<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
-		<script src="js/jquery.slicknav.cb.js"></script>
-		<script src="js/jquery.slicknav.menu.js"></script>
-	</head>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>associazione renbukai - notizie</title>
+    <link rel="apple-touch-icon-precomposed" href="assets/favicon_t.png" />
+    <link rel="shortcut icon" href="assets/favicon.png">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href="jumbotron-narrow.css" rel="stylesheet">
+    <link rel="stylesheet" media="screen" href="css/main.css" /> <!--Load CSS-->
+
+</head>
 <body>
-	<div class="site_wrapper">
-      <?php include('./utils/head_banner.php'); ?>
-      <div class="sidebar">
-      <?php include('./utils/menu.php'); ?>
-      </div><!-- sidebar -->
-		<div class="site_container">
-                <div class="generic__title">news</div>
-		</div><!-- site_container -->
-	</div><!-- site_wrapper -->
+	<div class="container">
+        <div id="headernomobile" class="nomobile col-lg-12">
+            <?php include('./utils/head_banner.php'); ?>
+        </div>
+        <div class="header clearfix">
+            <div id="mmenu"><?php include('./utils/menumobile.php'); ?></div>
+            <div id="smenu"></div>          
+        </div>
+        <div id="headermobile" class="mobile">
+            <?php include('./utils/head_banner.php'); ?>
+        </div>
+        <div class="row">
+    		<h3>Notizie</h3>
+        </div>
+    	<div class="col-xs-12">
+    	</div>
+        <div class="clearfix mobile">&nbsp;</div>
+            <footer class="footer mobile">
+                <div class="container acenter">
+                <p class="text-muted"><img src="./assets/footer.png" alt=""></p>
+                </div>
+             </footer>
+        </div>
+    </div><!-- container -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>    
 </body>
 </html>

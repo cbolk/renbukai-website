@@ -1,7 +1,7 @@
 <?php
     setlocale(LC_TIME, 'ita');
     date_default_timezone_set('Europe/Rome');
-	include("./utils/class.utils.php");
+    include("./utils/class.utils.php");
     include("./utils/class.seminar.php");
     $s = new seminar();
     $s->setSource("./seminari.json");
@@ -17,24 +17,23 @@
     <!-- bootstrap -->
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link href="jumbotron-narrow.css" rel="stylesheet">
-	<link rel="stylesheet" media="screen" href="css/main.css" /> <!--Load CSS-->
-</head>
+    <link rel="stylesheet" media="screen" href="css/main.css" /> <!--Load CSS-->
 
+</head>
 <body>
 	<div class="container">
-        <div class="nomobile">
+        <div id="headernomobile" class="nomobile col-lg-12">
             <?php include('./utils/head_banner.php'); ?>
         </div>
         <div class="header clearfix">
-            <?php include('./utils/menumobile.php'); ?>
+            <div id="mmenu"><?php include('./utils/menumobile.php'); ?></div>
+            <div id="smenu"></div>          
         </div>
-        <div class="mobile">
+        <div id="headermobile" class="mobile">
             <?php include('./utils/head_banner.php'); ?>
         </div>
         <div class="row">
-        	<div class="col-xs-12">
-        		<h3>Onoha Itto Ryu</h3>
-        	</div>
+    		<h3>Onoha Itto Ryu</h3>
         </div>
         	<div class="col-xs-12">
                 <h4>Cenni storici</h4>
@@ -66,21 +65,24 @@
                 <h4>Il nome</h4>
                 <p>Fu Ono Jirōemon Tadaaki, designato da Itō Ittōsai Kagehisa come suo diretto successore, che, oltre a sistemarne le tecniche, chiamò lo stile “Onoha Ittō Ryū Kenjutsu” riconoscendo in Itō Ittōsai Kagehisa il suo ideatore.
 
+                <p>Negli oltre quattrocento anni di storia della scuola, alcuni maestri di Onoha Ittō Ryū Kenjutsu hanno fondato altre scuole pur rimanendo nel solco della tradizione Ittō Ryū ed è per questo che queste scuole hanno mantenuto nella loro denominazione il termine Ittō Ryū.</p>
 
-Negli oltre quattrocento anni di storia della scuola, alcuni maestri di Onoha Ittō Ryū Kenjutsu hanno fondato altre scuole pur rimanendo nel solco della tradizione Ittō Ryū ed è per questo che queste scuole hanno mantenuto nella loro denominazione il termine Ittō Ryū.
+                <p>Con il termine Ittō Ryū, ovvero lo "stile di una spada", nel suo significato letterale, si intende non "una spada" in senso oggettivo e quantitativo, bensì il diventare Uno con la Spada per raggiungere, attraverso la pratica, un orizzonte in cui non vi è più distinzione tra la spada e colui che la brandisce, ma solo l'imperturbabile armonia nell'incessante ciclo dell'Uno/Molteplice.</p>
 
+                <p>L'Uno parte del Molteplice, ma che allo stesso tempo lo genera nell'armonia circolare dell'Universo che il vero significato del nome e il simbolo della scuola rappresenta.</p>
 
-Con il termine Ittō Ryū, ovvero lo "stile di una spada", nel suo significato letterale, si intende non "una spada" in senso oggettivo e quantitativo, bensì il diventare Uno con la Spada per raggiungere, attraverso la pratica, un orizzonte in cui non vi è più distinzione tra la spada e colui che la brandisce, ma solo l'imperturbabile armonia nell'incessante ciclo dell'Uno/Molteplice.
-
-L'Uno parte del Molteplice, ma che allo stesso tempo lo genera nell'armonia circolare dell'Universo che il vero significato del nome e il simbolo della scuola rappresenta.
-
-
-Solo così il "Setsunin tō" (Spada che dona la Morte) diviene "Katsujin ken" (Spada che dona la Vita), conducendo il praticante al senso ultimo, apparentemente paradossale, del cammino dell'uomo di spada:
-
-
-"Il vero Maestro di spada è colui che, superati i confini della vittoria e della sconfitta, posa la spada e diviene uomo di pace".</p>
+                <p>Solo così il "Setsunin tō" (Spada che dona la Morte) diviene "Katsujin ken" (Spada che dona la Vita), conducendo il praticante al senso ultimo, apparentemente paradossale, del cammino dell'uomo di spada:<br/>
+                "Il vero Maestro di spada è colui che, superati i confini della vittoria e della sconfitta, posa la spada e diviene uomo di pace".</p>
  				<p>Per maggiori informazioni: <a href="http://www.onohaittoryuitalia.org" target=_blank>sito</a>.</p>
  			</div>
-	</div><!-- container -->
+            <div class="clearfix mobile">&nbsp;</div>
+            <footer class="footer mobile">
+                <div class="container acenter">
+                <p class="text-muted"><img src="./assets/footer.png" alt=""></p>
+                </div>
+             </footer>
+    </div><!-- container -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>    
 </body>
 </html>

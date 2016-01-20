@@ -24,18 +24,19 @@
 </head>
 <body>
 	<div class="container">
-        <div class="nomobile">
+        <div id="headernomobile" class="nomobile col-lg-12">
             <?php include('./utils/head_banner.php'); ?>
         </div>
         <div class="header clearfix">
-            <?php include('./utils/menumobile.php'); ?>
+            <div id="mmenu"><?php include('./utils/menumobile.php'); ?></div>
+            <div id="smenu"></div>          
         </div>
-        <div class="mobile">
+        <div id="headermobile" class="mobile">
             <?php include('./utils/head_banner.php'); ?>
         </div>
-
 		<div class="row">
 			  <h3>Seminari</h3><!--?php echo $today; ?-->
+        </div>
 			<div class="col-lg-12">
     		  	<?php
     		  		$sem = $s->getSeminars(true);
@@ -88,7 +89,6 @@
 				?>
                 <p></p>
                 </div>
-		</div><!-- row -->
 	</div><!-- container -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>    

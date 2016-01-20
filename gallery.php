@@ -96,11 +96,16 @@
     ?>
        <hr>
 		</div><!-- row -->
-	</div><!-- container -->
+        <div class="clearfix mobile">&nbsp;</div>
+            <footer class="footer mobile">
+                <div class="container acenter">
+                <p class="text-muted"><img src="./assets/footer.png" alt=""></p>
+                </div>
+             </footer>
+        </div>
+    </div><!-- container -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>    
-    <script src="js/jquery.slicknav.cb.js"></script>
-    <script src="js/jquery.slicknav.menu.js"></script>
     <script src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
     <script src="js/bootstrap-image-gallery.min.js"></script>    
 </body>
