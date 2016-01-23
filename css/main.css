@@ -197,10 +197,11 @@ font-variant:small-caps;font-weight:300;
 .seminar_nazionale{color: blue;}
 
 /* schedule */
-table.orario{font-size: 14px}
+table.orario{font-size: 14px;border-collapse:collapse;border-spacing:0;margin:0px auto;}
 tbody{}
 .dayh{text-align: center;}
-.time{min-height: 40px; padding-left: 5px; padding-right: 5px;}
+.hour {border: 1px solid #2E2E2E; text-align: center; padding:1px; height: 20px; vertical-align: middle; }
+.time{padding-left: 5px; padding-right: 5px; text-align: center; height: 20px; }
 .adulti{background-color: #34558B; color:#fff;}
 .principianti{background-color: #7DCDB6;color:#fff;}
 .ragazzi{background-color: #F3C12C;color:#fff;}
@@ -209,13 +210,15 @@ tbody{}
 .rimini{color: #bd4a65;}
 .onohaittoryu{background-color: #9DC6D8; color: #fff;}
 .libero{background-color: #ecf0f1;color:#000;}
-.hour {border: 1px solid #2E2E2E; text-align: center; padding:1px }
 .emptyspace {border-top: 0px; border-bottom: 0px} 
 .warn{color: #aaa;padding-top: 5px;display: block;border-top: 1px solid #F2F2F2;}
 .asterisk{color: red;}
+.emptyhour{border-top: 1px solid #FFF;}
+.lastcell{border-bottom: 1px solid #fff;}
 
 @media(max-width:960px){
-.timeh{width:15%;}
+table.orario{}
+.time{width:15%; text-align: center;}
 .dayh{width:10%;}
 .adulti{background-color: #34558B; color:#fff;}
 .principianti{background-color: #7DCDB6;color:#fff;}
@@ -237,6 +240,10 @@ tbody{}
 @media(max-width:960px){
   .indent{padding-left: 5px}
 }
+
+div.tagbox{width: 120px;height: 40px;border: 1px solid #000;margin: 5px; display: inline-block; text-align: center;padding-top: 15px;}
+@media (max-width:960px){div.tagbox{font-size: 0.9em;width: 100px; height: 35px; padding-top: 3px}}
+
 
 .timet {display: table-row;}
 .timet span {display: table-cell; padding-left: 12px; padding-right: 12px; padding-bottom: 5px; text-align: center}
