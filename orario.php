@@ -32,7 +32,7 @@
             <?php include('./utils/head_banner.php'); ?>
         </div>
         <div class="row">
-    		<h3>da settembre a giugno</h3>
+    		<h3><a name="aa"></a>da settembre a giugno</h3>
         </div>
 
         <div class="col-xs-12">

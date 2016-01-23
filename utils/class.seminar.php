@@ -92,12 +92,12 @@ class seminar {
 					$y = substr($firstday,0,4);
 					$m = substr($util->getMonthMedNameFromNumber(substr($firstday,5,2)),0,3);
 					$d = substr($firstday,8,2);	
-					$y2 = substr($this->lastday,0,4);
+					$y2 = substr($lastday,0,4);
 					$m2 = substr($util->getMonthMedNameFromNumber(substr($lastday,5,2)),0,3);
-					$d2 = substr($this->lastday,8,2);
+					$d2 = substr($lastday,8,2);
 					if(strcmp($d,$d2) == 0)
 						$dates = $d . " " . $m . " " . $y;
-					else if (strcmp($m,$m2) != 0)
+					else if (strcmp($m,$m2) == 0)
 						$dates = $d . "-" . $d2 . " " . $m . " " . $y;
 					else	
 						$dates = $d . " " . $m . "-" . $d2 . " " . $m2 . " " . $y;

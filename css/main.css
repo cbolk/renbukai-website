@@ -26,7 +26,7 @@ a {text-decoration: none; color: #005493;}
 @media (max-width:960px){.title{margin-top: 2px}.topheader{padding-top: 5px; border-top: 1px solid #005493;}}
 .padleft{padding-left: 20px;}
 .subtitle {font-size: 20px; margin-top: 10px}
-@media (max-width:960px){.subtitle{font-weight:400; margin-bottom: 20px;}}
+@media (max-width:960px){.subtitle{font-weight:400; margin-bottom: 20px;font-size: 18px;}}
 @media (min-width:768px){.topheader__left{float:left;width:100px;}}
 @media (max-width:960px){.topheader__left{text-align:center}}
 @media (min-width:768px){.topheader__center{float:left}}
@@ -400,6 +400,18 @@ img {max-width: 100%;}
 
 
 /** override bootstrap **/
+
+.row h3 {color: #005493;
+font-family: "Open Sans Condensed",sans-serif;
+font-size: 24px;
+font-weight: 700;
+line-height: 1.6;
+text-align: center;
+margin: 20px 0 15px 0;
+padding: 0px;}
+
+
+
 .nav > li a:hover {background-color: #fff;}
 
 
@@ -424,23 +436,21 @@ font-weight: 300;
     display: block;
     position: relative;
     text-transform: uppercase;
-    text-align: center;
 }
 .nav > li > a {padding-top: 15px; padding-bottom: 15px; padding-right: 10px;}
+
+@media (max-width:960px){.nav > li a:before {display: none;} .nav > li > a {padding: 5px;}}
 
 
 #navbar{border-bottom: 1px solid #F2F2F2; margin-bottom: 15px; margin-top: 5px }
 .navbar-nav {display: block;
     margin: auto;
 }
+@media (max-width:960px){#navbar{border-top: 1px solid #F2F2F2; margin-top: 15px}}
 
-.row h3 {color: #005493;
-font-family: "Open Sans Condensed",sans-serif;
-font-size: 24px;
-font-weight: 700;
-line-height: 1.6;
-text-align: center;
-margin: 20px 0 15px 0;
-padding: 0px;}
+
 
 .caption{font-family: "Open Sans Condensed",sans-serif;font-size: 20px;}
+@media (max-width:960px){.caption {font-size: 18px;}}
+
+

@@ -70,29 +70,28 @@
                <?php
                     if($semdata[0]['immagine'] != "" && $semdata[0]['immagine'] != null){
                         ?>
-                           <div class='col-xs-12 col-sm-12 col-lg-12 semimage'><img src='./stages/<?php echo $semdata[0]['immagine']; ?>' /></div>
+                           <div class='col-xs-12 col-sm-12 col-lg-12 semimage clearfix'><img src='./stages/<?php echo $semdata[0]['immagine']; ?>' /></div>
 
                         <?php
                     }
                ?>
-               <div class='clearfix'>&nbsp;</div>
                <div class="caption">
                     <p><?php echo $semdata[0]['titolo']; ?> 
                     <?php if($semdata[0]['diretto'] != "") echo " | " . $semdata[0]['diretto']; ?> 
                      <a title='tutte le informazioni' href='./seminari.php#<?php echo $semdata[0]['sid']; ?>'>&nbsp;<i class="fa fa-angle-double-right"></i></a></p>
                 </div>
                 </div>
+               <div class='mobile clearfix'>&nbsp;</div>
                <div class="col-xs-12 col-sm-6 col-lg-6">
                <div class='maintitle'><?php echo $semdata[1]['dates']; ?> @ <?php echo $semdata[1]['città']; ?></div>
                <?php
                     if($semdata[1]['immagine'] != "" && $semdata[1]['immagine'] != null){
                         ?>
-                           <div class='col-xs-12 col-sm-12 col-lg-12 semimage'><img src='./stages/<?php echo $semdata[1]['immagine']; ?>' /></div>
+                           <div class='col-xs-12 col-sm-12 col-lg-12 semimage clearfix'><img src='./stages/<?php echo $semdata[1]['immagine']; ?>' /></div>
 
                         <?php
                     }
                ?>
-               <div class='clearfix'>&nbsp;</div>
                <div class="caption">
                     <p><?php echo $semdata[1]['titolo']; ?> 
                     <?php if($semdata[1]['diretto'] != "") echo " | " . $semdata[1]['diretto']; ?> 

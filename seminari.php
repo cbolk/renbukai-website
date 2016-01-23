@@ -36,8 +36,7 @@
         </div>
 		<div class="row">
 			  <h3>Seminari</h3><!--?php echo $today; ?-->
-        </div>
-			<div class="col-lg-12 col-xm-12">
+			<div class="col-lg-12 col-xm-12"  id="seminarlist">
     		  	<?php
     		  		$sem = $s->getSeminars(true);
     		  		$num = count($sem);
@@ -60,9 +59,9 @@
 						echo "'>";
 						echo "<a name='" . str_replace("-", "", $firstday) ."'></a>";
 						echo "<div class='semimage col-lg-2 col-xs-6 col-md-2 '><img src='./stages/" . $sem[$i]['immagine'] . "' /></div>";
-						echo "<div class='semdate col-lg-2 col-xs-6 col-md-2 '>" . strtoupper($m) . "<br/>" . $d . "<br/>" . $y . "<br/><span class='septop'>" . $sem[$i]['città'] . "</span></div>";
+						echo "<div class='semdate col-lg-2 col-xs-6 col-md-2 clearfix'>" . strtoupper($m) . "<br/>" . $d . "<br/>" . $y . "<br/><span class='septop'>" . $sem[$i]['città'] . "</span></div>";
     					echo "<div class='seminartext col-lg-8 col-xs-12 col-md-8 '><div class='semdetails'><strong>" . $sem[$i]['titolo'] . "</strong>";
-    					if($sem[$i]['diretto'] != "") 
+    					if($sem[$i]['diretto'] != "" && $sem[$i]['diretto'] != null) 
     						echo " <span class='nomobile'>|</span><span class='mobile'><br/></span> <span class='ulined'>" . $sem[$i]['diretto'] . "</span>";
     					echo "</div>";
     					if($firstday != $lastday)
@@ -84,11 +83,12 @@
     					echo "</div> <!-- .seminartext -->";
     					//echo "</div> <!-- .seminarentry -->";
     					echo "</div> <!-- .seminarwrapper -->";
-    					echo "<div class='clearfix'></div>";
+    					echo "<!--div class='clearfix'></div-->";
 					}
 				?>
                 <p></p>
                 </div>
+        </div>
 	</div><!-- container -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>    

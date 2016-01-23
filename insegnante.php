@@ -26,7 +26,7 @@
         </div>
         <div class="header clearfix">
             <div id="mmenu"><?php include('./utils/menumobile.php'); ?></div>
-            <div id="smenu"></div>          
+            <!--div id="smenu"></div-->          
         </div>
         <div id="headermobile" class="mobile">
             <?php include('./utils/head_banner.php'); ?>
