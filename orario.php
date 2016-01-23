@@ -38,8 +38,8 @@
             <center>
                 <table class="orario">
                     <thead>
-                    <tr><th class="dayh">Ora</th>
-                        <th class="dayh w100p"><span class="nomobile">Luned&igrave;</span><span class="mobile">Lu</span></th>
+                    <tr><th class="dayh"></th>
+                        <th class="dayh w100p"><span class="nomobile">Luned&igrave;</span><span class="mobile">Lu<br/><span class='spacer'>space</span></th>
                         <th class="dayh w100p"><span class="nomobile">Marted&igrave;</span><span class="mobile">Ma</span><br/><a class='pesaro' href="./aikidopesaro.php">Pesaro</a> <i class="pesaro fa fa-map-marker"></i></th>
                         <th class="dayh w100p"><span class="nomobile">Mercoled&igrave;</span><span class="mobile">Me</span><br/><a class='rimini' class='rimini' href="./aikidorimini.php">Rimini</a> <i class="rimini fa fa-map-marker"></i></th>
                         <th class="dayh w100p"><span class="nomobile">Gioved&igrave;</span><span class="mobile">Gi</span><br/><a class='pesaro' href="./aikidopesaro.php">Pesaro</a> <i class="pesaro fa fa-map-marker"></i></th>
