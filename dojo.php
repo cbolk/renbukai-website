@@ -37,8 +37,8 @@
         </div>
         <div class="col-xs-12">
         L'Aikido Renbukai &egrave; una scuola di Aikido che svolge la propria attivit&agrave; 
-        presso due d&#333;j&#333;, uno a <a href='./aikidopesaro.php'>Pesaro</a> e 
-        l'altro a <a href='aikidorimini.php'>Rimini</a>. Nelle pagine dedicate dei due d&#333;j&#333; trovate
+        presso due d&#333;j&#333;, uno a <a href='./aikidopesaro.php'>Pesaro <i class="pesaro fa fa-map-marker"></i></a> e 
+        l'altro a <a href='aikidorimini.php'>Rimini <i class="rimini fa fa-map-marker"></i></a>. Nelle pagine dedicate dei due d&#333;j&#333; trovate
         gli orari specifici degli allenamenti e come raggiungerci.
 		</div>
         	<div class="col-xs-12">
