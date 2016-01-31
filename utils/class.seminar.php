@@ -86,7 +86,7 @@ class seminar {
 			$ss = array();
 			foreach ($json_a as $s => $sem) {
 				$firstday = $sem['giornoinizio'];
-				if($firstday > $today){
+				if($firstday >= $today){
 					$sid = str_replace("-","",$sem['giornoinizio']);
 					$lastday = $sem['giornofine'];
 					$y = substr($firstday,0,4);

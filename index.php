@@ -50,9 +50,7 @@
         <div class="mobile">
             <?php include('./utils/head_banner.php'); ?>
         </div>
-       	<div class="row">
-    	        <h3>&nbsp;</h3>
-		</div>            
+          
 
 		<div class="col-xs-12 mainpage">
                 <p>Benvenuti nel sito dell'Associazione Renbukai, scuola di <a href="">Aikido</a> attiva a Pesaro e Rimini dal 19xx, che a Pesaro ospita presso il Keikodojo 

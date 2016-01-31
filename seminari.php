@@ -53,7 +53,7 @@
 						echo "<div class='seminarwrapper col-lg-12 col-xs-12 col-md-12 ";
 						if(strtotime($today) > strtotime($lastday))
 							echo " passed";
-						else 						if (strtotime($today) >= strtotime($firstday) && strtotime($today) <= strtotime($lastday))
+						else if (strtotime($today) >= strtotime($firstday) && strtotime($today) <= strtotime($lastday))
 							echo " activeseminar";
 
 						echo "'>";
