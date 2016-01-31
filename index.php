@@ -103,7 +103,7 @@
                     if($image != "" && $image != null){
                         ?>
 		                <h4 class='acenter'><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> Galleria foto</h4>
-            			<div class="caption"><?php echo $title; ?></div>
+            			<div class="caption"><?php echo $title; ?><br/></div>
                         <div class="col-xs-12 col-sm-6 col-lg-6">
                              <a class="thumbnail" href="<?php echo $image[0]['image']; ?>">
                                 <img  class="img-responsive" src="<?php echo $image[0]['image']; ?>" alt="">
@@ -114,7 +114,7 @@
                                 <img  class="img-responsive" src="<?php echo $image[1]['image']; ?>" alt="">
                             </a>
             			</div>
-                        <a title='tutte le informazioni' href='./gallery.php#<?php echo $folder; ?>'>&nbsp;<i class="fa fa-angle-double-right"></i></a>
+                        vai alla galleria <a title='tutte le informazioni' href='./gallery.php#<?php echo $folder; ?>'>&nbsp;<i class="fa fa-angle-double-right"></i></a>
                         <?php
                     }
                ?>
