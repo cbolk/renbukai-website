@@ -74,8 +74,8 @@
                     }
                ?>
                <div class="caption">
-                    <p><?php echo $semdata[0]['titolo']; ?> 
-                    <?php if($semdata[0]['diretto'] != "") echo "<br/>" . $semdata[0]['diretto']; ?> 
+                    <p><?php echo $semdata[0]['titolo']; ?> <i class="fa fa-fire"></i>
+                    <?php if($semdata[0]['diretto'] != "") echo "<br/>&nbsp;&nbsp;" . $semdata[0]['diretto']; ?> 
                      <a title='tutte le informazioni' href='./seminari.php#<?php echo $semdata[0]['sid']; ?>'>&nbsp;<i class="fa fa-angle-double-right"></i></a></p>
                 </div>
                 </div>
@@ -91,8 +91,8 @@
                     }
                ?>
                <div class="caption">
-                    <p><?php echo $semdata[1]['titolo']; ?> 
-                    <?php if($semdata[1]['diretto'] != "") echo "<br/>" . $semdata[1]['diretto']; ?> 
+                    <p><?php echo $semdata[1]['titolo']; ?> <i class="fa fa-fire"></i>
+                    <?php if($semdata[1]['diretto'] != "") echo "<br/>&nbsp;&nbsp;" . $semdata[1]['diretto']; ?> 
                      <a title='tutte le informazioni' href='./seminari.php#<?php echo $semdata[1]['sid']; ?>'>&nbsp;<i class="fa fa-angle-double-right"></i></a></p>
                 </div>
                 </div>
@@ -103,7 +103,7 @@
                     if($image != "" && $image != null){
                         ?>
 		                <h4 class='acenter'><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> Galleria foto</h4>
-            			<div class="caption"><?php echo $title; ?><br/></div>
+            			<div class="caption"><?php echo $title; ?><br/>&nbsp;</div>
                         <div class="col-xs-12 col-sm-6 col-lg-6">
                              <a class="thumbnail" href="<?php echo $image[0]['image']; ?>">
                                 <img  class="img-responsive" src="<?php echo $image[0]['image']; ?>" alt="">
