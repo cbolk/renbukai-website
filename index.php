@@ -74,7 +74,7 @@
                     }
                ?>
                <div class="caption">
-                    <p><?php echo $semdata[0]['titolo']; ?> <i class="fa fa-fire"></i>
+                    <p><?php if(strpos('aikido', strtolower($semdata[1]['titolo'])) >=0 echo "<i class='fa fa-adn'></i>"; ?> <?php echo $semdata[1]['titolo']; ?> 
                     <?php if($semdata[0]['diretto'] != "") echo "<br/>&nbsp;&nbsp;" . $semdata[0]['diretto']; ?> 
                      <a title='tutte le informazioni' href='./seminari.php#<?php echo $semdata[0]['sid']; ?>'>&nbsp;<i class="fa fa-angle-double-right"></i></a></p>
                 </div>
@@ -91,7 +91,7 @@
                     }
                ?>
                <div class="caption">
-                    <p><?php echo $semdata[1]['titolo']; ?> <i class="fa fa-fire"></i>
+                    <p><?php if(strpos('aikido', strtolower($semdata[1]['titolo'])) >=0 echo "<i class='fa fa-adn'></i>"; ?> <?php echo $semdata[1]['titolo']; ?> 
                     <?php if($semdata[1]['diretto'] != "") echo "<br/>&nbsp;&nbsp;" . $semdata[1]['diretto']; ?> 
                      <a title='tutte le informazioni' href='./seminari.php#<?php echo $semdata[1]['sid']; ?>'>&nbsp;<i class="fa fa-angle-double-right"></i></a></p>
                 </div>
