@@ -13,7 +13,7 @@
 <nav class="navbar">
     <div class="container-fluid">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <button type="button" class="navbar-toggle collapsed mobile" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar bgcolrenbukai"></span>
               <span class="icon-bar bgcolrenbukai"></span>
@@ -33,7 +33,7 @@
                 <li><a href="./dojo.php">dojo</a></li>
                 <li><a href="./seminari.php#<?php echo $s->sid;?>">attivit&agrave;</a></li>
                 <li><a href="./gallery.php">foto</a></li>
-                <li><a href="./news.php">news</a></li>
+                <!--li><a href="./news.php">news</a></li-->
                 <li><a href="./links.php">links</a></li>
             </ul>
         </div>

@@ -15,10 +15,9 @@
     <link rel="apple-touch-icon-precomposed" href="assets/favicon_t.png" />
     <link rel="shortcut icon" href="assets/favicon.png">
     <!-- bootstrap -->
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <link href="jumbotron-narrow.css" rel="stylesheet">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" media="screen" href="css/main.css" /> <!--Load CSS-->
-
 </head>
 <body id="links">
     <div class="container">

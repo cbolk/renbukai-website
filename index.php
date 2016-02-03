@@ -33,11 +33,10 @@
     <link rel="apple-touch-icon-precomposed" href="assets/favicon_t.png" />
     <link rel="shortcut icon" href="assets/favicon.png">
     <!-- bootstrap -->
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
     <link rel="stylesheet" href="css/bootstrap-image-gallery.min.css">
-
-	<link rel="stylesheet" media="screen" href="css/main.css" /> <!--Load CSS-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+  	<link rel="stylesheet" media="screen" href="css/main.css" /> <!--Load CSS-->
 </head>
 <body>
 	<div class="container">
@@ -104,14 +103,14 @@
                         ?>
 		                <h4 class='acenter'><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> Galleria foto</h4>
             			<div class="caption"><?php echo $title; ?><br/>&nbsp;</div>
-                        <div class="col-xs-12 col-sm-6 col-lg-6">
-                             <a class="thumbnail" href="<?php echo $image[0]['image']; ?>">
-                                <img  class="img-responsive" src="<?php echo $image[0]['image']; ?>" alt="">
+                        <div class="col-xs-12 col-sm-6 col-lg-6 semimage">
+                             <a href="<?php echo $image[0]['image']; ?>">
+                                <img  src="<?php echo $image[0]['image']; ?>" alt="">
                             </a>
             			</div>
-                        <div class="col-xs-12 col-sm-6 col-lg-6">
-                             <a class="thumbnail" href="<?php echo $image[1]['image']; ?>">
-                                <img  class="img-responsive" src="<?php echo $image[1]['image']; ?>" alt="">
+                        <div class="col-xs-12 col-sm-6 col-lg-6 semimage">
+                             <a href="<?php echo $image[1]['image']; ?>">
+                                <img  src="<?php echo $image[1]['image']; ?>" alt="">
                             </a>
             			</div>
                         vai alla galleria <a title='tutte le informazioni' href='./gallery.php#<?php echo $folder; ?>'>&nbsp;<i class="fa fa-angle-double-right"></i></a>
