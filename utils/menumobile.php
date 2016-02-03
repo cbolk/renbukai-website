@@ -33,7 +33,7 @@
                 <li><a href="./dojo.php">dojo</a></li>
                 <li><a href="./seminari.php#<?php echo $s->sid;?>">attivit&agrave;</a></li>
                 <li><a href="./gallery.php">foto</a></li>
-                <!--li><a href="./news.php">news</a></li-->
+                <li><a href="./news.php">news</a></li>
                 <li><a href="./links.php">links</a></li>
             </ul>
         </div>
