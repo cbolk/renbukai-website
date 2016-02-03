@@ -27,7 +27,7 @@
 	    return function($elem) use($name) { if(strcmp($name,"*")==0) return true; if(strpos($elem['diretto'],$name,0) === false) return false; return true; };
 	}
 
-	$all = $s->getSeminars();
+	$all = $s->getSeminars(true);
 	$from = date("Y", strtotime($all[0]['start']));
 	$to = date("Y", strtotime($all[count($all)-1]['end']));
 	$instructors = $s->getInstructors();
@@ -96,18 +96,45 @@
     <script src="js/bootstrap.js"></script>    
 
 <script type="text/javascript">
-$(function() {
-	$('.instructor').on('change', function(){
-   	 var selected = $(this).find("option:selected").val();
-   	 var dataForm = "i=" + selected;
-   	    $.ajax({
-	       type: "POST",
-    	    url: location.href,
-          	data: dataForm
-        });
-   	 	return false;
-  	});
-});
+function loadAllCalendars(names)
+{
+	var def = $.Deferred();
+    var seminars = [], defers = [], defer;
+    var nvars = names.length;
+
+    for(var i = 0; i < nvars; i++ ){
+      link = CALENDARDIR + names[i] + ".json";
+      console.log(names[i] + " @ " + link);
+      defer = loadCalendar_promise(link).done(function(s){
+              seminars = seminars.concat(s);
+          });
+          defers.push(defer);
+	}
+    /* when ALL data from different JSON has been collected -- create the chart*/
+    $.when.apply(window, defers).done(function () {
+        console.log("finished loading data!");
+        def.resolve(seminars);
+    });
+	return def.promise();
+}
+
+function loadCalendar_promise(link)
+{
+	var dfd = $.Deferred();
+ 	$.ajax({
+      type:'GET',
+      url: link,
+      crossDomain: true,  
+      cache:true,
+      error: function(xhr,textStatus,err){
+            ////alert("text status: " + textStatus+ " error: " + err+" status: " + xhr.status+" responseText: "+ xhr.responseText+" readyState: " + xhr.readyState);
+      },   
+    })
+    .done(function( data ) {
+ 		dfd.resolve(data);
+     });
+	 return dfd.promise();	
+}
 </script>
 
 </head>
@@ -147,7 +174,7 @@ $(function() {
 						$daytime = $inittime;
 						$thismonth = date("m",$inittime);
 						$i = 0;
-						echo "<form class='form form-horizontal' enctype='multipart/form-data method='post'>";
+						echo "<form class='form form-horizontal' enctype='multipart/form-data' method='post'>";
 						echo "<div class='row'><div class='col-lg-6'>" .$ddin  . "</div><div class='col-lg-6'>" .$ddloc  . "</div></div>";
 						echo "</form>";
 						echo "<div class='seminarlist'>";

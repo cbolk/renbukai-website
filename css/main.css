@@ -13,10 +13,10 @@ a {text-decoration: none; color: #005493;}
 
 .japanese {font-family: 'Noto Sans Japanese', sans-serif;}
 
-@media (min-width:768px){.site_wrapper{position: absolute; left: 50%; width: 900px; margin-left: -460px; padding: 5px 10px 10px;}}
+@media (min-width:769px){.site_wrapper{position: absolute; left: 50%; width: 900px; margin-left: -460px; padding: 5px 10px 10px;}}
 @media (max-width:960px){.site_wrapper{width: 100%;padding-top:3px;margin-bottom: 35px}}
 .site_container{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;background-color:white; padding:10px;}}
-@media (min-width:768px){.site_container{margin: 0 auto}}
+@media (min-width:769px){.site_container{margin: 0 auto}}
 
 
 .topheader{margin: 0px auto; margin-top: 10px; }
@@ -27,17 +27,17 @@ a {text-decoration: none; color: #005493;}
 .padleft{padding-left: 20px;}
 .subtitle {font-size: 20px; margin-top: 10px}
 @media (max-width:960px){.subtitle{font-weight:400; margin-bottom: 20px;font-size: 18px;}}
-@media (min-width:768px){.topheader__left{float:left;width:100px;}}
+@media (min-width:769px){.topheader__left{float:left;width:100px;}}
 @media (max-width:960px){.topheader__left{text-align:center}}
-@media (min-width:768px){.topheader__center{float:left}}
+@media (min-width:769px){.topheader__center{float:left}}
 @media (max-width:960px){.topheader__center{text-align:center}}
-@media (min-width:768px){.topheader__right{float:right}}
+@media (min-width:769px){.topheader__right{float:right}}
 @media (max-width:960px){.topheader__right{display:none}}
 .scritta{height: 80px;}
 @media (max-width:960px){.scritta{height:40px}}
 
 .topheader__last{font-size: 14px; clear:both;color:#666;margin-bottom: 8px}
-@media (min-width:768px){.topheader__last{text-align:right}}
+@media (min-width:769px){.topheader__last{text-align:right}}
 @media (max-width:960px){.topheader__last{text-align:center}}
 img.navheader {width: 20px; margin-top: -20px; margin-bottom: -20px;}
 
@@ -87,13 +87,13 @@ position: relative;}
 .semnext{display: block}
 
 @media (max-width:960px){.photoset{display: block}.data{font-size: 15px;}}
-@media (min-width:768px){.photoset{width: 600px}.data{font-size: 15px;}}
+@media (min-width:769px){.photoset{width: 600px}.data{font-size: 15px;}}
 
 .main__img{clear:both;text-align:center;}
 
 .notice{color: #aaa;text-align: center;padding-top: 5px;display: block;border-top: 1px solid #F2F2F2;}
 @media (max-width:960px){.notice{font-size:10px}}
-@media (min-width:768px){.notice{font-size:14px}}
+@media (min-width:769px){.notice{font-size:14px}}
 .note {color: #aaa;text-align: center;padding-top: 5px;display: block}
 .black{color:#000}
 .blue{color: #282658;}
@@ -101,7 +101,7 @@ position: relative;}
 .bgcolrenbukai{background-color: #282658;}
 .back-blue{background-color: #282658; color: #fff;}
 @media (max-width:960px){.note{font-size:0.8em}}
-@media (min-width:768px){.note{font-size:1em}}
+@media (min-width:769px){.note{font-size:1em}}
 
 /* corsi */
 .generic-page {margin: auto; padding-left: 5px; padding-right: 5px;}
@@ -135,9 +135,9 @@ font-variant:small-caps;font-weight:300;
 .calendar__day_not_in_month{opacity:0}
 .calendar__month{width:224px;vertical-align:top;margin-top: 10px;padding:15px}
 @media (max-width:960px){.calendar__month{display:block}.seminar-list__title{font: bold 18px/24px "Open Sans Condensed",sans-serif;text-align: center;margin: 15px;text-align: center;}}
-@media (min-width:768px){.calendar__month{display:inline-block}}
+@media (min-width:769px){.calendar__month{display:inline-block}}
 @media (max-width:960px){.calendar__month{margin:auto}}
-@media (min-width:768px){.calendar__month{margin-left:30px}}
+@media (min-width:769px){.calendar__month{margin-left:30px}}
 .calendar__month_name{font-variant:small-caps;font-weight:400;text-transform:lowercase;font-family:'Open Sans Condensed';text-align:center}
 .calendar__category_seminar{color:#6B9ED8}
 .calendar__category_seminar_past{color:#45C545}
@@ -185,7 +185,7 @@ font-variant:small-caps;font-weight:300;
 
 
 .seminar_data{margin-top:1em;margin-bottom:1em;font-size:1.3em;line-height:1.5em; display:block;float: left;}
-@media (min-width:768px){.seminar_data{max-width: 690px}}
+@media (min-width:769px){.seminar_data{max-width: 690px}}
 
 .seminar_data__detail{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;display:block;border-top:1px solid #DDD;}
 .seminar_data__key{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;width:25%;display:inline-block;color:#999;vertical-align:top}
@@ -336,7 +336,7 @@ ul.weblinks li:before {
 
 @media (max-width:640px){.miniature{display: none;}}
 @media (max-width:960px){.miniature{display: none;}}
-@media (min-width:768px){.miniature{float: right;}}
+@media (min-width:769px){.miniature{float: right;}}
 
 h1, h2, h3, h4 {margin-bottom: 0px;}
 #seminari h3, #links h3, #insegnante h3, #orario h3 {text-align: center; color: #005493; margin: 20px 0 15px 0; }
