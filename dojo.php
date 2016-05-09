@@ -32,7 +32,7 @@
             <?php include('./utils/head_banner.php'); ?>
         </div>
         <div class="row">
-            <h3>dojo</h3>
+            <h3>D&#333;j&#333;</h3>
         </div>
         <div class="col-xs-12">
             L'Aikido Renbukai &egrave; una scuola di Aikido che svolge la propria attivit&agrave; 
@@ -72,12 +72,11 @@
      			<p>Quota giornaliera ("tatami fee"): 5 &euro;</p>
     	</div>
         <div class="clearfix mobile">&nbsp;</div>
-            <footer class="footer mobile">
-                <div class="container acenter">
-                <p class="text-muted"><img src="./assets/footer.png" alt=""></p>
-                </div>
-             </footer>
+        <footer class="footer mobile">
+        <div class="container acenter">
+            <p class="text-muted"><img src="./assets/footer.png" alt=""></p>
         </div>
+        </footer>
     </div><!-- container -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>    

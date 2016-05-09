@@ -20,7 +20,7 @@
     <link rel="stylesheet" media="screen" href="css/main.css" /> <!--Load CSS-->
 
 </head>
-<body>
+<body id="news">
 	<div class="container">
         <div id="headernomobile" class="nomobile col-lg-12">
             <?php include('./utils/head_banner.php'); ?>
@@ -38,12 +38,11 @@
     	<div class="col-xs-12">
     	</div>
         <div class="clearfix mobile">&nbsp;</div>
-            <footer class="footer mobile">
-                <div class="container acenter">
+        <footer class="footer mobile">
+            <div class="container acenter">
                 <p class="text-muted"><img src="./assets/footer.png" alt=""></p>
-                </div>
-             </footer>
-        </div>
+            </div>
+        </footer>
     </div><!-- container -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>    

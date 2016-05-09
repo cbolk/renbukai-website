@@ -259,14 +259,12 @@
                 sono cortesemente invitate ad annunciare la propria presenza tramite e-mail (info@onohaittoryuitalia.org) o telefono (3405996157).</li>
             </ul>
         </div>
-    </div><!-- container -->
-    <div class="container marketing">
         <div class="clearfix mobile">&nbsp;</div>
         <footer class="footer mobile">
             <div class="container acenter">
-            <p class="text-muted"><img src="./assets/footer.png" alt=""></p>
+                <p class="text-muted"><img src="./assets/footer.png" alt=""></p>
             </div>
-             </footer>
+        </footer>
     </div><!-- container -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="./js/bootstrap.js"></script>      

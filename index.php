@@ -121,14 +121,13 @@
                     }
                ?>
          	</div>
-		</div><!-- container marketing -->
+  		</div><!-- container marketing -->
         <div class="clearfix mobile">&nbsp;</div>
-            <footer class="footer mobile">
-                <div class="container acenter">
-                <p class="text-muted"><img src="./assets/footer.png" alt=""></p>
-                </div>
-             </footer>
+        <footer class="footer mobile">
+        <div class="container acenter">
+            <p class="text-muted"><img src="./assets/footer.png" alt=""></p>
         </div>
+        </footer>
     </div><!-- container -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>    
