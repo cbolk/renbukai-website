@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" media="screen" href="css/main.css" /> <!--Load CSS-->
 </head>
-<body id="links">
+<body id="dojo">
     <div class="container">
         <div id="headernomobile" class="nomobile col-lg-12">
             <?php include('./utils/head_banner.php'); ?>
@@ -35,12 +35,12 @@
             <h3>dojo</h3>
         </div>
         <div class="col-xs-12">
-        L'Aikido Renbukai &egrave; una scuola di Aikido che svolge la propria attivit&agrave; 
-        presso due d&#333;j&#333;, uno a <a href='./aikidopesaro.php'>Pesaro <i class="pesaro fa fa-map-marker"></i></a> e 
-        l'altro a <a href='aikidorimini.php'>Rimini <i class="rimini fa fa-map-marker"></i></a>. Nelle pagine dedicate dei due d&#333;j&#333; trovate
-        gli orari specifici degli allenamenti e come raggiungerci.
+            L'Aikido Renbukai &egrave; una scuola di Aikido che svolge la propria attivit&agrave; 
+            presso due d&#333;j&#333;, uno a <a href='./aikidopesaro.php'>Pesaro <i class="pesaro fa fa-map-marker"></i></a> e 
+            l'altro a <a href='aikidorimini.php'>Rimini <i class="rimini fa fa-map-marker"></i></a>. Nelle pagine dedicate dei due d&#333;j&#333; trovate
+            gli orari specifici degli allenamenti e come raggiungerci.
 		</div>
-        	<div class="col-xs-12">
+        <div class="col-xs-12">
               <p>Per iscriversi, presentarsi durante gli orari di lezione, portando:
                     <ul class='bullet'>
      			        <li>2 fototessera;</li>
@@ -70,7 +70,7 @@
      						</ul>
      				</p>
      			<p>Quota giornaliera ("tatami fee"): 5 &euro;</p>
-        	</div>
+    	</div>
         <div class="clearfix mobile">&nbsp;</div>
             <footer class="footer mobile">
                 <div class="container acenter">

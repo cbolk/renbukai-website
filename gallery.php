@@ -36,13 +36,14 @@
 
 <body id="photo">
 	<div class="container">
-        <div class="nomobile">
+        <div id="headernomobile" class="nomobile col-lg-12">
             <?php include('./utils/head_banner.php'); ?>
         </div>
         <div class="header clearfix">
-            <?php include('./utils/menumobile.php'); ?>
+            <div id="mmenu"><?php include('./utils/menumobile.php'); ?></div>
+            <div id="smenu"></div>          
         </div>
-        <div class="mobile">
+        <div id="headermobile" class="mobile">
             <?php include('./utils/head_banner.php'); ?>
         </div>
         <div class="row">
@@ -93,12 +94,11 @@
     ?>
        <hr/>
         <div class="clearfix mobile">&nbsp;</div>
-            <footer class="footer mobile">
-                <div class="container acenter">
+        <footer class="footer mobile">
+            <div class="container acenter">
                 <p class="text-muted"><img src="./assets/footer.png" alt=""></p>
-                </div>
-             </footer>
-        </div>
+            </div>
+        </footer>
     </div><!-- container -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>    

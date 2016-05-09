@@ -14,8 +14,6 @@
     <title>associazione renbukai - orario</title>
     <link rel="apple-touch-icon-precomposed" href="assets/favicon_t.png" />
     <link rel="shortcut icon" href="assets/favicon.png">
-    <!-- bootstrap -->
-    <!-- bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" media="screen" href="css/main.css" /> <!--Load CSS-->
 </head>

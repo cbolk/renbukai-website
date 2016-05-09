@@ -73,7 +73,7 @@
 
                 <p>Solo così il "Setsunin tō" (Spada che dona la Morte) diviene "Katsujin ken" (Spada che dona la Vita), conducendo il praticante al senso ultimo, apparentemente paradossale, del cammino dell'uomo di spada:<br/>
                 "Il vero Maestro di spada è colui che, superati i confini della vittoria e della sconfitta, posa la spada e diviene uomo di pace".</p>
- 				<p>Per maggiori informazioni: <a href="http://www.onohaittoryuitalia.org" target=_blank>sito</a>.</p>
+ 				<p>Per maggiori informazioni visita il sito <a href="http://www.onohaittoryuitalia.org" target=_blank>www.onohaittoryuitalia.org</a>.</p>
  			</div>
             <div class="clearfix mobile">&nbsp;</div>
             <footer class="footer mobile">
