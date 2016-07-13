@@ -30,7 +30,7 @@
                 <li><a href="./onohaittoryu.php">onoha itto ryu</a></li>
                 <li><a href="./insegnante.php">insegnante</a></li>
                 <li><a href="./orario.php#<?php echo $otarget;?>">orario</a></li>
-                <li><a href="./dojo.php">corsi</a></li>
+                <li><a href="./corsi.php">corsi</a></li>
                 <li><a href="./seminari.php#<?php echo $s->sid;?>">attivit&agrave;</a></li>
                 <li><a href="./gallery.php">foto</a></li>
                 <li><a href="./contatti.php">contatti</a></li>
