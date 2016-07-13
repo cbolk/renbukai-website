@@ -21,16 +21,18 @@
 
 </head>
 <body id="insegnante">
-	<div class="container">
-        <div class="nomobile">
+  <div class="container">
+        <div id="headernomobile" class="nomobile col-lg-12">
             <?php include('./utils/head_banner.php'); ?>
         </div>
         <div class="header clearfix">
-            <?php include('./utils/menumobile.php'); ?>
+            <div id="mmenu"><?php include('./utils/menumobile.php'); ?></div>
+            <div id="smenu"></div>          
         </div>
-        <div class="mobile">
+        <div id="headermobile" class="mobile">
             <?php include('./utils/head_banner.php'); ?>
         </div>
+        
         <div class="row">
         		<h3>M&deg; Roberto Foglietta</h3>
        </div>

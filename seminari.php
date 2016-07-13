@@ -21,7 +21,7 @@
     <link rel="stylesheet" media="screen" href="css/main.css" /> <!--Load CSS-->
 </head>
 <body id="seminari">
-	<div class="container">
+  <div class="container">
         <div id="headernomobile" class="nomobile col-lg-12">
             <?php include('./utils/head_banner.php'); ?>
         </div>
@@ -32,6 +32,7 @@
         <div id="headermobile" class="mobile">
             <?php include('./utils/head_banner.php'); ?>
         </div>
+
 		<div class="row">
 			<h3>Seminari</h3><!--?php echo $today; ?-->
         </div>
@@ -74,11 +75,11 @@
 	    				$via = strpos($sem[$i]['indirizzo'], ",");
 	    				$map = substr($sem[$i]['indirizzo'], $via+2);
 	    				echo "<span class='mobile'><br></span>";
-	    				echo "<a target=_blank title='apre google maps' href='http://maps.google.com?q=" .  $map . "'><img src='./assets/gmaps.png' width='20px'/>&nbsp;<span class='mobile'>apri in GoogleMaps</span></a>";
+	    				echo "<a class='noborder' target=_blank title='apre google maps' href='http://maps.google.com?q=" .  $map . "'><img src='./assets/gmaps.png' width='20px'/>&nbsp;<span class='mobile'>apri in GoogleMaps</span></a>";
 	    				echo "</div>";
     				}
     				if($sem[$i]['locandina'] != null)
-	    				echo "<div class='semdetails'><i class='fa fa-file-o'></i> locandina: <a href='./stages/" . $sem[$i]['locandina'] . "'><i class='fa fa-file-pdf-o'></i></a></div>";
+	    				echo "<div class='semdetails'><i class='fa fa-file-o'></i> locandina: <a  class='noborder' href='./stages/" . $sem[$i]['locandina'] . "'><i class='fa fa-file-pdf-o'></i></a></div>";
 					echo "</div> <!-- .seminartext -->";
 					//echo "</div> <!-- .seminarentry -->";
 					echo "</div> <!-- .seminarwrapper -->";

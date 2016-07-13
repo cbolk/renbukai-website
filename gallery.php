@@ -35,7 +35,7 @@
 </head>
 
 <body id="photo">
-	<div class="container">
+  <div class="container">
         <div id="headernomobile" class="nomobile col-lg-12">
             <?php include('./utils/head_banner.php'); ?>
         </div>
@@ -46,9 +46,11 @@
         <div id="headermobile" class="mobile">
             <?php include('./utils/head_banner.php'); ?>
         </div>
+
         <div class="row">
         		<h3>Gallerie fotografiche</h3>
         </div>
+        <div class="row">
     <?php
         $string = file_get_contents("./photos.json");
         $json_a = json_decode($string, true);
@@ -92,7 +94,9 @@
 
 
     ?>
+
        <hr/>
+       </div>
         <div class="clearfix mobile">&nbsp;</div>
         <footer class="footer mobile">
         <div class="container acenter">

@@ -30,21 +30,16 @@
                 <li><a href="./onohaittoryu.php">onoha itto ryu</a></li>
                 <li><a href="./insegnante.php">insegnante</a></li>
                 <li><a href="./orario.php#<?php echo $otarget;?>">orario</a></li>
-                <li><a href="./dojo.php">dojo</a></li>
+                <li><a href="./dojo.php">corsi</a></li>
                 <li><a href="./seminari.php#<?php echo $s->sid;?>">attivit&agrave;</a></li>
                 <li><a href="./gallery.php">foto</a></li>
-                <li><a href="./news.php">news</a></li>
-                <li><a href="./links.php">links</a></li>
+                <li><a href="./contatti.php">contatti</a></li>
+                <!--li><a href="./news.php">news</a></li-->
+                <li><a href="./links.php">link</a></li>
             </ul>
         </div>
     </div>
 </nav>
 <div id="secondarymenu" class="sidebar__link_list">
-    <ul class="<?php echo $isdojo; ?>">
-        <!--li class="sidebar__link_item"><div class="sidebar__link_item__name"><a href="./aikido.php">l'aikido</a></div></li-->
-        <li class="sidebar__link_item"><div class="sidebar__link_item__name"><a href="./dojopesaro.php">aikido Renbukai Pesaro</a></div></li>
-        <li class="sidebar__link_item"><div class="sidebar__link_item__name"><a href="./dojorimini.php">aikido Renbukai Rimini</a></div></li>
-        <!--li class="sidebar__link_item"><div class="sidebar__link_item__name"><a href="./aikidoinsegnante.php">insegnante</a></div></li-->
-        <li class="sidebar__link_item"><div class="sidebar__link_item__name"><a href="./dojoiscrizioni.php">iscrizioni</a></div></li>
-    </ul>
+
 </div>

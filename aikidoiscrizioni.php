@@ -57,15 +57,15 @@
                         <li><em>bambini e ragazzi</em>: 250 &euro; (da ottobre a maggio)</li>
                         <li><em>adulti</em>
      							<ul class="bullet2">
-     								<li>1 mese: 60 &euro;</li>
-     								<li>3 mesi: 165 &euro;</li>
-     								<li>6 mesi: 315 &euro;</li>
-     								<li>1 anno: 530 &euro; (da settembre a luglio)</li>
+     								<li>1 mese: A &euro;</li>
+     								<li>3 mesi: B &euro;</li>
+     								<li>6 mesi: C &euro;</li>
+     								<li>1 anno: D &euro; (da settembre a luglio)</li>
      							</ul>
      							</li>
      						</ul>
      				</p>
-     			<p>Quota giornaliera ("tatami fee"): 5 &euro;</p>
+     			<!--p>Quota giornaliera ("tatami fee"): 5 &euro;</p-->
         	</div>
         </div>
         <div class="clearfix mobile">&nbsp;</div>

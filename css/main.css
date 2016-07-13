@@ -7,7 +7,9 @@
 /* blu #005493 */
 body,html{margin:0;padding:0;height:100%}
 body,html{font: 18px/24px 'Lato', 'Open Sans Condensed',  sans-serif; color: #666; font-weight: 300;}
-a {text-decoration: none; color: #005493;}
+a {text-decoration: none; color: #005493; border-bottom: 1px solid #005493}
+a:hover {text-decoration: none;}
+a.noborder {border-bottom: 0px}
 @media (max-width:640px){body,html{font: 18px/22px 'Open Sans Condensed','Helvetica', sans-serif;margin-bottom: 35px}}
 .site_wrapper{min-height:100%}
 
@@ -90,10 +92,10 @@ position: relative;}
 @media (min-width:769px){.notice{font-size:14px}}
 .note {color: #aaa;text-align: center;padding-top: 5px;display: block}
 .black{color:#000}
-.blue{color: #282658;}
-.colrenbukai{color: #282658;}
-.bgcolrenbukai{background-color: #282658;}
-.back-blue{background-color: #282658; color: #fff;}
+.blue{color: #005493;}
+.colrenbukai{color: #005493;}
+.bgcolrenbukai{background-color: #005493;}
+.back-blue{background-color: #005493; color: #fff;}
 @media (max-width:960px){.note{font-size:0.8em}}
 @media (min-width:769px){.note{font-size:1em}}
 
@@ -196,13 +198,13 @@ tbody{}
 .dayh{text-align: center;}
 .hour {border: 1px solid #2E2E2E; text-align: center; padding:1px; height: 20px; vertical-align: middle; }
 .time{padding-left: 5px; padding-right: 5px; text-align: center; height: 20px; }
-.adulti{background-color: #34558B; color:#fff;}
-.principianti{background-color: #7DCDB6;color:#fff;}
-.ragazzi{background-color: #F3C12C;color:#fff;}
-.bambini{background-color: #E87544;color:#fff;height: 40px;}
-.pesaro{color: #65bd4a;}
-.rimini{color: #bd4a65;}
-.onohaittoryu{background-color: #9DC6D8; color: #fff;}
+.adulti{background-color: #005493; color:#fff;}
+.principianti{background-color: #4c87b3;color:#fff;}
+.ragazzi{background-color: #99bad3;color:#000;}
+.bambini{background-color: #ccdce9;color:#000;height: 40px;}
+.pesaro{color: #549300;}
+.rimini{color: #c90606;}
+.onohaittoryu{background-color: #99bad3; color: #fff;}
 .libero{background-color: #ecf0f1;color:#000;}
 .emptyspace {border-top: 0px; border-bottom: 0px} 
 .warn{color: #aaa;padding-top: 5px;display: block;border-top: 1px solid #F2F2F2;}

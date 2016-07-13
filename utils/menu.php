@@ -14,7 +14,7 @@
     <li class="sidebar__link_item"><div class="sidebar__link_item__name"><a href="./onohaittoryu.php">onoha itto ryu</a></div></li>
     <li class="nomobile sidebar__link_item"><div class="sidebar__link_item__name"><a href="./dojo.php">dojo</a></div></li>
     <li class="nomobile sidebar__link_item"><div class="sidebar__link_item__name"><a href="./insegnante.php">insegnante</a></div></li>
-    <li class="nomobile sidebar__link_item"><div class="sidebar__link_item__name"><a href="./orario.php">orario</a></div></li>
+    <li class="nomobile sidebar__link_item"><div class="sidebar__link_item__name"><a href="./orario.php">corsi &amp; orari</a></div></li>
     <li class="nomobile sidebar__link_item"><div class="sidebar__link_item__name"><a href="./seminari.php">attivit&agrave;</a></div></li>
     <li class="sidebar__link_item"><div class="sidebar__link_item__name"><a href="./gallery.php">foto</a></div></li>
     <li class="nomobile sidebar__link_item"><div class="sidebar__link_item__name"><a href="./news.php">news</a></div></li>
@@ -22,7 +22,6 @@
 </ul>
 <div id="secondarymenu" class="sidebar__link_list">
     <ul class="<?php echo $isaikido; ?>">
-        <!--li class="sidebar__link_item"><div class="sidebar__link_item__name"><a href="./aikido.php">l'aikido</a></div></li-->
         <li class="sidebar__link_item"><div class="sidebar__link_item__name"><a href="./aikidopesaro.php">aikido Renbukai Pesaro</a></div></li>
         <li class="sidebar__link_item"><div class="sidebar__link_item__name"><a href="./aikidorimini.php">aikido Renbukai Rimini</a></div></li>
         <li class="sidebar__link_item"><div class="sidebar__link_item__name"><a href="./aikidoinsegnante.php">insegnante</a></div></li>

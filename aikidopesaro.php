@@ -20,7 +20,7 @@
     <link rel="stylesheet" media="screen" href="css/main.css" /> <!--Load CSS-->
 </head>
 <body>
-    <div class="container">
+  <div class="container">
         <div id="headernomobile" class="nomobile col-lg-12">
             <?php include('./utils/head_banner.php'); ?>
         </div>
@@ -31,6 +31,7 @@
         <div id="headermobile" class="mobile">
             <?php include('./utils/head_banner.php'); ?>
         </div>
+        
         <div class="row">
               <h3>Renbukai Pesaro</h3>
         </div>
