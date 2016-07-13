@@ -7,7 +7,7 @@
     $gallery = new gallery();
     $util = new utils();
     $s = new seminar();
-    $s->setSource("./seminari.json");
+    $s->setSource("./json/seminari.json");
 
     function sort_by_date($a, $b) {
         $dA = strtotime($a['data']);
@@ -52,7 +52,7 @@
         </div>
         <div class="row">
     <?php
-        $string = file_get_contents("./photos.json");
+        $string = file_get_contents("./json/photos.json");
         $json_a = json_decode($string, true);
         usort($json_a, 'sort_by_date');
         foreach ($json_a as $ph => $photo) {

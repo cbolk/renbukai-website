@@ -7,7 +7,7 @@
     $gallery = new gallery();
     $util = new utils();
     $s = new seminar();
-    $s->setSource("./seminari.json");
+    $s->setSource("./json/seminari.json");
 
     function sort_by_date($a, $b) {
         $dA = strtotime($a['data']);

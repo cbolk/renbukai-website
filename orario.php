@@ -4,7 +4,7 @@
 	include("./utils/class.utils.php");
     include("./utils/class.seminar.php");
     $s = new seminar();
-    $s->setSource("./seminari.json");
+    $s->setSource("./json/seminari.json");
 ?>
 <html>
 <head>
@@ -31,7 +31,11 @@
         </div>
 
         <div class="row">
-            <h3><a name="aa"></a>da settembre a giugno</h3>
+            <h3><a name="aa"></a>Orari delle lezioni</h3>
+        </div>
+
+        <div class="row">
+            <h4 class='text-center'>da settembre a giugno</h4>
         </div>
         <div class="row">
             <div class="col-xs-12">
@@ -115,10 +119,10 @@
                     </table>
                 </center>
             </div>
+            <div class="clearfix">&nbsp;</div>
         </div>
         <div class="row">
-            <div class="clearfix">&nbsp;</div>
-    		<h3><a name="07"></a>luglio</h3>
+    		<h4 class='text-center'><a name="07"></a>luglio</h4>
         </div>
         <div class="row">
         	<div class="col-xs-12">
@@ -197,10 +201,10 @@
                     </table>
                 </center>
                 </div>
+                <div class="clearfix">&nbsp;</div>
             </div>
             <div class="row">
-                <div class="clearfix">&nbsp;</div>
-        		<h3><a name="08"></a>agosto</h3>
+        		    <h4 class='text-center'><a name="08"></a>agosto</h4>
             </div>
             <div class="row">
             	<div class="col-xs-12">

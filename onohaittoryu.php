@@ -4,7 +4,7 @@
     include("./utils/class.utils.php");
     include("./utils/class.seminar.php");
     $s = new seminar();
-    $s->setSource("./seminari.json");
+    $s->setSource("./json/seminari.json");
 ?>
 <html>
 <head>

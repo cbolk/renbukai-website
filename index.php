@@ -11,10 +11,10 @@
   }
   $util = new utils();
   $s = new seminar();
-  $s->setSource("./seminari.json");
+  $s->setSource("./json/seminari.json");
   $semdata = $s->getNextNSeminars(2);
 	
-  $string = file_get_contents("./photos.json");
+  $string = file_get_contents("./json/photos.json");
   $json_a = json_decode($string, true);
   usort($json_a, 'sort_by_date');
   $gallery = new gallery();

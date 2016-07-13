@@ -19,7 +19,7 @@ class gallery {
                 unset($images[$index]);
             } else {
                 $images[$index] = array( //make an array of images and corresponding miniatures
-                    'full' => $this->path . '/' . $image,
+                    'full' => $this->path .  $image,
                     'thumb' => $this->path . '/thumbs/' . $image  
                     );
             }

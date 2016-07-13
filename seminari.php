@@ -4,9 +4,10 @@
 	include("./utils/class.utils.php");
     include("./utils/class.seminar.php");
     $s = new seminar();
-    $s->setSource("./seminari.json");
+    $s->setSource("./json/seminari.json");
     $util = new utils();
     $today = date('Y-m-d');
+    $year = $util->getStartAcademicYear($today);
 ?>
 <html>
     <meta charset="utf-8">
@@ -34,7 +35,7 @@
         </div>
 
 		<div class="row">
-			<h3>Seminari</h3><!--?php echo $today; ?-->
+			<h3>Seminari <?php echo "$year-" . ($year+1); ?></h3><!--?php echo $today; ?-->
         </div>
 		<div class="col-lg-12 col-xm-12"  id="seminarlist">
 		  	<?php
