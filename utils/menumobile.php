@@ -19,9 +19,9 @@
               <span class="icon-bar bgcolrenbukai"></span>
               <span class="icon-bar bgcolrenbukai"></span>
             </button>
-            <a class="navbar-brand mobile" href="./index.php">&nbsp;<img class='navheader' src='./assets/logoblue.png' width='20px' /><br/>home</a>
-            <a class="navbar-brand mobile" href="./orario.php#<?php echo $otarget;?>">&nbsp;<span class="glyphicon glyphicon-dashboard" aria-hidden="true"></span><br/>orario</a>
-            <a class="navbar-brand mobile" href="./seminari.php#<?php echo $s->sid;?>">&nbsp;<span class="glyphicon glyphicon-copy" aria-hidden="true"></span><br/>stage</a>
+            <a class="navbar-brand mobile noborder" href="./index.php">&nbsp;<img class='navheader' src='./assets/logoblue.png' width='20px' /><br/>home</a>
+            <a class="navbar-brand mobile noborder" href="./orario.php#<?php echo $otarget;?>">&nbsp;<span class="glyphicon glyphicon-dashboard" aria-hidden="true"></span><br/>orario</a>
+            <a class="navbar-brand mobile noborder" href="./seminari.php#<?php echo $s->sid;?>">&nbsp;<span class="glyphicon glyphicon-copy" aria-hidden="true"></span><br/>stage</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
