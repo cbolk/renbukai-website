@@ -2,10 +2,10 @@
       "giornoinizio": "2016-09-10",
       "giornofine": "2016-09-11",
       "città": "Pesaro",
-      "dojo": "Aikido Renbukai",
-      "indirizzo": "c/o Keiko Dojo, Via Gai, 19 - 61100 Pesaro (PU)",
-      "diretto": "R. Foglietta",
-      "titolo": "Seminario per i 40 anni di pratica",
+      "dojo": "Aikido Renbukai Pesaro/Rimini",
+      "indirizzo": "da stabilire",
+      "diretto": "",
+      "titolo": "Seminario per i 40 anni di pratica di R. Foglietta",
       "immagine": "rf2.jpg"
 }, {
       "giornoinizio": "2016-09-24",
@@ -97,6 +97,15 @@
       "diretto": "",
       "titolo": "Seminario di aikido",
       "immagine": "foto_ft2.jpg"
+}, {
+      "giornoinizio": "2017-04-09",
+      "giornofine": "2017-04-10",
+      "città": "Milano",
+      "dojo": "Aikikai d'Italia",
+      "indirizzo": "",
+      "diretto": "M&deg; Tada",
+      "titolo": "Seminario di primavera M&deg; Tada a Roma",
+      "immagine": "tada.jpg"
 }, {
       "giornoinizio": "2017-04-15",
       "giornofine": "2017-04-17",
