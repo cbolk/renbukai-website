@@ -73,5 +73,9 @@
     </div><!-- container -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>    
+
+    <!-- google tracking -->   
+    <?php include_once("utils/analyticstracking.php") ?>
+    
 </body>
 </html>

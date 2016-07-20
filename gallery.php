@@ -108,5 +108,9 @@
     <script src="js/bootstrap.js"></script>    
     <script src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
     <script src="js/bootstrap-image-gallery.min.js"></script>    
+
+    <!-- google tracking -->   
+    <?php include_once("utils/analyticstracking.php") ?>
+
 </body>
 </html>

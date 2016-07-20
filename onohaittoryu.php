@@ -34,7 +34,7 @@
         </div>
 
         <div class="row">
-    		<h3>Onoha Itto Ryu</h3>
+    		<h3>Onōha Ittōryū</h3>
         </div>
         <div class="row">
         	<div class="col-xs-12">
@@ -87,5 +87,9 @@
     </div><!-- container -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>    
+
+    <!-- google tracking -->   
+    <?php include_once("utils/analyticstracking.php") ?>
+
 </body>
 </html>
