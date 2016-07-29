@@ -53,15 +53,6 @@
       "titolo": "Seminario di aikido per Yudansha, I e II Kyu",
       "immagine": "foto_ft2.jpg"
 }, {
-      "giornoinizio": "2016-11-26",
-      "giornofine": "2016-11-27",
-      "città": "Foligno",
-      "dojo": "Aikido Fujinami Foligno",
-      "indirizzo": "Aikido Foligno c/o Presso Fisiogym, Piazza L. Vanvitelli - Loc. Paciana - Foligno (PG)",
-      "diretto": "R. Travaglini",
-      "titolo": "Seminario di aikido",
-      "immagine": "foto_rt.jpg"
-},  {
       "giornoinizio": "2016-12-26",
       "giornofine": "2016-12-30",
       "città": "Milano",
@@ -70,7 +61,7 @@
       "diretto": "R. Foglietta &amp; R. Travaglini",
       "titolo": "Seminario di fine anno",
       "immagine": "foto_ft2.jpg"
-},{
+}, {
       "giornoinizio": "2017-01-21",
       "giornofine": "2017-01-22",
       "città": "Milano",
@@ -113,7 +104,7 @@
       "dojo": "Aikikai d'Italia",
       "indirizzo": "",
       "diretto": "M&deg; Tada",
-      "titolo": "Seminario di primavera M&deg; Tada a Milano",
+      "titolo": "Seminario di primavera M&deg; Tada a Roma",
       "immagine": "tada.jpg"
 }, {
       "giornoinizio": "2017-04-15",
@@ -153,8 +144,8 @@
       "immagine": "rf2.jpg"
     
 }, {
-      "giornoinizio": "2017-06-17",
-      "giornofine": "2017-06-18",
+      "giornoinizio": "2017-06-24",
+      "giornofine": "2017-06-25",
       "città": "Pesaro",
       "dojo": "Aikido Renbukai",
       "indirizzo": "c/o Keiko Dojo, Via Gai, 19 - 61100 Pesaro (PU)",
