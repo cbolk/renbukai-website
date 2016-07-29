@@ -26,8 +26,8 @@
       "titolo": "Seminario di aikido",
       "immagine": "osawa.jpg"
 }, {
-      "giornoinizio": "2016-10-22",
-      "giornofine": "2016-10-23",
+      "giornoinizio": "2016-10-29",
+      "giornofine": "2016-10-30",
       "città": "Milano",
       "dojo": "Aikikai d'Italia",
       "indirizzo": "c/o Centro Sportivo Saini, via Corelli, 136 - 20134 Milano (MI)",
@@ -35,8 +35,8 @@
       "titolo": "Seminario d'autunno M&deg; Tada a Milano",
       "immagine": "tada.jpg"
 }, {
-      "giornoinizio": "2016-10-29",
-      "giornofine": "2016-10-30",
+      "giornoinizio": "2016-10-22",
+      "giornofine": "2016-10-23",
       "città": "Roma",
       "dojo": "Aikikai d'Italia",
       "indirizzo": "c/o Villa Eur, Piazzale Marcellino Champagnat, 2 - 00144 ROMA (RM)",
@@ -52,15 +52,6 @@
       "diretto": "R. Foglietta &amp; R. Travaglini",
       "titolo": "Seminario di aikido per Yudansha, I e II Kyu",
       "immagine": "foto_ft2.jpg"
-}, {
-      "giornoinizio": "2016-11-26",
-      "giornofine": "2016-11-27",
-      "città": "Foligno",
-      "dojo": "Aikido Fujinami Foligno",
-      "indirizzo": "Aikido Foligno c/o Presso Fisiogym, Piazza L. Vanvitelli - Loc. Paciana - Foligno (PG)",
-      "diretto": "R. Travaglini",
-      "titolo": "Seminario di aikido",
-      "immagine": "foto_rt.jpg"
 },  {
       "giornoinizio": "2016-12-26",
       "giornofine": "2016-12-30",
@@ -103,7 +94,7 @@
       "città": "Bologna",
       "dojo": "Aikido Fujinami Bologna",
       "indirizzo": "Fujinami, Via Nardi, 13 - 40139 Bologna (BO)",
-      "diretto": "",
+      "diretto": "R. Foglietta &amp; R. Travaglini",
       "titolo": "Seminario di aikido",
       "immagine": "foto_ft2.jpg"
 }, {
