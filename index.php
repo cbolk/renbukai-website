@@ -57,7 +57,9 @@
             <img src="./images/_front.jpg" alt="" />
           </div>        
           <div class="col-lg-6 col-xs-12 mainpage">
-            <p>Benvenuti nel sito dell'Associazione Renbukai, scuola di <a href="./aikido.php">Aikido</a> attiva a Pesaro e Rimini dal <strong>19xx</strong>, che a Pesaro ospita presso il Keikodojo 
+            <p>Benvenuti nel sito dell'Associazione Renbukai, scuola di <a href="./aikido.php">Aikido</a>, 
+            <!--attiva a Pesaro e Rimini dal <strong>19xx</strong>, --> 
+            che a Pesaro ospita presso il Keikodojo 
             uno dei sei Gruppi di Pratica di <a href="">Onoha Itto Ryu</a> in Italia.</p>
 
             <p>Il responsabile didattico &egrave; il Maestro <a href="./insegnante.php">Roberto Foglietta</a>, 6&deg; dan Aikikai d'Italia e Aikikai Tokyo.</p>
