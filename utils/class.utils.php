@@ -16,7 +16,7 @@
     	}
 
 		function getStartAcademicYear($date){
-			if(date('m', strtotime($date)) >= 9)
+			if(date('m', strtotime($date)) >= 8)
 				$year = date('Y', strtotime($date));
 			else
 				$year = date('Y', strtotime($date)) - 1;
