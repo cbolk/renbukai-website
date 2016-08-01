@@ -33,14 +33,14 @@
         </div>
         
         <div class="row">
-    		  <h3>Renbukai Rimini</h3>
+    		  <h3>Aikido Renbukai Rimini</h3>
         </div>
         <div class="col-xs-12">   
             <center> 
     		  	<p><em>orario corsi adulti e principianti</em></p>
     		  	<div class="timet"><span>&nbsp;</span>	<span><strong>settembre-giugno</strong></span> <span><strong>luglio</strong></span> <span><strong>agosto</strong></span></div>
     		  	<div class="timet"><span>&nbsp;</span>	<span>Principianti | Adulti</span> <span>Adulti</span> <span>Adulti</span></div>    		  	
-    		  	<div class="timet"><span class="row day">mercoled&igrave; &amp; venerd&igrave;</span> <span class="row">19:30-20:30 | 20:30-21:30</span> <span class="row">20:00-21:30</span> <span class="row">20:00-21:30</span></div>
+    		  	<div class="timet"><span class="row day">mercoled&igrave; &amp; venerd&igrave;</span> <span class="row">19:30-20:30 | 20:30-21:30</span> <span class="row">19:30-21:00</span> <span class="row">20:00-21:30</span></div>
                 <div class="timet"><span>&nbsp;</span><span>&nbsp;</span></div>
                 <div class="timet"><span>&nbsp;</span><p><em>orario corsi bambini</em></p></div>
     		  	<div class="timet"><span>&nbsp;</span>	<span><strong>ottobre-giugno</strong></span></div>

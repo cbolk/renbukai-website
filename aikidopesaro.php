@@ -33,7 +33,7 @@
         </div>
         
         <div class="row">
-              <h3>Renbukai Pesaro</h3>
+              <h3>Aikido Renbukai Pesaro</h3>
         </div>
         <div class="col-xs-12">        
             <center>

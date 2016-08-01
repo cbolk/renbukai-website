@@ -143,37 +143,21 @@
                           <tbody>
                           <tr>
                               <td class="time">16:00<span class='nomobile'> - </span><span class='mobile'><br/></span>18:30</td>
-                              <td rowspan="5" class="hour empty">&nbsp;</td>
-                              <td rowspan="3" class="hour empty">&nbsp;</td>
-                              <td rowspan="3" class="hour empty">&nbsp;</td>
-                              <td rowspan="3" class="hour empty">&nbsp;</td>
-                              <td rowspan="3" class="hour empty">&nbsp;</td>
+                              <td rowspan="4" class="hour empty">&nbsp;</td>
+                              <td rowspan="2" class="hour empty">&nbsp;</td>
+                              <td rowspan="2" class="hour empty">&nbsp;</td>
+                              <td rowspan="2" class="hour empty">&nbsp;</td>
+                              <td rowspan="2" class="hour empty">&nbsp;</td>
                               <td class="hour onohaittoryu"><span class='nomobile'>&nbsp;<br/>&nbsp;<br/>Onoha Itto Ryu</span><span class='mobile'>OIR</span><br/><a href="#note"><i class="fa fa-bookmark"></i></a><br/>&nbsp;</td>
-                              <td class="time">16:00<span class='nomobile'> - </span><span class='mobile'><br/></span>18:00</td>
+                              <td class="time">16:00<span class='nomobile'> - </span><span class='mobile'><br/></span>18:30</td>
                           </tr>
                           <tr>
                               <td class="time"></td>
-                              <!-- td mon -->
-                              <!-- td tue -->
-                              <!-- td wed -->
-                              <!-- td thu -->
-                              <!-- td fri -->
-                              <td class="hour empty">&nbsp;</td><!-- 18:00 - 18:30 -->
-                              <td class="time">18:00<span class='nomobile'>&nbsp;-&nbsp;</span><span class='mobile'><br/></span>18:30</td>
-                          </tr>
-                          <tr>
-                              <td class="time"></td>
-                              <!-- td mon -->
-                              <!-- td tue -->
-                              <!-- td wed -->
-                              <!-- td thu -->
-                              <!-- td fri -->
                               <td class="hour adulti" rowspan="2">&nbsp;<br/><span class='nomobile'>Adulti</span><span class='mobile'>A</span><br/>&nbsp;</td>
                               <td class="time" rowspan="2">18:30<span class='nomobile'>&nbsp;-&nbsp;</span><span class='mobile'><br/></span>20:00</td>
                           </tr>
                           <tr>
                               <td class="time">19:30<span class='nomobile'>&nbsp;-&nbsp;</span><span class='mobile'><br/></span>21:00</td>
-                              <!-- td mon -->
                               <td class="hour adulti" rowspan="2">&nbsp;<br/><span class='nomobile'>Adulti</span><span class='mobile'>A</span><br/>&nbsp;</td>
                               <td class="hour adulti" rowspan="2">&nbsp;<br/><span class='nomobile'>Adulti</span><span class='mobile'>A</span><br/>&nbsp;</td>
                               <td class="hour adulti" rowspan="2">&nbsp;<br/><span class='nomobile'>Adulti</span><span class='mobile'>A</span><br/>&nbsp;</td>
@@ -181,13 +165,7 @@
                               <td class="time"></td>
                           </tr>
                               <td class="time"></td>
-                              <!-- td mon -->
-                              <!-- td tue -->
-                              <!-- td wed -->
-                              <!-- td thu -->
-                              <!-- td fri -->
-                              <td class="hour empty">&nbsp;</td><!-- 18:00 - 18:30 -->
-                              
+                              <td class="hour empty">&nbsp;</td>
                           </tr>
                           </tbody>
                       </table>
