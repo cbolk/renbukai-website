@@ -34,6 +34,29 @@
             <?php include('./utils/head_banner.php'); ?>
         </div>
 
+        <div class="row">
+            <h3>Seminari 2015-2016</h3><!--?php echo $today; ?-->
+        </div>
+        <div class="col-lg-12 col-xm-12"  id="seminarlist">
+            <div class="seminarwrapper col-lg-12 col-xs-12 col-md-12 ">
+                <a name="20160819"></a>
+                <div class="semimage col-lg-2 col-xs-6 col-md-2 ">
+                    <img src="./stages/rf_armi.jpg"></div>
+                    <div class="semdate col-lg-2 col-xs-6 col-md-2 clearfix">AUG<br>19<br>2016<br>
+                        <span class="septop">Borgo Pace</span>
+                    </div>
+                    <div class="seminartext col-lg-8 col-xs-12 col-md-8 ">
+                            <div class="semdetails"><strong>Seminario di armi</strong> <span class="nomobile">|</span><span class="mobile"><br></span> <span class="ulined">R. Foglietta</span>
+                            </div>
+                            <div class="semdetails"><i class="fa fa-calendar"></i> dal 19-aug-2016 al 21-aug-2016</div>
+                            <div class="semdetails"><i class="fa fa-home"></i> organizzato da Aikido Renbukai Pesaro/Rimini</div>
+                            <div class="semdetails"><i class="fa fa-map-marker"></i> Borgo Page, Localit&agrave; Parchiule <span class="mobile"><br></span><a class="noborder" target="_blank" title="apre google maps" href='https://www.google.it/maps/place/61040+Parchiule+Province+of+Pesaro+and+Urbino/'><img src="./assets/gmaps.png" width="20px">&nbsp;<span class="mobile">apri in GoogleMaps</span></a>   
+                            </div>
+                            <div class='semdetails'><i class='fa fa-file-o'></i> locandina: <a  class='noborder' href='./stages/20160819.pdf'><i class='fa fa-file-pdf-o'></i></a></div>         
+                    </div>
+            <p></p>
+        </div>
+
 		<div class="row">
 			<h3>Seminari <?php echo "$year-" . ($year+1); ?></h3><!--?php echo $today; ?-->
         </div>

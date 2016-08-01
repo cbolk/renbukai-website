@@ -80,29 +80,35 @@
                 ?>
                    <h4 class='acenter'><span class="glyphicon glyphicon-copy" aria-hidden="true"></span> Prossimi appuntamenti</h4>
                    <div class="col-xs-12 col-sm-6 col-lg-6">
-                     <div class="maintitle">19-21 ago 2016 @ Borgo Pace</div>
-                                                    <div class="col-xs-12 col-sm-12 col-lg-12 semimage clearfix"><img src="./stages/rf_armi.jpg"></div>
+                     <div class='maintitle'><?php echo $semdata[0]['dates']; ?> @ <?php echo $semdata[0]['città']; ?></div>
+                     <?php
+                        if($semdata[0]['immagine'] != "" && $semdata[0]['immagine'] != null){
+                            ?>
+                               <div class='col-xs-12 col-sm-12 col-lg-12 semimage clearfix'><img src='./stages/<?php echo $semdata[0]['immagine']; ?>' /></div>
 
-                                                 <div class="caption">
-                        <p> Seminario di armi 
-                        <br>&nbsp;&nbsp;&nbsp;&nbsp;R. Foglietta 
-                         <a title="tutte le informazioni" href="./seminari.php#20160819">&nbsp;<i class="fa fa-angle-double-right"></i></a></p>
+                            <?php
+                        }
+                     ?>
+                     <div class="caption">
+                        <p><?php if(strpos(strtolower($semdata[0]['titolo']),'aikido') !== false) echo "<i class='fa fa-adn'></i>"; ?> <?php echo $semdata[0]['titolo']; ?> 
+                        <?php if($semdata[0]['diretto'] != "") echo "<br/>&nbsp;&nbsp;&nbsp;&nbsp;" . $semdata[0]['diretto']; ?> 
+                         <a title='tutte le informazioni' href='./seminari.php#<?php echo $semdata[0]['sid']; ?>'>&nbsp;<i class="fa fa-angle-double-right"></i></a></p>
                     </div>
                   </div>
                    <div class='mobile clearfix'>&nbsp;</div>
                    <div class="col-xs-12 col-sm-6 col-lg-6">
-                   <div class='maintitle'><?php echo $semdata[0]['dates']; ?> @ <?php echo $semdata[0]['città']; ?></div>
+                   <div class='maintitle'><?php echo $semdata[1]['dates']; ?> @ <?php echo $semdata[1]['città']; ?></div>
                      <?php
-                          if($semdata[0]['immagine'] != "" && $semdata[0]['immagine'] != null){
+                          if($semdata[1]['immagine'] != "" && $semdata[1]['immagine'] != null){
                               ?>
-                            <div class='col-xs-12 col-sm-12 col-lg-12 semimage clearfix'><img src='./stages/<?php echo $semdata[0]['immagine']; ?>' /></div>
+                            <div class='col-xs-12 col-sm-12 col-lg-12 semimage clearfix'><img src='./stages/<?php echo $semdata[1]['immagine']; ?>' /></div>
                     <?php
                           }
                      ?>
                      <div class="caption">
-                          <p><?php if(strpos(strtolower($semdata[0]['titolo']),'aikido') !== false) echo "<i class='fa fa-adn'></i>"; ?> <?php echo $semdata[0]['titolo']; ?> 
-                          <?php if($semdata[0]['diretto'] != "") echo "<br/>&nbsp;&nbsp;&nbsp;&nbsp;" . $semdata[0]['diretto']; ?> 
-                           <a title='tutte le informazioni' href='./seminari.php#<?php echo $semdata[0]['sid']; ?>'>&nbsp;<i class="fa fa-angle-double-right"></i></a></p>
+                          <p><?php if(strpos(strtolower($semdata[1]['titolo']),'aikido') !== false) echo "<i class='fa fa-adn'></i>"; ?> <?php echo $semdata[1]['titolo']; ?> 
+                          <?php if($semdata[1]['diretto'] != "") echo "<br/>&nbsp;&nbsp;&nbsp;&nbsp;" . $semdata[1]['diretto']; ?> 
+                           <a title='tutte le informazioni' href='./seminari.php#<?php echo $semdata[1]['sid']; ?>'>&nbsp;<i class="fa fa-angle-double-right"></i></a></p>
                       </div>
                     </div>                
              <?php   
