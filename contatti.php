@@ -37,7 +37,7 @@
     		<h3>Contatti</h3>
         </div>
         <div class="row">
-        	<div class="col-lg-6 col-xs-12">
+        	<div class="col-md-6 col-xs-12">
                 <p><strong>Aikido Renbukai Pesaro</strong><br/>
                 <p><strong>c/o KeikoDojo</strong><br/>
                 <i class="fa fa-map-marker"></i>&nbsp;<span>Via Pietro Gai, 19 - 61100 Pesaro (PU)</span><br/><br/>
@@ -50,7 +50,7 @@
                 </div>
 
         	</div>
-            <div class="col-lg-6 col-xs-12">
+            <div class="col-md-6 col-xs-12">
                 <p><strong>Aikido Renbukai Rimini</strong><br/>
                 <p><strong>c/o NikoNiko</strong><br/>
                 <i class="fa fa-map-marker"></i>&nbsp;<span>Via Madonna della scala, 53/a - 47800 Rimini (RN)</span><br/>

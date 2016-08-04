@@ -49,37 +49,37 @@
        		<h3>Aikido&nbsp;&nbsp;&nbsp;合気道</h3>
        	</div>
         <div class="row">
-            <div class="col-lg-3 col-xs-12">
+            <div class="col-lg-3 col-md-3 col-xs-12">
             <img src='http://www.aikikai.or.jp/eng/images/aikido/logo.gif' />
             <p class="notice">(dal sito dell'<a href='www.aikikai.or.jp' target=_blank>Aikikai Giappone</a>)</p>
             </div>
-        	<div class="col-lg-6 col-xs-12">
+        	<div class="col-lg-6 col-md-6 col-xs-12">
             <p>L'Aikido &egrave; un'arte marziale tradizionale giapponese non competitiva sviluppata negli anni '20 da Morihei Ueshiba (1883-1969) come disciplina del corpo, della mente e dello spirito.</p>
             <p>L'ideogramma Dō (道) che compare nel nome dell'Arte si pu&ograve; infatti tradurre con Via, cammino spirituale, mentre Ai (合) significa Armonia e Ki (気) energia, spirito.</p>
             <p>Il Maestro Morihei Ueshiba (cui ci si riferisce anche con il termine di O Sensei, il grande Maestro) era un esperto ai massimi livelli delle arti marziali giapponesi classiche, da cui il fondatore ha tratto ispirazione, arricchendo la disciplina di movimenti flessibili, razionali e molto efficaci. Il principio base dell'Aikido &egrave; quello di evadere e ridirigere la forza di chi attacca, invece che 
             farvi resistenza.</p>
             <p>Il fondatore ha introdotto l'Aikido come una via "banyu-aigo (amore per tutte le cose in natura)", dopo aver maturato dei dubbi riguardo alle arti marziali che permettono di sviluppare solamente delle abilit&agrave; legate al combattimento, il cui fine ultimo &egrave; sconfiggere l'avversario.</p>
             </div>
-            <div class="col-lg-3 col-xs-12">
+            <div class="col-lg-3 col-md-3 col-xs-12">
             <img src='http://www.aikikai.or.jp/eng/images/aikido/img_history_1.jpg' />
             <p class="notice">Morihei Ueshiba, fondatore dell'Aikido</p>
             </div>
         </div>
         <div class="row">            
-            <div class="col-lg-3 col-xs-12">
+            <div class="col-lg-3 col-md-3 col-xs-12">
                     <img src='http://www.aikikai.or.jp/eng/images/aikido/img_history_2.jpg' />
                     <p class="notice">Kisshomaru Ueshiba, secondo Doshu</p>
             </div>
-            <div class="col-lg-3 col-xs-12">
+            <div class="col-lg-3 col-md-3 col-xs-12">
                 <p>Dopo la morte del fondatore, suo figlio Kisshomaru Ueshiba viene nominato Aikido Doshu.<br/>
                 Attualmente Moriteru Ueshiba &egrave; Aikido Doshu, succeduto al padre.</p>
                 <p>L'Aikikai Foundation Aikido Honbu Dojo si trova a Tokyo, dove il Doshu ed altri Maestri fanno lezione quotidianamente, e dove i Maestri italiani sono andati e vanno a praticare e studiare per periodi pi&ugrave; meno lunghi.</p>            
             </div>
-            <div class="col-lg-3 col-xs-12">
+            <div class="col-lg-3 col-md-3 col-xs-12">
                     <img src='http://www.aikikai.or.jp/eng/images/aikido/img_history_3.jpg' />
                     <p class="notice">L'attuale Doshu</p>
             </div>
-            <div class="col-lg-3 col-xs-12">
+            <div class="col-lg-3 col-md-3 col-xs-12">
                     <img src='http://www.ueshibaaikido.org/Images/Images/Doshu/doshu.jpg' />
                     <p class="notice">Il Doshu presso l'Honbu Dojo,<br/>foto tratte dal sito dell'<a href='www.aikikai.or.jp' target=_blank>Aikikai Giappone</a>.</p>
                     
