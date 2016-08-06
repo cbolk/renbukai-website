@@ -68,7 +68,7 @@
         <div class="row">            
             <div class="col-lg-3 col-md-3 col-xs-12">
                     <img src='http://www.aikikai.or.jp/eng/images/aikido/img_history_2.jpg' />
-                    <p class="notice">Kisshomaru Ueshiba, secondo Doshu</p>
+                    <p class="notice">Kisshomaru Ueshiba, secondo Doshu.</p>
             </div>
             <div class="col-lg-3 col-md-3 col-xs-12">
                 <p>Dopo la morte del fondatore, suo figlio Kisshomaru Ueshiba viene nominato Aikido Doshu.<br/>
