@@ -8,13 +8,6 @@
 			return $dowMap[$dow];
 		}
 
-    	function getSchedule($day){
-		  	$month = date('m', strtotime($day));
-	   			if($month == 7 || $month == 8 || $month == 9)
-	   				return "0" . $month;
-	   			return "10";
-    	}
-
 		function getStartAcademicYear($date){
 			if(date('m', strtotime($date)) >= 8)
 				$year = date('Y', strtotime($date));

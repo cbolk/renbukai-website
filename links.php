@@ -41,7 +41,7 @@
             <div class="col-xs-12">
                 <h4>Italia</h4>
                 <ul>
-                <li><span class="name">Pagina Facebook</span> <a href="http://www.facebook.com/aikidorenbukai.it/" target=_blank><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                <li><span class="name">Pagina Facebook Aikido Renbukai Pesaro/Rimini </span> <a href="http://www.facebook.com/aikidorenbukai.it/" target=_blank><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
                 <li><span class="name">Aikikai Italia</span> <span class="address"><a href="http://www.aikikai.it" target=_blank>www.aikikai.it</a></span></li>
                 <li><span class="name">Aikikai Milano</span> <span class="address"><a href="http://www.aikikaimilano.it" target=_blank>www.aikikaimilano.it</a></span></li>
                 </ul>

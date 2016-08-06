@@ -49,15 +49,14 @@
                 il M&deg; Fujimoto Yogi (8&deg; Aikikai, Shihan), il M&deg; Hosokawa Hideki (7&deg; Aikikai, Shihan) e il M&deg; Nomoto Jun (7&deg; Aikikai, Shihan).
                 Durante il seminario consegue il grado di 5&deg; kyu, sostenendo il suo primo esame con il M&deg; Fujimoto.</p>
                 <p>Da quel momento, sempre con maggior intensit&agrave;, inizia a frequentare i seminari tenuti dai vari maestri, ed in particolare 
-                quelli del M&deg; Fujimoto, di cui &egrave; stato uke dal 1979 fino all'et&agrave; di 50 anni.<br/></p>
-                <p class="notab nomobile">Nel 1982 soggiorna per la prima volta in Giappone per due mesi, e ripete l'esperienza anche in seguito fermandosi per periodi dai due ai quattro mesi
+                quelli del M&deg; Fujimoto, di cui inizi&ograve; a fare da uke a partire dal 1979.<br/></p>
+                <p>Nel 1982 soggiorna per la prima volta in Giappone per due mesi, e ripete l'esperienza anche in seguito fermandosi per periodi dai due ai quattro mesi
                 per poter praticare presso l'Honbu Dojo, il Gessoju Dojo del M&deg; Tada, e il Satomi Hakken Kai del M&deg; Nomoto.</p>
             </div>
         </div>
         <div class="row">
             <div class="col-xs-12">    
-                <p class="ontab">Nel 1982 soggiorna per la prima volta in Giappone per due mesi, e ripete l'esperienza anche in seguito fermandosi per periodi dai due ai quattro mesi
-                per poter praticare presso l'Honbu Dojo, il Gessoju Dojo del M&deg; Tada, e il Satomi Hakken Kai del M&deg; Nomoto.</p>
+                <p></p>
                 <p>Ha tenuto e tiene lezioni e seminari in Italia e all'estero (la lista aggiornata dei seminari dell'anno in corso &egrave; disponibile a questa <a href="./seminari.php#<?php echo $s->sid;?>">pagina</a>).</p>
             </div>
         </div>

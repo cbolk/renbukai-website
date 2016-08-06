@@ -8,7 +8,7 @@
     if (strcmp($today,"07") != 0 && strcmp($today,"08") != 0)
         $otarget = "aa";
     else
-        $otarget = $today;
+        $otarget = "07";
 ?>
 <nav class="navbar">
     <div class="container-fluid">
