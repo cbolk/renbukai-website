@@ -27,13 +27,13 @@
         </div>
 
       <div class="row">
-        <h1>&nbsp;<br/>&nbsp;<br/>&nbsp;</h1>
+        <h1 class="nomobile">&nbsp;<br/>&nbsp;<br/>&nbsp;</h1>
         <h2 class="text-center text-primary">Sito in fase di aggiornamento</h2>
-        <h1>&nbsp;<br/>&nbsp;</h1>
+        <h3 class="nomobile">&nbsp;<br/>&nbsp;</h3>
       </div>
 
       <div class="row">
-        <p>Ci potete contattare nei seguenti modi:
+        <p><br/>&nbsp;Ci potete contattare nei seguenti modi:
             <ul>
               <li>venendoci a trovare in dojo, a Pesaro e Rimini, durante l'orario di pratica (in Agosto)
               <ul>
@@ -57,6 +57,7 @@
 
           </div>
             <div class="col-md-6 col-xs-12">
+                <p class="mobile">&nbsp;<br/>&nbsp;</p>
                 <p><strong>Aikido Renbukai Rimini</strong><br/>
                 <p><strong>c/o NikoNiko</strong><br/>
                 <i class="fa fa-map-marker"></i>&nbsp;<span>Via Madonna della scala, 53/a - 47800 Rimini (RN)</span><br/>
