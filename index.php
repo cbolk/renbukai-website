@@ -1,35 +1,13 @@
 <?php
   setlocale(LC_TIME, 'ita');
   date_default_timezone_set('Europe/Rome');
-  include("./utils/class.utils.php");
-  include("./utils/class.seminar.php");
-  include("./utils/class.gallery.php");
-  function sort_by_date($a, $b) {
-    $dA = strtotime($a['data']);
-    $dB = strtotime($b['data']);
-    return $dB - $dA;
-  }
-  $util = new utils();
-  $s = new seminar();
-  $s->setSource("./json/seminari.json");
-  $semdata = $s->getNextNSeminars(2);
-	
-  $string = file_get_contents("./json/photos.json");
-  $json_a = json_decode($string, true);
-  usort($json_a, 'sort_by_date');
-  $gallery = new gallery();
-  $data = $util->shortDate($json_a[0]['data']);
-  $folder = $json_a[0]['folder'];
-  $title = $json_a[0]['title'];
-  $gallery->setPath('./photos/' . $folder . '/'); //path to the image folder
-  $image = $gallery->getPreview(array('jpg','png'),2); //array of possible image extensions (useful if you have mixed 
 ?>
 <html>
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>associazione renbukai</title>
+    <title>Associazione Renbukai</title>
     <link rel="apple-touch-icon-precomposed" href="assets/favicon_t.png" />
     <link rel="shortcut icon" href="assets/favicon.png">
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -44,124 +22,81 @@
         <div id="headernomobile" class="nomobile col-lg-12">
             <?php include('./utils/head_banner.php'); ?>
         </div>
-        <div class="header clearfix">
-            <div id="mmenu"><?php include('./utils/menumobile.php'); ?></div>
-            <div id="smenu"></div>          
-        </div>
         <div id="headermobile" class="mobile">
             <?php include('./utils/head_banner.php'); ?>
         </div>
 
-        <div class="row">
-          <div class="col-lg-6 col-xs-12 mainpage acenter">
-            <img src="./images/_front.jpg" alt="" />
-          </div>        
-          <div class="col-lg-6 col-xs-12 mainpage">
-            <p>Benvenuti nel sito dell'Associazione Renbukai, scuola di <a href="./aikido.php">Aikido</a>, 
-            <!--attiva a Pesaro e Rimini dal <strong>19xx</strong>, --> 
-            che a Pesaro ospita presso il Keikodojo 
-            uno dei sei Gruppi di Pratica di <a href="">Onoha Itto Ryu</a> in Italia.</p>
+      <div class="row">
+        <p class="nomobile">&nbsp;<br/>&nbsp;<br/>&nbsp;</p>
+        <h2 class="text-center text-primary">Sito in fase di aggiornamento</h2>
+        <p>&nbsp;<br/>Benvenuti nel sito dell'Associazione Renbukai, scuola di Aikido, che a Pesaro ospita presso il Keikodojo uno dei sei Gruppi di Pratica di Onoha Itto Ryu in Italia.<br/>
 
-            <p>Il responsabile didattico &egrave; il Maestro <a href="./insegnante.php">Roberto Foglietta</a>, 6&deg; dan Aikikai d'Italia e Aikikai Tokyo.</p>
+Il responsabile didattico &egrave; il Maestro Roberto Foglietta, VI dan Aikikai d'Italia e Aikikai Tokyo.<br/>
 
-            <p>Presso i nostri dojo si tengono lezioni di Aikido per adulti e ragazzi, ogni <a href='./orario.php'>giorno</a>. 
-            &Egrave; possibile iscriversi in qualsiasi periodo dell'anno.</p>
+L'Associazione Renbukai &egrave; affiliata all'Associazione di Cultura Tradizionale Giapponese Aikikai d'Italia - Ente Morale (D.P.R. luglio 1978 n. 528).</p>
 
-            <p>Se siete interessati a praticare Aikido con noi, venite a <a href='./contatti.php'>trovarci</a>.</p>
-
-            <p>L'Associazione Renbukai &egrave; affiliata all'Associazione di Cultura Tradizionale Giapponese Aikikai d'Italia - Ente Morale (D.P.R. luglio 1978 n. 528).</p>
-          </div><!-- col-xs-12 mainpage -->
-        </div>
-        <div class="row">
-          <div class="container marketing">
-              <div class="col-xs-12 col-sm-8 col-lg-8">
-                <?php 
-                  if(count($semdata) == 2){ 
-                ?>
-                   <h4 class='acenter'><span class="glyphicon glyphicon-copy" aria-hidden="true"></span> Prossimi appuntamenti</h4>
-                   <div class="col-xs-12 col-sm-6 col-lg-6">
-                     <div class="maintitle">19-21 ago 2016 @ Borgo Pace</div>
-                                                    <div class="col-xs-12 col-sm-12 col-lg-12 semimage clearfix"><img src="./stages/rf_armi.jpg"></div>
-
-                                                 <div class="caption">
-                        <p> Seminario di armi 
-                        <br>&nbsp;&nbsp;&nbsp;&nbsp;R. Foglietta 
-                         <a title="tutte le informazioni" href="./seminari.php#20160819">&nbsp;<i class="fa fa-angle-double-right"></i></a></p>
-                    </div>
-                  </div>
-                   <div class='mobile clearfix'>&nbsp;</div>
-                   <div class="col-xs-12 col-sm-6 col-lg-6">
-                   <div class='maintitle'><?php echo $semdata[0]['dates']; ?> @ <?php echo $semdata[0]['città']; ?></div>
-                     <?php
-                          if($semdata[0]['immagine'] != "" && $semdata[0]['immagine'] != null){
-                              ?>
-                            <div class='col-xs-12 col-sm-12 col-lg-12 semimage clearfix'><img src='./stages/<?php echo $semdata[0]['immagine']; ?>' /></div>
-                    <?php
-                          }
-                     ?>
-                     <div class="caption">
-                          <p><?php if(strpos(strtolower($semdata[0]['titolo']),'aikido') !== false) echo "<i class='fa fa-adn'></i>"; ?> <?php echo $semdata[0]['titolo']; ?> 
-                          <?php if($semdata[0]['diretto'] != "") echo "<br/>&nbsp;&nbsp;&nbsp;&nbsp;" . $semdata[0]['diretto']; ?> 
-                           <a title='tutte le informazioni' href='./seminari.php#<?php echo $semdata[0]['sid']; ?>'>&nbsp;<i class="fa fa-angle-double-right"></i></a></p>
-                      </div>
-                    </div>                
-             <?php   
-                } else if(count($semdata) == 1) {
-                  ?>
-                   <h4 class='acenter'><span class="glyphicon glyphicon-copy" aria-hidden="true"></span> Prossimo appuntamento</h4>
-                   <div class="col-xs-12">
-                     <div class='maintitle'><?php echo $semdata[0]['dates']; ?> @ <?php echo $semdata[0]['città']; ?></div>
-                     <?php
-                        if($semdata[0]['immagine'] != "" && $semdata[0]['immagine'] != null){
-                            ?>
-                               <div class='col-xs-12 col-sm-12 col-lg-12 semimage clearfix'><img src='./stages/<?php echo $semdata[0]['immagine']; ?>' /></div>
-
-                            <?php
-                        }
-                     ?>
-                     <div class="caption">
-                        <p><?php if(strpos(strtolower($semdata[0]['titolo']),'aikido') !== false) echo "<i class='fa fa-adn'></i>"; ?> <?php echo $semdata[0]['titolo']; ?> 
-                        <?php if($semdata[0]['diretto'] != "") echo "<br/>&nbsp;&nbsp;&nbsp;&nbsp;" . $semdata[0]['diretto']; ?> 
-                         <a title='tutte le informazioni' href='./seminari.php#<?php echo $semdata[0]['sid']; ?>'>&nbsp;<i class="fa fa-angle-double-right"></i></a></p>
-                    </div>
-                  </div>
-
-                  <?php
-                } else {
-                  ?>
-                      <h4 class='acenter'><span class="glyphicon glyphicon-copy" aria-hidden="true"></span> Prossimi appuntamenti</h4>
-                      <div class="col-xs-12">
-                      <p>Il calendario dei prossimi stage sar&agrave; disponibile a breve.</p>
-                      </div>
-                  <?php
-                }
-              ?>
-              </div>
-              <div class="col-xs-12 col-sm-4 col-lg-4">
-              <?php
-                      if($image != "" && $image != null){
-                          ?>
-  		                <h4 class='acenter'><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> Galleria foto</h4>
-              			<div class="caption"><?php echo $title; ?><br/>&nbsp;</div>
-                          <div class="col-xs-12 col-sm-6 col-lg-6 semimage">
-                               <a class='noborder' href="<?php echo $image[0]['image']; ?>">
-                                  <img  src="<?php echo $image[0]['image']; ?>" alt="">
-                              </a>
-              			</div>
-                          <div class="col-xs-12 col-sm-6 col-lg-6 semimage">
-                               <a class='noborder' href="<?php echo $image[1]['image']; ?>">
-                                  <img class='' src="<?php echo $image[1]['image']; ?>" alt="">
-                              </a>
-              			</div>
-                          vai alla galleria <a title='tutte le informazioni' href='./gallery.php#<?php echo $folder; ?>'>&nbsp;<i class="fa fa-angle-double-right"></i></a>
-                          <?php
-                      }
-                 ?>
-           	</div>
-    		</div><!-- container marketing -->
       </div>
-      <div class="clearfix mobile">&nbsp;</div>
-      <footer class="footer mobile">
+
+      <div class="row">
+        <p><br/>&nbsp;Ci potete contattare nei seguenti modi:
+            <ul>
+              <li>venendoci a trovare in dojo, a Pesaro e Rimini, durante l'orario di pratica (in Agosto)
+              <ul>
+                <li>a <strong>Pesaro</strong>: Marted&igrave;, Gioved&igrave; dalle 19:30 alle 21:00, Sabato dalle 18:30 alle 20:00</li>
+                <li>a <strong>Rimini</strong>: Mercoled&igrave; e Venerd&igrave; dalle 19:30 alle 21:00</li>
+                </ul>
+              </li>
+              <li>telefonicamente: 340-5996157</li>
+              <li>via email: info@aikidorenbukai.it</li>
+            </ul>
+      </div>
+      <div class="row">
+          <div class="col-md-6 col-xs-12">
+                <p><strong>Aikido Renbukai Pesaro</strong><br/>
+                <p><strong>c/o KeikoDojo</strong><br/>
+                <i class="fa fa-map-marker"></i>&nbsp;<span>Via Pietro Gai, 19 - 61100 Pesaro (PU)</span><br/><br/>
+                <div>
+                    <iframe class="nomobile" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2874.725137263933!2d12.904746115505823!3d43.902959179113566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132d194fc615be2b%3A0xfa1abbad378072fc!2sVia+Gai+Pietro%2C+19%2C+61122+Pesaro+PU!5e0!3m2!1sen!2sit!4v1451164963649" width="95%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <iframe class="mobile" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2874.725137263933!2d12.904746115505823!3d43.902959179113566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132d194fc615be2b%3A0xfa1abbad378072fc!2sVia+Gai+Pietro%2C+19%2C+61122+Pesaro+PU!5e0!3m2!1sen!2sit!4v1451164963649" width="95%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+
+          </div>
+            <div class="col-md-6 col-xs-12">
+                <p class="mobile">&nbsp;<br/>&nbsp;</p>
+                <p><strong>Aikido Renbukai Rimini</strong><br/>
+                <p><strong>c/o NikoNiko</strong><br/>
+                <i class="fa fa-map-marker"></i>&nbsp;<span>Via Madonna della scala, 53/a - 47800 Rimini (RN)</span><br/>
+                (ingresso da via Tancredi Saletta, lato sinistro dell'edificio)<br/>
+                <div>
+                    <iframe class="nomobile" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2866.770956148851!2d12.559866714904427!3d44.067438033564414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132cc397327cec13%3A0x98578c694d5818ff!2sVia+Madonna+della+Scala%2C+53%2C+47921+Rimini+RN!5e0!3m2!1sen!2sit!4v1451165839968" width="95%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <iframe class="mobile" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2866.770956148851!2d12.559866714904427!3d44.067438033564414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132cc397327cec13%3A0x98578c694d5818ff!2sVia+Madonna+della+Scala%2C+53%2C+47921+Rimini+RN!5e0!3m2!1sen!2sit!4v1451165839968" width="95%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <h2 class="text-center text-primary">Prossimo appuntamento<br/></h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-4 text-right">
+          <a href='./stages/20160819.pdf' title='scarica la locandina seminario'><img src="./stages/20160819.thumb.png" /></a>
+        </div>
+        <div class="col-xs-8">
+          <div class="maintitle"><h3>19-21 ago 2016 @ Borgo Pace</h3></div>
+          <div class="caption">
+              <p>Seminario di armi diretto da R. Foglietta</p>
+              <p>Orario: Ven. 18-20<br/>
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sab. 07-08&nbsp;&nbsp;|&nbsp;&nbsp;09-11&nbsp;&nbsp;|&nbsp;&nbsp;17-19<br/>
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dom. 07-08&nbsp;|&nbsp;&nbsp;09-11&nbsp;&nbsp;pranzo</p>
+
+              <p>Portare jo, bokken e tanto</p>
+              <p>Il seminario si terr&agrave; all'aperto o in una palestra priva di tatami: portare calzature adatte (ad es. scarpe da ginnastica)</p>
+          </div>
+        </div>
+      </div>
+      <div class="clearfix">&nbsp;</div>
+      <footer class="footer">
         <div class="container acenter">
             <p class="text-muted"><img src="./assets/footer.png" alt=""></p>
         </div>

@@ -62,7 +62,7 @@
             che a Pesaro ospita presso il Keikodojo 
             uno dei sei Gruppi di Pratica di <a href="">Onoha Itto Ryu</a> in Italia.</p>
 
-            <p>Il responsabile didattico &egrave; il Maestro <a href="./insegnante.php">Roberto Foglietta</a>, 6&deg; dan Aikikai d'Italia e Aikikai Tokyo.</p>
+            <p>Il responsabile didattico &egrave; il Maestro <a href="./insegnante.php">Roberto Foglietta</a>, VI dan Aikikai d'Italia e Aikikai Tokyo.</p>
 
             <p>Presso i nostri dojo si tengono lezioni di Aikido per adulti e ragazzi, ogni <a href='./orario.php'>giorno</a>. 
             &Egrave; possibile iscriversi in qualsiasi periodo dell'anno.</p>

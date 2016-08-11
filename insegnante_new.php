@@ -72,7 +72,7 @@
             <div class="col-xs-12 col-sm-6 col-lg-6">
                 <div class="acenter pad">
                     <img src="./images/fujimoto.jpg" alt="M&deg; Fujimoto (uke R. Foglietta, Laces 200x)."/>
-                    <p class="notice">Il M&deg; Fujimoto (uke R. Foglietta, Laces 200x) foto Paolo Bottoni <a target=_blank href='http://www.musubi.it/'>Musubi</a>).</p>
+                    <p class="notice">Il M&deg; Fujimoto (uke R. Foglietta, Laces 200x, foto Paolo Bottoni <a target=_blank href='http://www.musubi.it/'>Musubi</a>).</p>
                 </div> 
             </div>
             <div class="col-xs-12 col-sm-6 col-lg-6">
