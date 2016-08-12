@@ -26,7 +26,7 @@
             <?php include('./utils/head_banner.php'); ?>
         </div>
 
-      <div class="row">
+      <!--div class="row"-->
         <p class="nomobile">&nbsp;<br/>&nbsp;<br/>&nbsp;</p>
         <h2 class="text-center text-primary">Sito in fase di aggiornamento</h2>
         <p>&nbsp;<br/>Benvenuti nel sito dell'Associazione Renbukai, scuola di Aikido, che a Pesaro ospita presso il Keikodojo uno dei sei Gruppi di Pratica di Onoha Itto Ryu in Italia.<br/>
@@ -35,10 +35,10 @@ Il responsabile didattico &egrave; il Maestro Roberto Foglietta, VI dan Aikikai 
 
 L'Associazione Renbukai &egrave; affiliata all'Associazione di Cultura Tradizionale Giapponese Aikikai d'Italia - Ente Morale (D.P.R. luglio 1978 n. 528).</p>
 
-      </div>
+      <!--/div-->
 
       <div class="row">
-        <p><br/>&nbsp;Ci potete contattare nei seguenti modi:
+        <p><br/>&nbsp;&nbsp;&nbsp;Ci potete contattare nei seguenti modi:
             <ul>
               <li>venendoci a trovare in dojo, a Pesaro e Rimini, durante l'orario di pratica (in Agosto)
               <ul>
@@ -79,10 +79,10 @@ L'Associazione Renbukai &egrave; affiliata all'Associazione di Cultura Tradizion
         </div>
       </div>
       <div class="row">
-        <div class="col-xs-4 text-right">
+        <div class="col-xs-12 col-md-4 text-right">
           <a href='./stages/20160819.pdf' title='scarica la locandina seminario'><img src="./stages/20160819.thumb.png" /></a>
         </div>
-        <div class="col-xs-8">
+        <div class="col-xs-12 col-md-8">
           <div class="maintitle"><h3>19-21 ago 2016 @ Borgo Pace</h3></div>
           <div class="caption">
               <p>Seminario di armi diretto da R. Foglietta</p>
