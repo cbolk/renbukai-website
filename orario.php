@@ -61,7 +61,7 @@
                         <td class="hour" rowspan='2'><span class='spacer'>E<br/>E</span></td>
                         <td class="hour" rowspan='4'></td>
                         <td class="hour" rowspan='4'></td>
-                        <td class="hour onohaittoryu" rowspan="4"><span class='nomobile'>Onoha Itto Ryu</span><span class='mobile'>OIR</span><br/><a href="#note"><i class="fa fa-bookmark"></i></td>
+                        <td class="hour onohaittoryu" rowspan="4"><span class='nomobile'>Onoha Itto Ryu</span><span class='mobile'>OIR</span><br/><a href="#note" class='noborder'><i class="fa fa-bookmark"></i></td>
                         <td class="time" rowspan="4">16:00<span class='nomobile'> - </span><span class='mobile'><br/></span>18:00</td>
                       </tr>
                       <tr id='s1630'> 
@@ -148,7 +148,7 @@
                               <td rowspan="2" class="hour empty">&nbsp;</td>
                               <td rowspan="2" class="hour empty">&nbsp;</td>
                               <td rowspan="2" class="hour empty">&nbsp;</td>
-                              <td class="hour onohaittoryu"><span class='nomobile'>&nbsp;<br/>&nbsp;<br/>Onoha Itto Ryu</span><span class='mobile'>OIR</span><br/><a href="#note"><i class="fa fa-bookmark"></i></a><br/>&nbsp;</td>
+                              <td class="hour onohaittoryu"><span class='nomobile'>&nbsp;<br/>&nbsp;<br/>Onoha Itto Ryu</span><span class='mobile'>OIR</span><br/><a href="#note" class='noborder'><i class="fa fa-bookmark"></i></a><br/>&nbsp;</td>
                               <td class="time">16:00<span class='nomobile'> - </span><span class='mobile'><br/></span>18:30</td>
                           </tr>
                           <tr>
