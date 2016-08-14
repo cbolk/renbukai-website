@@ -79,7 +79,7 @@
                         <td class="hour ragazzi" rowspan="2"><span class='nomobile'>Ragazzi</span><span class='mobile'>R</span></td>
                         <td class="hour ragazzi" rowspan="2"><span class='nomobile'>Ragazzi</span><span class='mobile'>R</span></td>
                         <td class="hour ragazzi" rowspan="2"><span class='nomobile'>Ragazzi</span><span class='mobile'>R</span></td>
-                        <td class="hour principianti" rowspan="2"><span class='nomobile'>Princianti &amp;<br/> Adulti</span><span class='mobile'>P&amp;A</span></td>
+                        <td class="hour principianti" rowspan="2"><span class='nomobile'>Principianti &amp;<br/> Adulti</span><span class='mobile'>P&amp;A</span></td>
                         <td class="time" rowspan="2">18:00<span class='nomobile'> - </span><span class='mobile'><br/></span>19:00</td>
                       </tr>
                       <tr id='s1830'>
@@ -95,10 +95,10 @@
                       </tr>
                       <tr  id='s1930'>
                         <td class="time" rowspan="2">19:30<span class='nomobile'> - </span><span class='mobile'><br/></span>20:30</td>
-                        <td class="hour principianti" rowspan="2"><span class='nomobile'>Princianti &amp;<br/> Adulti</span><span class='mobile'>P&amp;A</span></td>
-                        <td class="hour principianti" rowspan="2"><span class='nomobile'>Princianti &amp;<br/> Adulti</span><span class='mobile'>P&amp;A</span></td>
-                        <td class="hour principianti" rowspan="2"><span class='nomobile'>Princianti &amp;<br/> Adulti</span><span class='mobile'>P&amp;A</span></td>
-                        <td class="hour principianti" rowspan="2"><span class='nomobile'>Princianti &amp;<br/> Adulti</span><span class='mobile'>P&amp;A</span></td>
+                        <td class="hour principianti" rowspan="2"><span class='nomobile'>Principianti &amp;<br/> Adulti</span><span class='mobile'>P&amp;A</span></td>
+                        <td class="hour principianti" rowspan="2"><span class='nomobile'>Principianti &amp;<br/> Adulti</span><span class='mobile'>P&amp;A</span></td>
+                        <td class="hour principianti" rowspan="2"><span class='nomobile'>Principianti &amp;<br/> Adulti</span><span class='mobile'>P&amp;A</span></td>
+                        <td class="hour principianti" rowspan="2"><span class='nomobile'>Principianti &amp;<br/> Adulti</span><span class='mobile'>P&amp;A</span></td>
                       </tr>
                       <tr id='s2000'>
                         <td class="hour" rowspan="3"></td>
