@@ -14,6 +14,9 @@
     <title>aikido renbukai pesaro</title>
     <link rel="apple-touch-icon-precomposed" href="assets/favicon_t.png" />
     <link rel="shortcut icon" href="assets/favicon.png">
+    <meta name="description" content="aikido pesaro rimini renbukai jo bokken tanto arti marziali foglietta">
+    <meta name="author" content="cbolk">
+    
     <!-- bootstrap -->
     <!-- bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.css">
