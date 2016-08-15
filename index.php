@@ -10,6 +10,9 @@
     <title>Associazione Renbukai</title>
     <link rel="apple-touch-icon-precomposed" href="assets/favicon_t.png" />
     <link rel="shortcut icon" href="assets/favicon.png">
+    <meta name="description" content="aikido pesaro rimini renbukai jo bokken tanto arti marziali foglietta">
+    <meta name="author" content="cbolk">
+    
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" media="screen" href="css/main.css" /> <!--Load CSS-->
     <link rel="stylesheet" href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
