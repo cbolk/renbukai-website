@@ -43,7 +43,7 @@
             <div class="seminarwrapper col-lg-12 col-xs-12 col-md-12 ">
                 <a name="20160819"></a>
                 <div class="semimage col-lg-2 col-xs-6 col-md-2 ">
-                    <img src="./stages/rf_armi.jpg"></div>
+                    <img alt="seminario armi" src="./stages/rf_armi.jpg"></div>
                     <div class="semdate col-lg-2 col-xs-6 col-md-2 clearfix">AUG<br>19<br>2016<br>
                         <span class="septop">Borgo Pace</span>
                     </div>
@@ -52,7 +52,7 @@
                             </div>
                             <div class="semdetails"><i class="fa fa-calendar"></i> dal 19-aug-2016 al 21-aug-2016</div>
                             <div class="semdetails"><i class="fa fa-home"></i> organizzato da Aikido Renbukai Pesaro/Rimini</div>
-                            <div class="semdetails"><i class="fa fa-map-marker"></i> Borgo Page, Localit&agrave; Parchiule <span class="mobile"><br></span><a class="noborder" target="_blank" title="apre google maps" href='https://www.google.it/maps/place/61040+Parchiule+Province+of+Pesaro+and+Urbino/'><img src="./assets/gmaps.png" width="20px">&nbsp;<span class="mobile">apri in GoogleMaps</span></a>   
+                            <div class="semdetails"><i class="fa fa-map-marker"></i> Borgo Page, Localit&agrave; Parchiule <span class="mobile"><br></span><a class="noborder" target="_blank" title="apre google maps" href='https://www.google.it/maps/place/61040+Parchiule+Province+of+Pesaro+and+Urbino/'><img alt="google map icon" src="./assets/gmaps.png" width="20px">&nbsp;<span class="mobile">apri in GoogleMaps</span></a>   
                             </div>
                             <div class='semdetails'><i class='fa fa-file-o'></i> locandina: <a  class='noborder' href='./stages/20160819.pdf'><i class='fa fa-file-pdf-o'></i></a></div>         
                     </div>
@@ -84,7 +84,7 @@
 
 					echo "'>";
 					echo "<a name='" . str_replace("-", "", $firstday) ."'></a>";
-					echo "<div class='semimage col-lg-2 col-xs-6 col-md-2 '><img src='./stages/" . $sem[$i]['immagine'] . "' /></div>";
+					echo "<div class='semimage col-lg-2 col-xs-6 col-md-2 '><img alt='immagine segnaposto seminario' src='./stages/" . $sem[$i]['immagine'] . "' /></div>";
 					echo "<div class='semdate col-lg-2 col-xs-6 col-md-2 clearfix'>" . strtoupper($m) . "<br/>" . $d . "<br/>" . $y . "<br/><span class='septop'>" . $sem[$i]['città'] . "</span></div>";
 					echo "<div class='seminartext col-lg-8 col-xs-12 col-md-8 '><div class='semdetails'><strong>" . $sem[$i]['titolo'] . "</strong>";
 					if($sem[$i]['diretto'] != "" && $sem[$i]['diretto'] != null) 
@@ -101,7 +101,7 @@
 	    				$via = strpos($sem[$i]['indirizzo'], ",");
 	    				$map = substr($sem[$i]['indirizzo'], $via+2);
 	    				echo "<span class='mobile'><br></span>";
-	    				echo "<a class='noborder' target=_blank title='apre google maps' href='http://maps.google.com?q=" .  $map . "'><img src='./assets/gmaps.png' width='20px'/>&nbsp;<span class='mobile'>apri in GoogleMaps</span></a>";
+	    				echo "<a class='noborder' target=_blank title='apre google maps' href='http://maps.google.com?q=" .  $map . "'><img alt='immagine segnaposto googlemap' src='./assets/gmaps.png' width='20px'/>&nbsp;<span class='mobile'>apri in GoogleMaps</span></a>";
 	    				echo "</div>";
     				}
     				if($sem[$i]['locandina'] != null)
@@ -114,12 +114,8 @@
 			?>
             <p></p>
         </div>
-        <div class="clearfix mobile">&nbsp;</div>
-        <footer class="footer mobile">
-            <div class="container acenter">
-                <p class="text-muted"><img src="./assets/footer.png" alt=""></p>
-            </div>
-        </footer>        
+        <!-- footer -->   
+        <?php include_once("utils/footer.php") ?>
 	</div><!-- container -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>    

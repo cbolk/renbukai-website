@@ -45,7 +45,7 @@
         </div>
         <div class="row">
             <div class="col-xs-4 col-md-2 col-lg-2">
-                <img src="./images/oir.gif"/>
+                <img alt="logo onoha itto ryu" src="./images/oir.gif"/>
             </div>
             <div class="col-xs-8 col-md-10 col-lg-10">                  
                 <p>Onoha Ittō Ryū &egrave; riconosciuta come la pi&ugrave; antica tra tante scuole di Kenjutsu che sono nate dagli insegnamenti di Itō Ittōsai Kagehisa, e continua ad essere uno degli stili di kejutsu tradizionale con maggiore influenza sui kata, tattiche e forme del kendo moderno.</p>
@@ -71,18 +71,13 @@
             </div>
             <div class="col-xs-12 col-md-6 col-lg-6">
                 <div class="acenter pad">
-                    <img src="./images/oir1.jpg"/>
+                    <img alt="foto gruppo oir" src="./images/oir1.jpg"/>
                     <p class="notice">Membri del gruppo di pratica di Pesaro, al seminario internazionale con il Sōke Sasamori Takemi, Giugno 2015.</p>
                 </div>                
             </div>
         </div>
-
-        <div class="clearfix mobile">&nbsp;</div>
-        <footer class="footer mobile">
-            <div class="container acenter">
-                <p class="text-muted"><img src="./assets/footer.png" alt=""></p>
-            </div>
-        </footer>
+        <!-- footer -->   
+        <?php include_once("utils/footer.php") ?>
     </div><!-- container -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>    

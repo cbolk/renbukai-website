@@ -83,7 +83,7 @@ L'Associazione Renbukai &egrave; affiliata all'Associazione di Cultura Tradizion
       </div>
       <div class="row">
         <div class="col-xs-12 col-md-4 text-right">
-          <a href='./stages/20160819.pdf' title='scarica la locandina seminario'><img src="./stages/20160819.thumb.png" /></a>
+          <a href='./stages/20160819.pdf' title='scarica la locandina seminario'><img alt="locandina stage 2016-08-19" src="./stages/20160819.thumb.png" /></a>
         </div>
         <div class="col-xs-12 col-md-8">
           <div class="maintitle"><h3>19-21 ago 2016 @ Borgo Pace</h3></div>
@@ -98,12 +98,8 @@ L'Associazione Renbukai &egrave; affiliata all'Associazione di Cultura Tradizion
           </div>
         </div>
       </div>
-      <div class="clearfix">&nbsp;</div>
-      <footer class="footer">
-        <div class="container acenter">
-            <p class="text-muted"><img src="./assets/footer.png" alt=""></p>
-        </div>
-      </footer>
+        <!-- footer -->   
+        <?php include_once("utils/footer.php") ?>
     </div><!-- container -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>    

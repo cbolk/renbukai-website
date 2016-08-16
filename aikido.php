@@ -52,7 +52,7 @@
        	</div>
         <div class="row">
             <div class="col-lg-3 col-md-3 col-xs-12">
-            <img src='http://www.aikikai.or.jp/eng/images/aikido/logo.gif' />
+            <img alt='aikido' src='http://www.aikikai.or.jp/eng/images/aikido/logo.gif' />
             <p class="notice">(dal sito dell'<a href='www.aikikai.or.jp' target=_blank>Aikikai Giappone</a>)</p>
             </div>
         	<div class="col-lg-6 col-md-6 col-xs-12">
@@ -63,13 +63,13 @@
             <p>Il fondatore ha introdotto l'Aikido come una via "banyu-aigo (amore per tutte le cose in natura)", dopo aver maturato dei dubbi riguardo alle arti marziali che permettono di sviluppare solamente delle abilit&agrave; legate al combattimento, il cui fine ultimo &egrave; sconfiggere l'avversario.</p>
             </div>
             <div class="col-lg-3 col-md-3 col-xs-12">
-            <img src='http://www.aikikai.or.jp/eng/images/aikido/img_history_1.jpg' />
+            <img alt='foto Morihei Ueshiba' src='http://www.aikikai.or.jp/eng/images/aikido/img_history_1.jpg' />
             <p class="notice">Morihei Ueshiba, fondatore dell'Aikido</p>
             </div>
         </div>
         <div class="row">            
             <div class="col-lg-3 col-md-3 col-xs-12">
-                    <img src='http://www.aikikai.or.jp/eng/images/aikido/img_history_2.jpg' />
+                    <img alt='foto Kisshomaru Ueshiba' src='http://www.aikikai.or.jp/eng/images/aikido/img_history_2.jpg' />
                     <p class="notice">Kisshomaru Ueshiba, secondo Doshu.</p>
             </div>
             <div class="col-lg-3 col-md-3 col-xs-12">
@@ -78,11 +78,11 @@
                 <p>L'Aikikai Foundation Aikido Honbu Dojo si trova a Tokyo, dove il Doshu ed altri Maestri fanno lezione quotidianamente, e dove i Maestri italiani sono andati e vanno a praticare e studiare per periodi pi&ugrave; meno lunghi.</p>            
             </div>
             <div class="col-lg-3 col-md-3 col-xs-12">
-                    <img src='http://www.aikikai.or.jp/eng/images/aikido/img_history_3.jpg' />
+                    <img alt='foto attuale doshu' src='http://www.aikikai.or.jp/eng/images/aikido/img_history_3.jpg' />
                     <p class="notice">L'attuale Doshu</p>
             </div>
             <div class="col-lg-3 col-md-3 col-xs-12">
-                    <img src='http://www.ueshibaaikido.org/Images/Images/Doshu/doshu.jpg' />
+                    <img alt='foto doshu' src='http://www.ueshibaaikido.org/Images/Images/Doshu/doshu.jpg' />
                     <p class="notice">Il Doshu presso l'Honbu Dojo,<br/>foto tratte dal sito dell'<a href='www.aikikai.or.jp' target=_blank>Aikikai Giappone</a>.</p>
                     
             </div>
@@ -96,12 +96,8 @@
         <div class="row">            
                 <div class="notice">Scuola affiliata all'Associazione di Cultura Tradizionale Giapponese <span class="iphone">  </span><a href="http://www.aikikai.it" title="sito web dell'aikikai d'Italia" target="_blank">Aikikai d'Italia</a> - Ente Morale (D.P.R. luglio 1978 n. 528)</div>
         </div>
-        <div class="clearfix mobile">&nbsp;</div>
-        <footer class="footer mobile">
-            <div class="container acenter">
-                <p class="text-muted"><img src="./assets/footer.png" alt=""></p>
-            </div>
-        </footer>
+        <!-- footer -->   
+        <?php include_once("utils/footer.php") ?>
     </div><!-- container -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>    

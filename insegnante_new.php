@@ -39,7 +39,7 @@
 		</div>            
         <div class="row">
         	<div class="col-xs-12 col-sm-6 col-lg-6 ">
-              	<div class="acenter pad"><img src="./images/rf03.jpg"/></div>
+              	<div class="acenter pad"><img alt="Roberto Foglietta" src="./images/rf03.jpg"/></div>
         	</div>
         	<div class="col-xs-12 col-sm-6 col-lg-6">
                 <p></p>
@@ -59,7 +59,7 @@
             </div>
             <div class="col-xs-12 col-sm-6 col-lg-6">  
                 <div class="acenter pad">
-                    <img src="http://www.musubi.it/images/dojo/tada-fuji-hoso02.jpg" alt="M&deg; Fujimoto, Tada e Hosokawa"/>
+                    <img alt="foto Maestri Fujimoto, Tada e Hosokawa" src="http://www.musubi.it/images/dojo/tada-fuji-hoso02.jpg" alt="M&deg; Fujimoto, Tada e Hosokawa"/>
                     <p class="notice">I M&deg; Fujimoto, Tada e Hosokawa a La Spezia nel 2002<br/>(foto Paolo Bottoni, sito <a target=_blank href='http://www.musubi.it/'>Musubi</a>).</p>
                 </div>
             </div>            
@@ -73,23 +73,19 @@
         <div class="row">        
             <div class="col-xs-12 col-sm-6 col-lg-6">
                 <div class="acenter pad">
-                    <img src="./images/fujimoto.jpg" alt="M&deg; Fujimoto (uke R. Foglietta, Laces 200x)."/>
+                    <img alt="foto Maestro Fujimoto" src="./images/fujimoto.jpg" alt="M&deg; Fujimoto (uke R. Foglietta, Laces 200x)."/>
                     <p class="notice">Il M&deg; Fujimoto (uke R. Foglietta, Laces 200x, foto Paolo Bottoni <a target=_blank href='http://www.musubi.it/'>Musubi</a>).</p>
                 </div> 
             </div>
             <div class="col-xs-12 col-sm-6 col-lg-6">
                 <div class="acenter pad">
-                    <img src="./images/rf04.jpg" alt="Lezione di bokken"/>
+                    <img alt="foto Roberto Foglietta, lezione di armi" src="./images/rf04.jpg" alt="Lezione di bokken"/>
                     <p class="notice">Lezione di armi.</p>
                 </div>
             </div>
-        </div>      
-        <div class="clearfix mobile">&nbsp;</div>
-        <footer class="footer mobile">
-            <div class="container acenter">
-                <p class="text-muted"><img src="./assets/footer.png" alt=""></p>
-            </div>
-        </footer>
+        </div>
+        <!-- footer -->   
+        <?php include_once("utils/footer.php") ?>
     </div><!-- container -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>    

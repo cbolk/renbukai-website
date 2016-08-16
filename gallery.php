@@ -23,7 +23,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>foto</title>
+    <title>galleria foto</title>
     <link rel="apple-touch-icon-precomposed" href="assets/favicon_t.png" />
     <link rel="shortcut icon" href="assets/favicon.png">
     <meta name="description" content="aikido pesaro rimini renbukai jo bokken tanto arti marziali foglietta">
@@ -97,14 +97,10 @@
 
     ?>
 
-       <hr/>
-       </div>
-        <div class="clearfix mobile">&nbsp;</div>
-        <footer class="footer mobile">
-        <div class="container acenter">
-            <p class="text-muted"><img src="./assets/footer.png" alt=""></p>
+        <hr/>
         </div>
-        </footer>
+        <!-- footer -->   
+        <?php include_once("utils/footer.php") ?>
     </div><!-- container -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>    

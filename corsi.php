@@ -11,7 +11,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>associazione renbukai - dojo</title>
+    <title>associazione renbukai - corsi</title>
     <link rel="apple-touch-icon-precomposed" href="assets/favicon_t.png" />
     <link rel="shortcut icon" href="assets/favicon.png">
     <meta name="description" content="aikido pesaro rimini renbukai jo bokken tanto arti marziali foglietta">
@@ -56,7 +56,7 @@
 
             </div>       
             <div class="col-lg-6 col-xs-12">
-                 <img src='./images/dojoP.jpg' />
+                 <img alt='dojo pesaro' src='./images/dojoP.jpg' />
                  <p class="notice">il dojo di <a href='./aikidopesaro.php'>Pesaro</a></p>
             </div>
         </div> 
@@ -82,12 +82,8 @@
                  <a href='aikidorimini.php'>Rimini <i class="rimini fa fa-map-marker"></i></a>) trovate gli orari specifici degli allenamenti e come raggiungerci, mentre l'orario completo &egrave; consultabile <a href='./orario.php'>qui</a>.</p>
     		</div>
         </div>
-        <div class="clearfix mobile">&nbsp;</div>
-        <footer class="footer mobile">
-        <div class="container acenter">
-            <p class="text-muted"><img src="./assets/footer.png" alt=""></p>
-        </div>
-        </footer>
+        <!-- footer -->   
+        <?php include_once("utils/footer.php") ?>
     </div><!-- container -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>    

@@ -57,7 +57,7 @@
 
         <div class="row">
           <div class="col-lg-6 col-xs-12 mainpage acenter">
-            <img src="./images/_front.jpg" alt="" />
+            <img alt="foto Roberto Foglietta" src="./images/_front.jpg" alt="" />
           </div>        
           <div class="col-lg-6 col-xs-12 mainpage">
             <p>Benvenuti nel sito dell'Associazione Renbukai, scuola di <a href="./aikido.php">Aikido</a>, 
@@ -87,7 +87,7 @@
                      <?php
                         if($semdata[0]['immagine'] != "" && $semdata[0]['immagine'] != null){
                             ?>
-                               <div class='col-xs-12 col-sm-12 col-lg-12 semimage clearfix'><img src='./stages/<?php echo $semdata[0]['immagine']; ?>' /></div>
+                               <div class='col-xs-12 col-sm-12 col-lg-12 semimage clearfix'><img alt='segnaposto seminario' src='./stages/<?php echo $semdata[0]['immagine']; ?>' /></div>
 
                             <?php
                         }
@@ -104,7 +104,7 @@
                      <?php
                           if($semdata[1]['immagine'] != "" && $semdata[1]['immagine'] != null){
                               ?>
-                            <div class='col-xs-12 col-sm-12 col-lg-12 semimage clearfix'><img src='./stages/<?php echo $semdata[1]['immagine']; ?>' /></div>
+                            <div class='col-xs-12 col-sm-12 col-lg-12 semimage clearfix'><img alt='segnaposto seminario' src='./stages/<?php echo $semdata[1]['immagine']; ?>' /></div>
                     <?php
                           }
                      ?>
@@ -123,7 +123,7 @@
                      <?php
                         if($semdata[0]['immagine'] != "" && $semdata[0]['immagine'] != null){
                             ?>
-                               <div class='col-xs-12 col-sm-12 col-lg-12 semimage clearfix'><img src='./stages/<?php echo $semdata[0]['immagine']; ?>' /></div>
+                               <div class='col-xs-12 col-sm-12 col-lg-12 semimage clearfix'><img alt='segnaposto seminario' src='./stages/<?php echo $semdata[0]['immagine']; ?>' /></div>
 
                             <?php
                         }
@@ -154,12 +154,12 @@
               			<div class="caption"><?php echo $title; ?><br/>&nbsp;</div>
                           <div class="col-xs-12 col-sm-6 col-lg-6 semimage">
                                <a class='noborder' href="<?php echo $image[0]['image']; ?>">
-                                  <img  src="<?php echo $image[0]['image']; ?>" alt="">
+                                  <img alt="foto seminario" class='' src="<?php echo $image[0]['image']; ?>" alt="">
                               </a>
               			</div>
                           <div class="col-xs-12 col-sm-6 col-lg-6 semimage">
                                <a class='noborder' href="<?php echo $image[1]['image']; ?>">
-                                  <img class='' src="<?php echo $image[1]['image']; ?>" alt="">
+                                  <img alt='foto seminario' class='' src="<?php echo $image[1]['image']; ?>" alt="">
                               </a>
               			</div>
                           vai alla galleria <a title='tutte le informazioni' href='./gallery.php#<?php echo $folder; ?>'>&nbsp;<i class="fa fa-angle-double-right"></i></a>
@@ -169,12 +169,8 @@
            	</div>
     		</div><!-- container marketing -->
       </div>
-      <div class="clearfix mobile">&nbsp;</div>
-      <footer class="footer mobile">
-        <div class="container acenter">
-            <p class="text-muted"><img src="./assets/footer.png" alt=""></p>
-        </div>
-      </footer>
+        <!-- footer -->   
+        <?php include_once("utils/footer.php") ?>
     </div><!-- container -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>    

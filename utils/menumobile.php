@@ -36,6 +36,7 @@
                 <li><a href="./contatti.php">contatti</a></li>
                 <!--li><a href="./news.php">news</a></li-->
                 <li><a href="./links.php">link</a></li>
+                <li><a href="./english.php" title="information in English"><img alt='English' src='./assets/english32.png' /></a></li>
             </ul>
         </div>
     </div>

@@ -39,7 +39,7 @@
 		</div>            
         <div class="row">
         	<div class="col-xs-12 col-sm-6 col-lg-6 ">
-              	<div class="acenter pad"><img src="./images/rf03.jpg"/></div>
+              	<div class="acenter pad"><img alt='foto Roberto Foglietta' src="./images/rf03.jpg"/></div>
         	</div>
         	<div class="col-xs-12 col-sm-6 col-lg-6">
                 <p></p>
@@ -75,15 +75,11 @@
                 	<div class="rank"><span class="piece">25.07.2009</span> <span class="piece">La Spezia</span> <span class="piece">6&deg; dan</span> <span class="piece">M&deg; Tada</span></div>
             </div>
             <div class="col-xs-12 col-sm-6 col-lg-6">
-                <div class="acenter pad"><img src="./images/rf04.jpg"/></div>
+                <div class="acenter pad"><img alt='foto Roberto Foglietta - armi' src="./images/rf04.jpg"/></div>
             </div>
         </div>      
-        <div class="clearfix mobile">&nbsp;</div>
-        <footer class="footer mobile">
-            <div class="container acenter">
-                <p class="text-muted"><img src="./assets/footer.png" alt=""></p>
-            </div>
-        </footer>
+        <!-- footer -->   
+        <?php include_once("utils/footer.php") ?>
     </div><!-- container -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>    
