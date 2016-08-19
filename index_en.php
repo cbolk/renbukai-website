@@ -45,8 +45,8 @@
             <ul>
               <li>come and see us in our dojo, in Pesaro or Rimini, during classes (in August)
               <ul>
-                <li>a <strong>Pesaro</strong>: Tuesday, Thursday from 7:30PM to 9:00PM, Saturday from 6:30PM to 8:00PM</li>
-                <li>a <strong>Rimini</strong>: Wednesday and Friday from 7:30PM to 9:00PM</li>
+                <li>in <strong>Pesaro</strong>: on Tuesday, Thursday from 7:30PM to 9:00PM, Saturday from 6:30PM to 8:00PM</li>
+                <li>in <strong>Rimini</strong>: on Wednesday and Friday from 7:30PM to 9:00PM</li>
                 </ul>
               </li>
               <li>give us a call: 340-5996157</li>
