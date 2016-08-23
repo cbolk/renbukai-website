@@ -83,7 +83,7 @@ L'Associazione Renbukai &egrave; affiliata all'Associazione di Cultura Tradizion
       </div>
       <div class="row">
         <div class="col-xs-12 col-md-4 text-right">
-          <a href='./stages/20160819.pdf' title='scarica la locandina seminario'><img alt="locandina stage 2016-09-10" src="./stages/20160910.thumb.png" /></a>
+          <a href='./stages/20160910.pdf' title='scarica la locandina seminario'><img alt="locandina stage 2016-09-10" src="./stages/20160910.thumb.png" /></a>
         </div>
         <div class="col-xs-12 col-md-8">
           <div class="maintitle"><h3>10-11 sett 2016 @ Pesaro</h3></div>

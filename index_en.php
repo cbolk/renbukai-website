@@ -83,12 +83,12 @@
       </div>
       <div class="row">
         <div class="col-xs-12 col-md-4 text-right">
-          <a href='./stages/20160819.pdf' title='scarica la locandina seminario'><img alt="locandina stage 2016-09-10" src="./stages/20160910.thumb.png" /></a>
+          <a href='./stages/20160910.pdf' title='scarica la locandina seminario'><img alt="locandina stage 2016-09-10" src="./stages/20160910.thumb.png" /></a>
         </div>
         <div class="col-xs-12 col-md-8">
           <div class="maintitle"><h3>Sep. 10-11 2016 @ Pesaro</h3></div>
           <div class="caption">
-              <p><strong>Aikido Seminar - 40 years of practice - R. Foglietta</strong></p>
+              <p><strong>Aikido Seminar - R. Foglietta: 40 years of practice</strong></p>
              <p>Schedule: Sat. 18-20&nbsp;&nbsp;dinner<br/>
                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sun. 10-12</p>
 
