@@ -67,6 +67,10 @@
                 </div>
             </div>
         </div>
+        <div class="clearfix">&nbsp;</div>
+        <div class="row">
+            <p class="small">Per informazioni/segnalazioni relative al sito web: <i class="fa fa-envelope-o"></i>&nbsp;webmaster@aikidorenbukai.it</p>
+        </div>
         <!-- footer -->   
         <?php include_once("utils/footer.php") ?>
     </div><!-- container -->
