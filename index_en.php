@@ -31,7 +31,7 @@
 
       <!--div class="row"-->
         <p class="nomobile">&nbsp;<br/>&nbsp;<br/>&nbsp;</p>
-        <h2 class="text-center text-primary">New website under construction&nbsp;&nbsp;<a class='noborder' href="./index.php" title="information in Italian"><img class='noborder' alt='Italian flag' src='./assets/italian32.png' width="24" /></a></h2>
+        <h2 class="text-center text-primary">New website under construction<br/><small>(information in Italian&nbsp;&nbsp;<a class='noborder' href="./index.php" title="information in Italian"><img class='noborder' alt='Italian flag' src='./assets/italian16.png' width="20" /></a>)</small></h2>
         <p>&nbsp;<br/>Associazione Renbukai is an Aikido school with two dojos, one in Pesaro and the other one in Rimini, affiliated to <a href='http://www.aikikai.it' target=_blank>Aikikai d'Italia</a>.<br/>
 
         We have both general and youngster classes every <a href='#schedule'>day</a> at our dojos, and it is possible to enroll at any time during the year.<br/>
@@ -78,22 +78,21 @@
         </div>
       <div class="row">
         <div class="col-xs-12">
-          <h2 class="text-center text-primary">Upcoming event<br/></h2>
+          <h2 class="text-center text-primary">Upcoming event<br/>&nbsp;</h2>
         </div>
       </div>
       <div class="row">
         <div class="col-xs-12 col-md-4 text-right">
-          <a href='./stages/20160819.pdf' title='scarica la locandina seminario'><img alt="locandina stage 2016-08-19" src="./stages/20160819.thumb.png" /></a>
+          <a href='./stages/20160819.pdf' title='scarica la locandina seminario'><img alt="locandina stage 2016-09-10" src="./stages/20160910.thumb.png" /></a>
         </div>
         <div class="col-xs-12 col-md-8">
-          <div class="maintitle"><h3>19-21 Aug. 2016 @ Borgo Pace</h3></div>
+          <div class="maintitle"><h3>Sep. 10-11 2016 @ Pesaro</h3></div>
           <div class="caption">
-              <p>Weapons seminar - R. Foglietta</p>
-             <p>Schedule: Fri. 18-20<br/>
-                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sat. 07-08&nbsp;&nbsp;|&nbsp;&nbsp;09-11&nbsp;&nbsp;|&nbsp;&nbsp;17-19<br/>
-                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sun. 07-08&nbsp;|&nbsp;&nbsp;09-11&nbsp;&nbsp;lunch</p>
+              <p><strong>Aikido Seminar - 40 years of practice - R. Foglietta</strong></p>
+             <p>Schedule: Sat. 18-20&nbsp;&nbsp;dinner<br/>
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sun. 10-12</p>
 
-              <p>Bring your weapons: jo, bokken e tanto</p>
+              <p>Open classes (no fee).</p>
           </div>
         </div>
       </div>

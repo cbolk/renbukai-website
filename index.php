@@ -31,7 +31,7 @@
 
       <!--div class="row"-->
         <p class="nomobile">&nbsp;<br/>&nbsp;<br/>&nbsp;</p>
-        <h2 class="text-center text-primary">Sito in fase di aggiornamento&nbsp;&nbsp;<a class='noborder' href="./index_en.php" title="information in English"><img class='noborder' alt='English flag' src='./assets/english32.png' width="24" /></a></h2>
+        <h2 class="text-center text-primary">Sito in fase di aggiornamento<br/><small>(information in English&nbsp;&nbsp;<a class='noborder' href="./index_en.php" title="information in English"><img class='noborder' alt='English flag' src='./assets/english16.png' width="20" /></a>)</small></h2>
         <p>&nbsp;<br/>Benvenuti nel sito dell'Associazione Renbukai, scuola di Aikido, che a Pesaro ospita presso il Keikodojo uno dei sei Gruppi di Pratica di Onoha Itto Ryu in Italia.<br/>
 
 Il responsabile didattico &egrave; il Maestro Roberto Foglietta, VI dan Aikikai d'Italia e Aikikai Tokyo.<br/>
@@ -83,18 +83,18 @@ L'Associazione Renbukai &egrave; affiliata all'Associazione di Cultura Tradizion
       </div>
       <div class="row">
         <div class="col-xs-12 col-md-4 text-right">
-          <a href='./stages/20160819.pdf' title='scarica la locandina seminario'><img alt="locandina stage 2016-08-19" src="./stages/20160819.thumb.png" /></a>
+          <a href='./stages/20160819.pdf' title='scarica la locandina seminario'><img alt="locandina stage 2016-09-10" src="./stages/20160910.thumb.png" /></a>
         </div>
         <div class="col-xs-12 col-md-8">
-          <div class="maintitle"><h3>19-21 ago 2016 @ Borgo Pace</h3></div>
+          <div class="maintitle"><h3>10-11 sett 2016 @ Pesaro</h3></div>
           <div class="caption">
-              <p>Seminario di armi diretto da R. Foglietta</p>
-              <p>Orario: Ven. 18-20<br/>
-                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sab. 07-08&nbsp;&nbsp;|&nbsp;&nbsp;09-11&nbsp;&nbsp;|&nbsp;&nbsp;17-19<br/>
-                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dom. 07-08&nbsp;|&nbsp;&nbsp;09-11&nbsp;&nbsp;pranzo</p>
+              <p><strong>Seminario 40 anni di aikido R. Foglietta</strong></p>
+              <p>Orario: Sab. 18-20&nbsp;&nbsp;cena<br/>
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dom. 10-12</p>
 
-              <p>Portare jo, bokken e tanto</p>
-              <p>Il seminario si terr&agrave; all'aperto o in una palestra priva di tatami: portare calzature adatte (ad es. scarpe da ginnastica)</p>
+              <p><strong>Partecipazione gratuita</strong></p>
+              <p>Portando di che coprirsi è possibile pernottare in dojo</p>
+              <p>Per esigenze organizzative, entro giovedì 8 confermare la presenza alle cena di sabato chiamando il 3405996157.</p>
           </div>
         </div>
       </div>
