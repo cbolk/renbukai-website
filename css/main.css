@@ -474,6 +474,7 @@ font-weight: 300;
 
 #navbar{border-bottom: 1px solid #F2F2F2; margin-bottom: 15px; margin-top: 5px }
 .navbar-nav {display: block;margin: auto;}
+.navbar-nav {margin-left: -10px;}
 @media (max-width:960px){#navbar{border-top: 1px solid #F2F2F2; margin-top: 15px}}
 
 
