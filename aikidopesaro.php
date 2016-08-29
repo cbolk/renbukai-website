@@ -43,18 +43,18 @@
                 <center>
                     <p><em>orario corsi adulti e principianti</em></p>
                     <div class="timet"><span>&nbsp;</span>  <span><strong>settembre-giugno</strong></span> <span><strong>luglio</strong></span> <span><strong>agosto</strong></span></div>
-                    <div class="timet"><span>&nbsp;</span>  <span>Principianti | Adulti&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <span>Adulti</span> <span>Adulti</span></div>                
-                    <div class="timet"><span class="row day">marted&igrave; &amp; gioved&igrave;</span> <span class="row">19:30-20:30 | 20:30-21:30</span> <span class="row">19:30-21:00</span> <span class="row">19:30-21:00</span></div>
-                    <div class="timet"><span class="row day">sabato</span> <span class="row">18:00-19:00 | 19:00-20:00</span> <span class="row">18:30-20:00</span> <span class="row">18:30-20:00</span></div>
+                    <div class="timet"><span>&nbsp;</span>  <span class='nomobile'>Principianti | Adulti&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class='mobile'>Princ.&nbsp;|&nbsp;Adulti&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <span>Adulti</span> <span>Adulti</span></div>                
+                    <div class="timet"><span class="row day"><span class='nomobile'>marted&igrave; &amp; gioved&igrave;</span><span class='mobile'>mar&nbsp;&amp;&nbsp;gio</span></span> <span class="row">19:30-20:30 | 20:30-21:30</span> <span class="row">19:30-21:00</span> <span class="row">19:30-21:00</span></div>
+                    <div class="timet"><span class="row day"><span class='nomobile'>sabato</span><span class='mobile'>sab</span></span> <span class="row">18:00-19:00 | 19:00-20:00</span> <span class="row">18:30-20:00</span> <span class="row">18:30-20:00</span></div>
                     <div class="timet"><span>&nbsp;</span><span>&nbsp;</span></div>
                     <div class="timet"><span>&nbsp;</span><p><em>orario corsi ragazzi</em></p></div>
                     <div class="timet"><span>&nbsp;</span>  <span><strong>ottobre-giugno</strong></span></div>
-                    <div class="timet"><span class="row day">marted&igrave; &amp; gioved&igrave;</span> <span class="row">18:00-19:00</span> </div>
+                    <div class="timet"><span class="row day"><span class='nomobile'>marted&igrave; &amp; gioved&igrave;</span><span class='mobile'>mar&nbsp;&amp;&nbsp;gio</span></span> <span class="row">18:00-19:00</span> </div>
                     <div class="timet"><span>&nbsp;</span><span>&nbsp;</span></div>
                 </center>
                 <p>Per l'orario del dojo di Rimini consultare <a href="aikidorimini.php">questa pagina</a>, per l'orario comprensivo consultare la pagina dell'<a href="orario.php">orario</a>.</p>
                 <div class="clearfix">&nbsp;</div>
-                <p><strong>c/o KeikoDojo</strong><br/>
+                <p><a name='mapme'></a><strong>c/o KeikoDojo</strong><br/>
                 <i class="fa fa-map-marker"></i>&nbsp;<span>Via Pietro Gai, 19 - 61100 Pesaro (PU)</span><br/>
                 <i class="fa fa-mobile"></i>&nbsp;<span> 340-5996157 (aikido adulti)</span><br/>
                 <i class="fa fa-mobile"></i>&nbsp;<span> 334-3453259 (aikido bambini/ragazzi)</span><br/>

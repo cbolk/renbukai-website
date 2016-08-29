@@ -186,6 +186,23 @@ class seminar {
 		return $in;
 	} 
 
+	public function isSeminarDay(){	
+		$string = file_get_contents($this->srcfile);
+		$json_a = json_decode($string, true);
+		if(count($json_a) > 0){
+			usort($json_a, array('seminar','sort_by_date_asc'));
+			$today = date("Y-m-d");
+			foreach ($json_a as $s => $sem) {
+				$firstday = $sem['giornoinizio'];
+				$lastday = $sem['giornofine'];
+				if(($firstday <= $today) && ($lastday >= $today)) {
+						$this->sid = str_replace("-","",$sem['giornoinizio']);
+						return true;
+					}
+			}
+		}
+		return false;
+	} 
 	
 }
 ?>

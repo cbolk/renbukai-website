@@ -93,9 +93,9 @@
                 <p>La pratica dell'Aikido ha come finalit&agrave; migliorare lo stato fisico e mentale, in base alle proprie capacit&agrave;. &Egrave; un'attivit&agrave; ideale non solo per la salute ma anche per lo sviluppo di una propria consapevolezza, ed &egrave; per questo adatta a chiunque, indipendentemente dall'et&agrave; e dal sesso.</p>            
             </div>
         </div>
-        <div class="row">            
+        <!--div class="row">            
                 <div class="notice">Scuola affiliata all'Associazione di Cultura Tradizionale Giapponese <span class="iphone">  </span><a href="http://www.aikikai.it" title="sito web dell'aikikai d'Italia" target="_blank">Aikikai d'Italia</a> - Ente Morale (D.P.R. luglio 1978 n. 528)</div>
-        </div>
+        </div-->
         <!-- footer -->   
         <?php include_once("utils/footer.php") ?>
     </div><!-- container -->

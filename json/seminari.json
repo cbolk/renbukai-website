@@ -3,19 +3,21 @@
       "giornofine": "2016-09-11",
       "città": "Pesaro",
       "dojo": "Aikido Renbukai Pesaro/Rimini",
-      "indirizzo": "c/o Keiko Dojo, Via Gai, 19 - 61100 Pesaro (PU)",
+      "indirizzo": "c/o Keiko Dojo, via Gai, 19 - 61100 Pesaro (PU)",
       "diretto": "",
       "titolo": "Seminario per i 40 anni di pratica di R. Foglietta",
-      "immagine": "rf2.jpg"
+      "immagine": "rf2.jpg",
+      "locandina": "20160910.pdf"      
 }, {
       "giornoinizio": "2016-09-24",
       "giornofine": "2016-09-25",
       "città": "Milano",
       "dojo": "Aikikai Milano",
-      "indirizzo": "Aikikai Milano, Via Lulli, 30B - 20131 Milano (MI)",
+      "indirizzo": "c/o Aikikai Milano, ingresso da via Porpora 43/47 - 20131 Milano (MI)",
       "diretto": "R. Foglietta &amp; R. Travaglini",
       "titolo": "Seminario di aikido di inizio anno",
-      "immagine": "foto_ft2.jpg"
+      "immagine": "foto_ft2.jpg",
+      "locandina": ""      
 }, {
       "giornoinizio": "2016-10-06",
       "giornofine": "2016-10-09",
@@ -24,7 +26,8 @@
       "indirizzo": "Mosca, Russia",
       "diretto": "Osawa Shihan",
       "titolo": "Seminario di aikido",
-      "immagine": "osawa.jpg"
+      "immagine": "osawa.jpg",
+      "locandina": "20161006.pdf"      
 }, {
       "giornoinizio": "2016-10-29",
       "giornofine": "2016-10-30",
@@ -48,7 +51,7 @@
       "giornofine": "2016-11-20",
       "città": "Milano",
       "dojo": "Aikikai Milano",
-      "indirizzo": "Aikikai Milano, Via Lulli, 30B - 20131 Milano (MI)",
+      "indirizzo": "c/o Aikikai Milano, ingresso da via Porpora 43/47 - 20131 Milano (MI)",
       "diretto": "R. Foglietta &amp; R. Travaglini",
       "titolo": "Seminario di aikido per Yudansha, I e II Kyu",
       "immagine": "foto_ft2.jpg"
@@ -57,10 +60,19 @@
       "giornofine": "2016-12-30",
       "città": "Milano",
       "dojo": "Aikikai Milano",
-      "indirizzo": "Aikikai Milano, Via Lulli, 30B - 20131 Milano (MI)",
+      "indirizzo": "c/o Aikikai Milano, ingresso da via Porpora 43/47 - 20131 Milano (MI)",
       "diretto": "R. Foglietta &amp; R. Travaglini",
       "titolo": "Seminario di fine anno",
       "immagine": "foto_ft2.jpg"
+}, {
+      "giornoinizio": "2017-01-28",
+      "giornofine": "2017-01-29",
+      "città": "Milano",
+      "dojo": "Aikikai Milano",
+      "indirizzo": "c/o Aikikai Milano, ingresso da via Porpora 43/47 - 20131 Milano (MI)",
+      "diretto": "",
+      "titolo": "Seminario di aikido per IV, III e II Kyu",
+      "immagine": "aikido.jpg"
 }, {
       "giornoinizio": "2017-02-11",
       "giornofine": "2017-02-12",
@@ -71,11 +83,20 @@
       "titolo": "Seminario Osawa Shihan",
       "immagine": "osawa2.jpg"
 }, {
+      "giornoinizio": "2017-03-11",
+      "giornofine": "2017-03-12",
+      "città": "Milano",
+      "dojo": "Aikikai Milano",
+      "indirizzo": "c/o Aikikai Milano, ingresso da via Porpora 43/47 - 20131 Milano (MI)",
+      "diretto": "",
+      "titolo": "Seminario di aikido per mu, VI e V Kyu",
+      "immagine": "aikido.jpg"
+}, {
       "giornoinizio": "2017-03-18",
       "giornofine": "2017-03-19",
       "città": "Bologna",
       "dojo": "Aikido Fujinami Bologna",
-      "indirizzo": "Fujinami, Via Nardi, 13 - 40139 Bologna (BO)",
+      "indirizzo": "c/o Fujinami, via Nardi, 13 - 40139 Bologna (BO)",
       "diretto": "R. Foglietta &amp; R. Travaglini",
       "titolo": "Seminario di aikido",
       "immagine": "foto_ft2.jpg"
@@ -130,7 +151,7 @@
       "giornofine": "2017-06-18",
       "città": "Pesaro",
       "dojo": "Aikido Renbukai",
-      "indirizzo": "c/o Keiko Dojo, Via Gai, 19 - 61100 Pesaro (PU)",
+      "indirizzo": "c/o Keiko Dojo, via Gai, 19 - 61100 Pesaro (PU)",
       "diretto": "R. Foglietta &amp; M. D'Amico",
       "titolo": "Seminario di aikido &amp; esami Kyu",
       "immagine": "fogliettadamico.png"

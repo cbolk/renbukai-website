@@ -8,6 +8,11 @@
 			return $dowMap[$dow];
 		}
 
+		function dowlongInItalian($dow){
+			$dowMap = array('domenica', 'luned&igrave;', 'marted&igrave;', 'mercoled&igrave;', 'gioved&igrave;', 'venerd&igrave;', 'sabato');
+			return $dowMap[$dow];
+		}
+
 		function getStartAcademicYear($date){
 			if(date('m', strtotime($date)) >= 8)
 				$year = date('Y', strtotime($date));
@@ -107,6 +112,21 @@
 					return $i;
 			return false;
 		}
+
+		function isHoliday(){
+			$holidays = ['01-01', '01-06', '04-25', '05-01', '06-02', '08-15', '11-01', '11-02', '12-08', '12-25'];
+			$pesaro = ['09-24'];
+			$rimini = ['10-14'];
+			$easter = ['04-17'];
+
+			$today = Date('Y-m-d');
+			$md = substr($today, 5);
+			if (in_array($md, $easter) || in_array($md, $pesaro) || in_array($md, $rimini) || in_array($md, $holidays)) 
+				return true;
+			return false;
+
+		}
+
 
 	}
 ?>

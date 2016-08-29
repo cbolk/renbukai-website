@@ -201,15 +201,32 @@ tbody{}
 .principianti{background-color: #4c87b3;color:#fff;}
 .ragazzi{background-color: #99bad3;color:#000;}
 .bambini{background-color: #ccdce9;color:#000;height: 40px;}
-.pesaro{color: #549300;}
-.rimini{color: #c90606;}
-.onohaittoryu{background-color: #99bad3; color: #fff;}
+.pesaro{color: #00A933;}
+.pesaroback{background-color: #b2e5c1}
+.rimini{color: #E41F00;}
+.riminiback{background-color: #f6bbb2;}
+.onohaittoryu{background-color: #FCF0A9; color: #000;}
 .libero{background-color: #ecf0f1;color:#000;}
-.emptyspace {border-top: 0px; border-bottom: 0px} 
 .warn{color: #aaa;padding-top: 5px;display: block;border-top: 1px solid #F2F2F2;}
 .asterisk{color: red;}
-.emptyhour{border-top: 1px solid #FFF;}
-.lastcell{border-bottom: 1px solid #fff;}
+.bottborder{border-bottom: 1px solid #2E2E2E;}
+.topborder{border-top: 2px solid #2E2E2E;}
+.padtop {padding-top: 15px;}
+
+.litime {padding-right: 8px; color: #005493;}
+ul.ultime {list-style: none;}
+ul.ultime li:before {
+  content: "\2318";
+  color: #005493;
+  font-family: FontAwesome;
+  margin-right: 10px;
+  margin-left: -25px;
+  display: inline;
+  vertical-align: middle;
+  font-size: 1em;
+  font-weight: normal;
+}
+
 
 @media(max-width:960px){
 table.orario{}
@@ -225,7 +242,7 @@ table.orario{}
 .libero{background-color: #ecf0f1;color:#000;}
 }
 
-.noclasses{font-size:1.4em; color: #282658}
+.noclasses{font-size:1.4em; color: #282658; font-weight: 400;}
 .holiday{color: #282658}
 .legenda{padding:3px; font-size: 0.9em;text-align: left; border-top: 1px solid #ddd; margin-top: 15px;}
 .tsmall{font-size: 0.8em; line-height: 0.8em;}
@@ -244,6 +261,14 @@ div.tagbox{width: 120px;height: 40px;border: 1px solid #000;margin: 5px; display
 .timet span {display: table-cell; padding-left: 12px; padding-right: 12px; padding-bottom: 5px; text-align: center}
 .timet span.row {display: table-cell; padding-left: 12px; padding-right: 12px; padding-bottom: 5px; text-align: center; border-top: 1px solid #ddd;}
 .timet span.day{display: table-cell; padding-right: 12px; padding-bottom: 5px; text-align: left; }
+
+
+@media (min-width:769px){.timet span.mobile {display: none}
+.timet span.nomobile {display: table-cell; padding-left: 12px; padding-right: 12px; padding-bottom: 5px; text-align: center}
+}
+@media (max-width:960px){.timet span.nomobile {display: none}
+.timet span.mobile {display: table-cell; padding-left: 12px; padding-right: 12px; padding-bottom: 5px; text-align: center}
+}
 
 
 ul.warn {list-style: none;}
@@ -461,4 +486,3 @@ font-weight: 300;
 
 @media (min-width:1020px){.ontab{display:none}}
 @media (max-width:1020px){.notab{display:none}}
-

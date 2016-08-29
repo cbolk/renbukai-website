@@ -43,19 +43,20 @@
         	</div>
         	<div class="col-xs-12 col-sm-6 col-lg-6">
                 <p></p>
-        		<p>Roberto Foglietta inizia la pratica di Aikido nel 1976 con il M&deg; Marcolini Romeo (III dan) e poi con il M&deg; Romagnoli Ezechiele (III dan), dopo aver praticato Judo con il M&deg; Romagnoli Ezechiele (V dan Judo) e Tae Kwon Do con il M&deg; Chung Kwang Soo (IX dan).</p>
-                <p>Nell'estate del 1977 frequenta il suo primo seminario di Coverciano dove conosce il M&deg; Tada Hiroshi (IX Aikikai, Shihan), il M&deg; Fujimoto Yogi (VIII Aikikai, Shihan), il M&deg; Hosokawa Hideki (VII Aikikai, Shihan) e il M&deg; Nomoto Jun (VII Aikikai, Shihan), e durante il seminario consegue il grado di V kyu, sostenendo il suo primo esame con il M&deg; Fujimoto.</p>
+        		<p>Roberto Foglietta inizia la pratica di Aikido nel 1976 a Pesaro e nell'estate del 1977 frequenta il suo primo seminario di Coverciano dove conosce il M&deg; Tada Hiroshi (IX Aikikai, Shihan), il M&deg; Fujimoto Yogi (VIII Aikikai, Shihan), il M&deg; Hosokawa Hideki (VII Aikikai, Shihan) e il M&deg; Nomoto Jun (VII Aikikai, Shihan), e durante il seminario consegue il grado di V kyu, sostenendo il suo primo esame con il M&deg; Fujimoto.</p>
                 <p>Da quel momento, sempre con maggior intensit&agrave;, inizia a frequentare i seminari tenuti dai vari maestri e nel 1981 consegue lo shodan.</p>
                 <p>Nel 1982 soggiorna per la prima volta in Giappone per due mesi, e ripete l'esperienza anche in seguito per poter praticare presso l'Honbu Dojo, il Gessoju Dojo del M&deg; Tada, e il Satomi Hakken Kai del M&deg; Nomoto.</p>
+                <p>Negli anni successivi Roberto Foglietta pratica Aikido seguendo il M&deg; Tada durante i suoi seminari in Italia, il M&deg; Hosokawa responsabile del Dojo Centrale in Roma, poi trasferitosi in Sardegna, e il M&deg; Fujimoto residente a Milano, membri della direzione didattica dell'Aikikai d'Italia e pi&ugrave; importanti maestri giapponesi residenti in Italia in quegli anni.</p>
             </div>
         </div>
         <div class="row">
             <div class="col-xs-12 col-sm-6 col-lg-6"> 
                 <p>&nbsp;</p>   
-                <p>Negli anni successivi Roberto Foglietta pratica Aikido seguendo il M&deg; Tada durante i suoi seminari in Italia, il M&deg; Hosokawa responsabile del Dojo Centrale in Roma, poi trasferitosi in Sardegna, e il M&deg; Fujimoto residente a Milano, membri della direzione didattica dell'Aikikai d'Italia e pi&ugrave; importanti maestri giapponesi residenti in Italia in quegli anni.</p>
+                
                 <p>In particolare, inizia a seguire assiduamente il M&deg; Fujimoto sia frequentandone spesso il dojo <a target=_blank href='http://www.aikikaimilano.it'>Aikikai Milano</a>, anche in qualit&agrave; di assistente, sia durante i numerosi seminari in Italia e all'estero, facendo da uke. Roberto Foglietta prosegue con lo studio dell'Aikido e continua a seguire il M&deg; Fujimoto, e nel 2006 riceve il VI dan.</p>
                 Nel 2012 il M&deg; Fujimoto scompare prematuramente e Roberto Foglietta, insieme a Roberto Travaglini (VI dan, <a href='http://www.fujinami.it/' target=_blank>Aikido Fujinami Bologna</a>), continua a portare avanti la sua linea didattica.</p>
-                <p>Attualmente partecipa agli stage che il M&deg; Tada tiene in Italia, e a quelli di altri maestri giapponesi.</p>
+                <p>Inoltre, prosegue l'opera del  M&deg; Fujimoto in Russia, tenendo annualmente seminari organizzati dal CRAG - Confederation of Russian Aikido Groups, in qualit&agrave; di direttore tecnico.</p>
+                <!--p>Attualmente partecipa agli stage che il M&deg; Tada tiene in Italia, e a quelli di altri maestri giapponesi.</p-->
             </div>
             <div class="col-xs-12 col-sm-6 col-lg-6">  
                 <div class="acenter pad">
@@ -74,7 +75,7 @@
             <div class="col-xs-12 col-sm-6 col-lg-6">
                 <div class="acenter pad">
                     <img alt="foto Maestro Fujimoto" src="./images/fujimoto.jpg" alt="M&deg; Fujimoto (uke R. Foglietta, Laces 200x)."/>
-                    <p class="notice">Il M&deg; Fujimoto (uke R. Foglietta, Laces 200x, foto Paolo Bottoni <a target=_blank href='http://www.musubi.it/'>Musubi</a>).</p>
+                    <p class="notice">Il M&deg; Fujimoto (uke R. Foglietta), Laces, foto Paolo Bottoni <a target=_blank href='http://www.musubi.it/'>Musubi</a>).</p>
                 </div> 
             </div>
             <div class="col-xs-12 col-sm-6 col-lg-6">

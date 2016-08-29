@@ -47,22 +47,22 @@
                     <tr>
                         <th class="dayh">Ora<span class="mobile"><br/></span></th>
                         <th class="dayh w100p"><span class="nomobile">Luned&igrave;</span><span class="mobile">Lu</span><br/><span class='spacer'>spa</span></th>
-                        <th class="dayh w100p"><span class="nomobile">Marted&igrave;</span><span class="mobile">Ma</span><br/><a class='pesaro nomobile' href="./aikidopesaro.php">Pesaro</a><a class='mobile pesaro' href="./aikidopesaro.php">PE</a> <i class="pesaro fa fa-map-marker"></i></th>
-                        <th class="dayh w100p"><span class="nomobile">Mercoled&igrave;</span><span class="mobile">Me</span><br/><a class='rimini nomobile' class='rimini' href="./aikidorimini.php">Rimini</a><a class='rimini mobile' class='rimini' href="./aikidorimini.php">RI</a> <i class="rimini fa fa-map-marker"></i></th>
-                        <th class="dayh w100p"><span class="nomobile">Gioved&igrave;</span><span class="mobile">Gi</span><br/><a class='pesaro nomobile' href="./aikidopesaro.php">Pesaro</a><a class='mobile pesaro' href="./aikidopesaro.php">PE</a> <i class="pesaro fa fa-map-marker"></i></th>
-                        <th class="dayh w100p"><span class="nomobile">Venerd&igrave;</span><span class="mobile">Ve</span><br/><a class='rimini nomobile' href="./aikidorimini.php">Rimini</a><a class='rimini mobile' class='rimini' href="./aikidorimini.php">RI</a> <i class="rimini fa fa-map-marker"></i></th>
-                        <th class="dayh w100p"><span class="nomobile">Sabato</span><span class="mobile">Sa</span><br/><a class='pesaro nomobile' href="./aikidopesaro.php">Pesaro</a><a class='mobile pesaro' href="./aikidopesaro.php">PE</a> <i class="pesaro fa fa-map-marker"></i></th>
+                        <th class="dayh w100p"><span class="nomobile">Marted&igrave;</span><span class="mobile">Ma</span><br/><a class='pesaro nomobile noborder' href="./aikidopesaro.php">Pesaro</a><a class='mobile pesaro noborder' href="./aikidopesaro.php">PE</a> <i class="pesaro fa fa-map-marker"></i></th>
+                        <th class="dayh w100p"><span class="nomobile">Mercoled&igrave;</span><span class="mobile">Me</span><br/><a class='rimini nomobile noborder' class='rimini' href="./aikidorimini.php">Rimini</a><a class='rimini mobile noborder' class='rimini' href="./aikidorimini.php">RI</a> <i class="rimini fa fa-map-marker"></i></th>
+                        <th class="dayh w100p"><span class="nomobile">Gioved&igrave;</span><span class="mobile">Gi</span><br/><a class='pesaro nomobile noborder' href="./aikidopesaro.php">Pesaro</a><a class='mobile pesaro noborder' href="./aikidopesaro.php">PE</a> <i class="pesaro fa fa-map-marker"></i></th>
+                        <th class="dayh w100p"><span class="nomobile">Venerd&igrave;</span><span class="mobile">Ve</span><br/><a class='rimini nomobile noborder' href="./aikidorimini.php">Rimini</a><a class='rimini mobile noborder' class='rimini' href="./aikidorimini.php">RI</a> <i class="rimini fa fa-map-marker"></i></th>
+                        <th class="dayh w100p"><span class="nomobile">Sabato</span><span class="mobile">Sa</span><br/><a class='pesaro nomobile noborder' href="./aikidopesaro.php">Pesaro</a><a class='mobile pesaro noborder' href="./aikidopesaro.php">PE</a> <i class="pesaro fa fa-map-marker"></i></th>
                         <th class="dayh">Ora<span class="mobile"><br/></span></th>
                     </tr>
                     </thead>
                     <tbody>
                       <tr id='s1600'>
                         <td class="time"></td>
-                        <td class="hour" rowspan='11'></td>
-                        <td class="hour" rowspan='4'></td>
-                        <td class="hour" rowspan='2'><span class='spacer'>E<br/>E</span></td>
-                        <td class="hour" rowspan='4'></td>
-                        <td class="hour" rowspan='4'></td>
+                        <td class="hour bottborder" rowspan='11'></td>
+                        <td class="hour pesaroback" rowspan='4'></td>
+                        <td class="hour riminiback" rowspan='2'><span class='spacer'>&nbsp;<br/>&nbsp;</span></td>
+                        <td class="hour pesaroback" rowspan='4'></td>
+                        <td class="hour riminiback" rowspan='4'></td>
                         <td class="hour onohaittoryu" rowspan="4"><span class='nomobile'>Onoha Itto Ryu</span><span class='mobile'>OIR</span><br/><a href="#note" class='noborder'><i class="fa fa-bookmark"></i></td>
                         <td class="time" rowspan="4">16:00<span class='nomobile'> - </span><span class='mobile'><br/></span>18:00</td>
                       </tr>
@@ -88,11 +88,11 @@
                       </tr>
                       <tr id='s1900'>
                         <td class="time"></td>
-                        <td class="hour"></td>
-                        <td class="hour"></td>
-                        <td class="hour"></td>
-                        <td class="hour"></td>
-                        <td rowspan="2" class="hour adulti"><span class='nomobile'>Adulti</span><span class='mobile'>A</span><br/>&nbsp;</td>
+                        <td class="hour pesaroback"></td>
+                        <td class="hour riminiback"></td>
+                        <td class="hour pesaroback"></td>
+                        <td class="hour riminiback"></td>
+                        <td rowspan="2" class="hour adulti padtop"><span class='nomobile'>Adulti</span><span class='mobile'>A</span><br/>&nbsp;</td>
                         <td class="time" rowspan="2">19:00<span class='nomobile'> - </span><span class='mobile'><br/></span>20:00</td>
                       </tr>
                       <tr  id='s1930'>
@@ -103,26 +103,28 @@
                         <td class="hour principianti" rowspan="2"><span class='nomobile'>Principianti &amp;<br/> Adulti</span><span class='mobile'>P&amp;A</span></td>
                       </tr>
                       <tr id='s2000'>
-                        <td class="hour" rowspan="3"></td>
-                        <td class="time"><span class='spacer'>E</span></td>
+                        <td class="hour pesaroback lastcell" rowspan="3"></td>
+                        <td class="time"><span class='spacer'>&nbsp;</span></td>
                       </tr>
                       <tr id='s2030'>
                         <td class="time" rowspan="2">20:30<span class='nomobile'> - </span><span class='mobile'><br/></span>21:30</td>
                         <td rowspan="2" class="hour adulti"><span class='nomobile'>Adulti</span><span class='mobile'>A</span></td>
                         <td rowspan="2" class="hour adulti"><span class='nomobile'>Adulti</span><span class='mobile'>A</span></td>
                         <td rowspan="2" class="hour adulti"><span class='nomobile'>Adulti</span><span class='mobile'>A</span></td>
-                        <td rowspan="2" class="hour adulti"><span class='nomobile'>Adulti</span><span class='mobile'>A</span></td>
-                        <td class="time"><span class='spacer'>E</span></td>
+                        <td rowspan="2" class="hour adulti padtop"><span class='nomobile'>Adulti<br>&nbsp;</span><span class='mobile'>A</span></td>
+                        <td class="time" rowspan="2" ><span class='spacer'>&nbsp;</span></td>
                       </tr>
                       <tr  id='s2100'>
-                        <td class="time lastcell"><span class='spacer'>E</span></td>
+                        <td class="time lastcell"><span class='spacer'>&nbsp;</span></td>
                       </tr>
+
                       </tbody>
                     </table>
                 </center>
             </div>
             <div class="clearfix">&nbsp;</div>
         </div>
+
         <div class="row">
     		<h4 class='text-center'><a name="07"></a>luglio &amp; agosto</h4>
         </div>
@@ -134,22 +136,22 @@
                         <tr>
                             <th class="dayh">Ora<span class="mobile"><br/></span></th>
                             <th class="dayh w100p"><span class="nomobile">Luned&igrave;</span><span class="mobile">Lu</span><br/><span class='spacer'>spa</span></th>
-                            <th class="dayh w100p"><span class="nomobile">Marted&igrave;</span><span class="mobile">Ma</span><br/><a class='pesaro nomobile' href="./aikidopesaro.php">Pesaro</a><a class='mobile pesaro' href="./aikidopesaro.php">PE</a> <i class="pesaro fa fa-map-marker"></i></th>
-                            <th class="dayh w100p"><span class="nomobile">Mercoled&igrave;</span><span class="mobile">Me</span><br/><a class='rimini nomobile' class='rimini' href="./aikidorimini.php">Rimini</a><a class='rimini mobile' class='rimini' href="./aikidorimini.php">RI</a> <i class="rimini fa fa-map-marker"></i></th>
-                            <th class="dayh w100p"><span class="nomobile">Gioved&igrave;</span><span class="mobile">Gi</span><br/><a class='pesaro nomobile' href="./aikidopesaro.php">Pesaro</a><a class='mobile pesaro' href="./aikidopesaro.php">PE</a> <i class="pesaro fa fa-map-marker"></i></th>
-                            <th class="dayh w100p"><span class="nomobile">Venerd&igrave;</span><span class="mobile">Ve</span><br/><a class='rimini nomobile' href="./aikidorimini.php">Rimini</a><a class='rimini mobile' class='rimini' href="./aikidorimini.php">RI</a> <i class="rimini fa fa-map-marker"></i></th>
-                            <th class="dayh w100p"><span class="nomobile">Sabato</span><span class="mobile">Sa</span><br/><a class='pesaro nomobile' href="./aikidopesaro.php">Pesaro</a><a class='mobile pesaro' href="./aikidopesaro.php">PE</a> <i class="pesaro fa fa-map-marker"></i></th>
+                            <th class="dayh w100p"><span class="nomobile">Marted&igrave;</span><span class="mobile">Ma</span><br/><a class='pesaro nomobile noborder' href="./aikidopesaro.php">Pesaro</a><a class='mobile pesaro noborder' href="./aikidopesaro.php">PE</a> <i class="pesaro fa fa-map-marker"></i></th>
+                            <th class="dayh w100p"><span class="nomobile">Mercoled&igrave;</span><span class="mobile">Me</span><br/><a class='rimini nomobile noborder' class='rimini' href="./aikidorimini.php">Rimini</a><a class='rimini mobile noborder' class='rimini' href="./aikidorimini.php">RI</a> <i class="rimini fa fa-map-marker"></i></th>
+                            <th class="dayh w100p"><span class="nomobile">Gioved&igrave;</span><span class="mobile">Gi</span><br/><a class='pesaro nomobile noborder' href="./aikidopesaro.php">Pesaro</a><a class='mobile pesaro noborder' href="./aikidopesaro.php">PE</a> <i class="pesaro fa fa-map-marker"></i></th>
+                            <th class="dayh w100p"><span class="nomobile">Venerd&igrave;</span><span class="mobile">Ve</span><br/><a class='rimini nomobile noborder' href="./aikidorimini.php">Rimini</a><a class='rimini mobile noborder' class='rimini' href="./aikidorimini.php">RI</a> <i class="rimini fa fa-map-marker"></i></th>
+                            <th class="dayh w100p"><span class="nomobile">Sabato</span><span class="mobile">Sa</span><br/><a class='pesaro nomobile noborder' href="./aikidopesaro.php">Pesaro</a><a class='mobile pesaro noborder' href="./aikidopesaro.php">PE</a> <i class="pesaro fa fa-map-marker"></i></th>
                             <th class="dayh">Ora<span class="mobile"><br/></span></th>
                         </tr>
                           </thead>
                           <tbody>
                           <tr>
                               <td class="time">16:00<span class='nomobile'> - </span><span class='mobile'><br/></span>18:30</td>
-                              <td rowspan="4" class="hour empty">&nbsp;</td>
-                              <td rowspan="2" class="hour empty">&nbsp;</td>
-                              <td rowspan="2" class="hour empty">&nbsp;</td>
-                              <td rowspan="2" class="hour empty">&nbsp;</td>
-                              <td rowspan="2" class="hour empty">&nbsp;</td>
+                              <td rowspan="4" class="hour">&nbsp;</td>
+                              <td rowspan="2" class="hour pesaroback">&nbsp;</td>
+                              <td rowspan="2" class="hour riminiback">&nbsp;</td>
+                              <td rowspan="2" class="hour pesaroback">&nbsp;</td>
+                              <td rowspan="2" class="hour riminiback">&nbsp;</td>
                               <td class="hour onohaittoryu"><span class='nomobile'>&nbsp;<br/>&nbsp;<br/>Onoha Itto Ryu</span><span class='mobile'>OIR</span><br/><a href="#note" class='noborder'><i class="fa fa-bookmark"></i></a><br/>&nbsp;</td>
                               <td class="time">16:00<span class='nomobile'> - </span><span class='mobile'><br/></span>18:30</td>
                           </tr>
@@ -166,7 +168,7 @@
                               <td class="hour adulti" rowspan="2">&nbsp;<br/><span class='nomobile'>Adulti</span><span class='mobile'>A</span><br/>&nbsp;</td>
                           </tr>
                               <td class="time"></td>
-                              <td class="hour empty">&nbsp;</td>
+                              <td class="hour pesaroback">&nbsp;</td>
                           </tr>
                           </tbody>
                       </table>
@@ -216,7 +218,7 @@
         <!-- footer -->   
         <?php include_once("utils/footer.php") ?>
     </div><!-- container -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="./js/jquery.min.js"></script>
     <script src="./js/bootstrap.js"></script>      
 
     <!-- google tracking -->   

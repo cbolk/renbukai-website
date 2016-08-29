@@ -56,10 +56,10 @@
         </div>
 
         <div class="row">
-          <div class="col-lg-6 col-xs-12 mainpage acenter">
-            <img alt="foto Roberto Foglietta" src="./images/_front.jpg" alt="" />
+          <div class="col-lg-4 col-xs-12 mainpage acenter">
+            <img alt="foto Roberto Foglietta" src="./images/ifront.jpg" alt="" />
           </div>        
-          <div class="col-lg-6 col-xs-12 mainpage">
+          <div class="col-lg-8 col-xs-12 mainpage">
             <p>Benvenuti nel sito dell'Associazione Renbukai, scuola di <a href="./aikido.php">Aikido</a>, 
             <!--attiva a Pesaro e Rimini dal <strong>19xx</strong>, --> 
             che a Pesaro ospita presso il Keikodojo 
@@ -93,7 +93,7 @@
                         }
                      ?>
                      <div class="caption">
-                        <p><?php if(strpos(strtolower($semdata[0]['titolo']),'aikido') !== false) echo "<i class='fa fa-adn'></i>"; ?> <?php echo $semdata[0]['titolo']; ?> 
+                        <p><?php echo $semdata[0]['titolo']; ?> 
                         <?php if($semdata[0]['diretto'] != "") echo "<br/>&nbsp;&nbsp;&nbsp;&nbsp;" . $semdata[0]['diretto']; ?> 
                          <a title='tutte le informazioni' href='./seminari.php#<?php echo $semdata[0]['sid']; ?>'>&nbsp;<i class="fa fa-angle-double-right"></i></a></p>
                     </div>
@@ -109,7 +109,7 @@
                           }
                      ?>
                      <div class="caption">
-                          <p><?php if(strpos(strtolower($semdata[1]['titolo']),'aikido') !== false) echo "<i class='fa fa-adn'></i>"; ?> <?php echo $semdata[1]['titolo']; ?> 
+                          <p><?php echo $semdata[1]['titolo']; ?> 
                           <?php if($semdata[1]['diretto'] != "") echo "<br/>&nbsp;&nbsp;&nbsp;&nbsp;" . $semdata[1]['diretto']; ?> 
                            <a title='tutte le informazioni' href='./seminari.php#<?php echo $semdata[1]['sid']; ?>'>&nbsp;<i class="fa fa-angle-double-right"></i></a></p>
                       </div>
