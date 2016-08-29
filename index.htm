@@ -1,4 +1,5 @@
 <html>
+<head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -10,8 +11,9 @@
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
     <link rel="stylesheet" href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css" />
     <link rel="stylesheet" href="./css/bootstrap-image-gallery.css" />
-
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" media="screen" href="css/main.css" /> <!--Load CSS-->
+
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="./js/moment-with-locales.js"></script>  
 
@@ -23,7 +25,7 @@ $.get("head_banner.htm", function(data){
     $("#headermobile").html(data);
 });
 $.get("mainmenu.htm", function(menudata){
-  $.getJSON( './seminari.json', function() {
+  $.getJSON( './json/seminari.json', function() {
         console.log( "seminars loaded" );
     })
     .done(function( data ) {
@@ -76,35 +78,54 @@ $.ajax({
         </div>
         <div id="headermobile" class="mobile">
         </div>
-            <div class="col-lg-12" id="seminarlist">
-            <p>Benvenuti nel sito dell'Associazione Renbukai, scuola di <a href="">Aikido</a> attiva a Pesaro e Rimini dal 19xx, che a Pesaro ospita presso il Keikodojo uno dei sei Gruppi di Pratica di <a href="http://onohaittoryuitalia.org" target="_blank">Onoha Itto Ryu</a> in Italia.</p>
+        <div class="row">
+          <div class="col-lg-6 col-xs-12 mainpage acenter">
+            <img src="./images/_front.jpg" alt="" />
+          </div>        
+          <div class="col-lg-6 col-xs-12 mainpage">
+            <p>Benvenuti nel sito dell'Associazione Renbukai, scuola di <a href="./aikido.htm">Aikido</a> attiva a Pesaro e Rimini 
+            <!-- dal <strong>19xx</strong-->, che a Pesaro ospita presso il Keikodojo 
+            uno dei sei Gruppi di Pratica di <a href="">Onoha Itto Ryu</a> in Italia.</p>
 
-                <p>Il responsabile didattico &egrave; il <a href="./insegnante.htm">Maestro Roberto Foglietta</a>, 6&deg; dan Aikikai d'Italia e Aikikai Tokyo.</p>
+            <p>Il responsabile didattico &egrave; il Maestro <a href="./insegnante.htm">Roberto Foglietta</a>, 6&deg; dan Aikikai d'Italia e Aikikai Tokyo.</p>
 
-                <p>L'Associazione Renbukai &egrave; affiliata all'Associazione di Cultura Tradizionale Giapponese <a href="http://aikikai.it" target="_blank">Aikikai d'Italia</a> - Ente Morale (D.P.R. luglio 1978 n. 528).</p>
-             </div>
-    </div><!-- container -->
-    <div class="container marketing">
-        <div class="col-xs-12 col-sm-8 col-lg-8">
-           <h4 class='acenter'><span class="glyphicon glyphicon-copy" aria-hidden="true"></span> Prossimi appuntamenti</h4>
-           <div id='sempreview'></div>
+            <p>Presso i nostri dojo si tengono lezioni di Aikido per adulti e ragazzi, ogni <a href='./orario.htm'>giorno</a>. 
+            &Egrave; possibile iscriversi in qualsiasi periodo dell'anno.</p>
+
+            <p>Se siete interessati a praticare Aikido con noi, venite a <a href='./contatti.htm'>trovarci</a>.</p>
+
+            <p>L'Associazione Renbukai &egrave; affiliata all'Associazione di Cultura Tradizionale Giapponese Aikikai d'Italia - Ente Morale (D.P.R. luglio 1978 n. 528).</p>
+          </div><!-- col-xs-12 mainpage -->
         </div>
-        <!--div class="col-xs-12 col-sm-4 col-lg-4">
-           <h4 class='acenter'><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> Gallerie foto</h4>
-           <div id='photopreview'></div>
-        </div-->
-    </div>
-    <div class="container marketing">
-        <div class="clearfix mobile">&nbsp;</div>
-        <footer class="footer mobile">
-            <div class="container acenter">
-            <p class="text-muted"><img src="./assets/footer.png" alt=""></p>
-            </div>
-             </footer>
     </div><!-- container -->
-
+        <div class="row">
+          <div class="container marketing">
+              <div class="col-xs-12 col-sm-8 col-lg-8">
+                   <h4 class='acenter'><span class="glyphicon glyphicon-copy" aria-hidden="true"></span> Prossimi appuntamenti</h4>
+                   <div class="col-xs-12 col-sm-6 col-lg-6">
+                    <div id='sempreview'></div>
+                    </div>
+              </div>
+              <div class="col-xs-12 col-sm-4 col-lg-4">
+                 <h4 class='acenter'><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> Gallerie foto</h4>
+                 <div id='photopreview'></div>                
+              </div>
+        <!--div class="col-xs-12 col-sm-4 col-lg-4">
+        </div-->
+          </div>
+      </div>
+      <div class="clearfix mobile">&nbsp;</div>
+      <footer class="footer mobile">
+        <div class="container acenter">
+            <p class="text-muted"><img src="./assets/footer.png" alt=""></p>
+        </div>
+      </footer>
+    </div><!-- container -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>    
+    <script src="js/jquery.slicknav.cb.js"></script>
+    <script src="js/jquery.slicknav.menu.js"></script>
     <script src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
-    <script src="js/bootstrap-image-gallery.js"></script>    
+    <script src="js/bootstrap-image-gallery.min.js"></script>  
 </body>
 </html>
