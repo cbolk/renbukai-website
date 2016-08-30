@@ -179,9 +179,9 @@
               <div class='legenda'><p>Legenda</p>
               <div class='tagbox adulti'>Avanzati</div>
                 <div class='tagbox principianti'>Principianti &amp; Avanzati</div>
-                <div class='tagbox bambini'>Bambini</div>
+                <!--div class='tagbox bambini'>Bambini</div-->
                 <div class='tagbox ragazzi'>Ragazzi</div>
-                <div class='tagbox onohaittoryu'>Onoha Iitto Ryu</div>
+                <div class='tagbox onohaittoryu'>Onoha Itto Ryu</div>
             </div>
         </div>
         <div class="clearfix mobile">&nbsp;</div>
