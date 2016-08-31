@@ -197,17 +197,18 @@ tbody{}
 .dayh{text-align: center;}
 .hour {border: 1px solid #2E2E2E; text-align: center; padding:1px; height: 20px; vertical-align: middle; }
 .time{padding-left: 5px; padding-right: 5px; text-align: center; height: 20px; }
-.adulti{background-color: #005493; color:#fff;}
-.principianti{background-color: #4c87b3;color:#fff;}
-.ragazzi{background-color: #99bad3;color:#000;}
+.adultipesaro{background-color: #003366; color:#fff;}
+.adultirimini{background-color: #297045; color:#fff;}
+.principiantipesaro{background-color: #2e86ab;color:#fff;}
+.principiantirimini{background-color: #81c14b;color:#fff;}
+.ragazzi{background-color: #a6e1fa;color:#000;}
 .bambini{background-color: #ccdce9;color:#000;height: 40px;}
-.pesaro{color: #00A933;}
-.pesaroback{background-color: #b2e5c1}
-.rimini{color: #E41F00;}
-.riminiback{background-color: #f6bbb2;}
-.onohaittoryu{background-color: #FCF0A9; color: #000;}
+.pesaro{color: #3066be;}
+.rimini{color: #297045;}
+.onohaittoryu{background-color: #b18fcf; color: #000;}
 .libero{background-color: #ecf0f1;color:#000;}
 .warn{color: #aaa;padding-top: 5px;display: block;border-top: 1px solid #F2F2F2;}
+.ast{color: #aaa;padding-top: 5px;display: block;}
 .asterisk{color: red;}
 .bottborder{border-bottom: 1px solid #2E2E2E;}
 .topborder{border-top: 2px solid #2E2E2E;}
@@ -275,6 +276,19 @@ ul.warn {list-style: none;}
 ul.warn li:before {
   content: "\f02e";
   color: #005493;
+  font-family: FontAwesome;
+  margin-right: 10px;
+  margin-left: -25px;
+  display: inline;
+  vertical-align: middle;
+  font-size: 1em;
+  font-weight: normal;
+}
+
+ul.ast {list-style: none;}
+ul.ast li:before {
+  content: "\f069";
+  color: red;
   font-family: FontAwesome;
   margin-right: 10px;
   margin-left: -25px;
@@ -474,7 +488,6 @@ font-weight: 300;
 
 #navbar{border-bottom: 1px solid #F2F2F2; margin-bottom: 15px; margin-top: 5px }
 .navbar-nav {display: block;margin: auto;}
-.navbar-nav {margin-left: -10px;}
 @media (max-width:960px){#navbar{border-top: 1px solid #F2F2F2; margin-top: 15px}}
 
 

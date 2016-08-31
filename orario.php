@@ -63,7 +63,7 @@
                         <td class="hour" rowspan='7'></td>
                         <td class="hour" rowspan='4'></td>
                         <td class="hour" rowspan='7'></td>
-                        <td class="hour onohaittoryu" rowspan="4"><span class='nomobile'>Onoha Itto Ryu</span><span class='mobile'>OIR</span><br/><a href="#note" class='noborder'><i class="fa fa-bookmark"></i></td>
+                        <td class="hour onohaittoryu" rowspan="4"><span class='nomobile'>Onoha Itto Ryu</span><span class='mobile'>OIR</span><br/><a href="#note" class='noborder'><i class="fa fa-bookmark"></i></a></td>
                         <td class="time" rowspan="4">16:00<span class='nomobile'> - </span><span class='mobile'><br/></span>18:00</td>
                       </tr>
                       <tr id='s1630'> 
@@ -77,9 +77,9 @@
                       </tr>
                       <tr id='s1800'>
                         <td class="time" rowspan="2">18:00<span class='nomobile'> - </span><span class='mobile'><br/></span>19:00</td>
-                        <td class="hour ragazzi" rowspan="2"><span class='nomobile'>Ragazzi</span><span class='mobile'>R</span></td>
+                        <td class="hour ragazzi" rowspan="2"><span class='nomobile'>Bambini &amp; Ragazzi</span><span class='mobile'>B&amp;R</span> <a href="#noteY" class='noborder asterisk'><i class="fa fa-asterisk"></i></a></td>
                        
-                        <td class="hour ragazzi" rowspan="2"><span class='nomobile'>Ragazzi</span><span class='mobile'>R</span></td>
+                        <td class="hour ragazzi" rowspan="2"><span class='nomobile'>Bambini &amp; Ragazzi</span><span class='mobile'>B&amp;R</span> <a href="#noteY" class='noborder asterisk'><i class="fa fa-asterisk"></i></a></td>
                         
                         <td class="hour principiantipesaro" rowspan="2"><span class='nomobile'>Principianti &amp;<br/> Avanzati</span><span class='mobile'>P&amp;A</span></td>
                         <td class="time" rowspan="2">18:00<span class='nomobile'> - </span><span class='mobile'><br/></span>19:00</td>
@@ -212,7 +212,10 @@
                 <li><a name="note"></a> per motivi organizzativi, le persone interessate e gli ospiti di altri Gruppi di Pratica interessati a partecipare
                 sono cortesemente invitate ad annunciare la propria presenza tramite e-mail (info@onohaittoryuitalia.org) o telefono (3405996157).</li>
             </ul>
-        </div>
+            <ul class="ast">
+                <li><a name="noteY"></a> il corso ha inizio nel mese di ottobre</li>
+             </ul>
+       </div>
         <!-- footer -->   
         <?php include_once("utils/footer.php") ?>
     </div><!-- container -->

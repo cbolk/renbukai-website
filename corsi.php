@@ -45,7 +45,7 @@
                 l'altro a <a href='aikidorimini.php'>Rimini <i class="rimini fa fa-map-marker"></i></a>. In entrambi le sedi ci sono corsi per tutte le et&agrave; ed in base alla propria preparazione. I corsi offerti sono per:
                 <ul>
                 <!--li><strong>bambini</strong> (solo a Rimini) - con et&agrave; compresa tra i 4 e i 10 anni - nel periodo settembre-giugno,</li-->
-                <li><strong>ragazzi</strong> - con et&agrave; compresa tra gli 11 e i 14 anni  - nel periodo settembre-giugno,</li>
+                <li><strong>bambini e ragazzi</strong> (solo a Pesaro) - nel periodo ottobre-giugno,</li>
                 <li><strong>principianti</strong> - coloro che non hanno mai praticato Aikido - nel periodo settembre-giugno,</li>
                 <li><strong>avanzati</strong> - tutto l'anno.</li>
                 </ul>
