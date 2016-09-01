@@ -67,7 +67,7 @@
 
             <p>Il responsabile didattico &egrave; il Maestro <a href="./insegnante.php">Roberto Foglietta</a>, VI dan Aikikai d'Italia e Aikikai Tokyo.</p>
 
-            <p>Presso i nostri dojo si tengono lezioni di Aikido per adulti e ragazzi, ogni <a href='./orario.php'>giorno</a>. 
+            <p>Presso i nostri dojo si tengono lezioni di Aikido per adulti e ragazzi, nei giorni e nelle ore indicate <a href='./orario.php'>qua</a>. 
             &Egrave; possibile iscriversi in qualsiasi periodo dell'anno.</p>
 
             <p>Se siete interessati a praticare Aikido con noi, venite a <a href='./contatti.php'>trovarci</a>.</p>
