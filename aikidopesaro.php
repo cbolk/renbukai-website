@@ -41,13 +41,13 @@
         <div class="row">
             <div class="col-xs-12">        
                 <center>
-                    <p><em>orario corsi adulti e principianti</em></p>
+                    <p><em>orario corsi principianti e avanzati</em></p>
                     <div class="timet"><span>&nbsp;</span>  <span><strong>settembre-giugno</strong></span> <span><strong>luglio</strong></span> <span><strong>agosto</strong></span></div>
-                    <div class="timet"><span>&nbsp;</span>  <span class='nomobile'>Principianti | Adulti&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class='mobile'>Princ.&nbsp;|&nbsp;Adulti&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <span>Adulti</span> <span>Adulti</span></div>                
+                    <div class="timet"><span>&nbsp;</span>  <span class='nomobile'>Principianti | Avanzati&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class='mobile'>Princ.&nbsp;|&nbsp;Avan.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <span>Avanzati</span> <span>Avanzati</span></div>                
                     <div class="timet"><span class="row day"><span class='nomobile'>marted&igrave; &amp; gioved&igrave;</span><span class='mobile'>mar&nbsp;&amp;&nbsp;gio</span></span> <span class="row">19:30-20:30 | 20:30-21:30</span> <span class="row">19:30-21:00</span> <span class="row">19:30-21:00</span></div>
                     <div class="timet"><span class="row day"><span class='nomobile'>sabato</span><span class='mobile'>sab</span></span> <span class="row">18:00-19:00 | 19:00-20:00</span> <span class="row">18:30-20:00</span> <span class="row">18:30-20:00</span></div>
                     <div class="timet"><span>&nbsp;</span><span>&nbsp;</span></div>
-                    <div class="timet"><span>&nbsp;</span><p><em>orario corsi ragazzi</em></p></div>
+                    <div class="timet"><span>&nbsp;</span><p><em>orario corsi bambini/ragazzi</em></p></div>
                     <div class="timet"><span>&nbsp;</span>  <span><strong>ottobre-giugno</strong></span></div>
                     <div class="timet"><span class="row day"><span class='nomobile'>marted&igrave; &amp; gioved&igrave;</span><span class='mobile'>mar&nbsp;&amp;&nbsp;gio</span></span> <span class="row">18:00-19:00</span> </div>
                     <div class="timet"><span>&nbsp;</span><span>&nbsp;</span></div>
