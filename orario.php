@@ -185,7 +185,7 @@
             </div>
         </div>
         <div class="clearfix mobile">&nbsp;</div>
-        <div class="col-xs-12">
+        <div class="col-lg-12 col-md-12 col-xs-12">
             <p>Il dojo &egrave; chiuso in concomitanza delle seguenti festivit&agrave;:
             </p>
         </div>
@@ -207,7 +207,7 @@
             <li>S. Natale (25 dicembre)</li>
             </ul>
         </div>
-        <div class="col-xs-12">
+        <div class="col-lg-12 col-md-12 col-xs-12">
             <ul class="warn">
                 <li><a name="note"></a> per motivi organizzativi, le persone interessate e gli ospiti di altri Gruppi di Pratica interessati a partecipare
                 sono cortesemente invitate ad annunciare la propria presenza tramite e-mail (info@onohaittoryuitalia.org) o telefono (3405996157).</li>

@@ -1,4 +1,14 @@
 [{
+      "giornoinizio": "2016-10-02",
+      "giornofine": "2016-10-02",
+      "città": "L'Aquila",
+      "dojo": "",
+      "indirizzo": "c/o MUD Centro Danza, via Nurzia, 2 - Localit&agrave; Boschetto di Pile, 67100 L'Aquila (AQ)",
+      "diretto": "",
+      "titolo": "Incontro di pratica",
+      "immagine": "oir_logo.png",
+      "locandina": "20160910.pdf"      
+},{
       "giornoinizio": "2016-09-10",
       "giornofine": "2016-09-11",
       "città": "Pesaro",
@@ -36,7 +46,8 @@
       "indirizzo": "c/o Centro Sportivo Saini, via Corelli, 136 - 20134 Milano (MI)",
       "diretto": "M&deg; Tada",
       "titolo": "Seminario d'autunno M&deg; Tada a Milano",
-      "immagine": "tada.jpg"
+      "immagine": "tada.jpg",
+      "locandina": "20161029.pdf"
 }, {
       "giornoinizio": "2016-10-22",
       "giornofine": "2016-10-23",
@@ -45,7 +56,8 @@
       "indirizzo": "c/o Villa Eur, Piazzale Marcellino Champagnat, 2 - 00144 ROMA (RM)",
       "diretto": "M&deg; Tada",
       "titolo": "Seminario d'autunno M&deg; Tada a Roma",
-      "immagine": "tada.jpg"
+      "immagine": "tada.jpg",
+      "locandina": "20161022.pdf"
 }, {
       "giornoinizio": "2016-11-19",
       "giornofine": "2016-11-20",

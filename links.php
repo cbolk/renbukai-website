@@ -23,6 +23,15 @@
 
 </head>
 <body id="links">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
   <div class="container">
         <div id="headernomobile" class="nomobile col-lg-12">
             <?php include('./utils/head_banner.php'); ?>
@@ -43,8 +52,8 @@
             <div class="col-xs-12">
                 <h4>Italia</h4>
                 <ul>
-                <li><span class="name">Pagina Facebook Aikido Renbukai Pesaro/Rimini </span> <a href="http://www.facebook.com/aikidorenbukai.it/" target=_blank><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-                <li><span class="name">Aikikai Italia</span> <span class="address"><a href="http://www.aikikai.it" target=_blank>www.aikikai.it</a></span></li>
+                <li><span class="name">Pagina Facebook Aikido Renbukai Pesaro/Rimini </span> <a href="http://www.facebook.com/aikidorenbukai.it/" class='noborder' target=_blank><i class="fa fa-facebook-square" aria-hidden="true"></i></a> (metti un <div class="fb-like" data-href="https://www.facebook.com/aikidorenbukai.it/" data-width="200px" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div>)</li>
+                <li><span class="name">Aikikai Italia</span> <span class="address"><a href="http://www.aikikai.it"  target=_blank>www.aikikai.it</a></span></li>
                 <li><span class="name">Aikikai Milano</span> <span class="address"><a href="http://www.aikikaimilano.it" target=_blank>www.aikikaimilano.it</a></span></li>
                 </ul>
                 <h4>Giappone</h4>

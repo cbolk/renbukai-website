@@ -41,6 +41,7 @@
     <link rel="stylesheet" href="css/bootstrap-image-gallery.min.css">
     <link rel="stylesheet" href="css/bootstrap.css">
   	<link rel="stylesheet" media="screen" href="css/main.css" /> <!--Load CSS-->
+
 </head>
 <body id="home">
   <div class="container">
@@ -73,6 +74,7 @@
             <p>Se siete interessati a praticare Aikido con noi, venite a <a href='./contatti.php'>trovarci</a>.</p>
 
             <p>L'Associazione Renbukai &egrave; affiliata all'Associazione di Cultura Tradizionale Giapponese Aikikai d'Italia - Ente Morale (D.P.R. luglio 1978 n. 528).</p>
+
           </div><!-- col-xs-12 mainpage -->
         </div>
         <div class="row">
@@ -178,6 +180,7 @@
     <script src="js/jquery.slicknav.menu.js"></script>
     <script src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
     <script src="js/bootstrap-image-gallery.min.js"></script>  
+
 
     <!-- google tracking -->   
     <?php include_once("utils/analyticstracking.php") ?>      
