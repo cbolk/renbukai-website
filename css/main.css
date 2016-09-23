@@ -484,13 +484,13 @@ font-weight: 300;
 }
 .nav > li > a {padding-top: 15px; padding-bottom: 15px; padding-right: 10px;}
 
-@media (max-width:960px){.nav > li a:before {display: none;} .nav > li > a {padding: 5px;}}
+@media (max-width:960px){.nav > li a:before {display: none;} .nav > li > a {padding: 5px;} }
 
 
 #navbar{border-bottom: 1px solid #F2F2F2; margin-bottom: 15px; margin-top: 5px }
 .navbar-nav {display: block;margin: auto;}
 @media (max-width:960px){#navbar{border-top: 1px solid #F2F2F2; margin-top: 15px}}
-
+@media (min-width:992px){.navbar-nav {margin-left: -15px;}}
 
 
 .caption{font-family: "Open Sans Condensed",sans-serif;font-size: 20px;}
