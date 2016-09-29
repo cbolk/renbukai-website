@@ -1,4 +1,22 @@
 [{
+      "giornoinizio": "2017-05-14",
+      "giornofine": "2017-05-14",
+      "città": "Fano",
+      "dojo": "Shingen",
+      "indirizzo": "c/o Dojo Shingen, Via IV Novembre, 36 - 80054 Fano (PU)",
+      "diretto": "R. Foglietta",
+      "titolo": "Seminari di aikido",
+      "immagine": "rf2.jpg"     
+},{
+      "giornoinizio": "2017-01-14",
+      "giornofine": "2017-01-15",
+      "città": "Cassino",
+      "dojo": "Aikikai Cassino",
+      "indirizzo": "c/o palestra Sporting Club, via S. Bartolomeno, 28 - 03043 Cassino (FR)",
+      "diretto": "R. Foglietta",
+      "titolo": "Seminari di aikido",
+      "immagine": "rf2.jpg"      
+},{
       "giornoinizio": "2016-11-12",
       "giornofine": "2016-11-13",
       "città": "Gragnano",
