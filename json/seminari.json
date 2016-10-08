@@ -1,4 +1,49 @@
 [{
+      "giornoinizio": "2016-12-03",
+      "giornofine": "2016-12-04",
+      "città": "Bari",
+      "dojo": "",
+      "indirizzo": "",
+      "diretto": "R. Foglietta",
+      "titolo": "Seminari di aikido",
+      "immagine": "rf4.jpg"     
+},{
+      "giornoinizio": "2017-06-02",
+      "giornofine": "2017-06-04",
+      "città": "Gradara",
+      "dojo": "",
+      "indirizzo": "",
+      "diretto": "",
+      "titolo": "Seminario internazionale",
+      "immagine": "oir_logo.png"
+},{
+      "giornoinizio": "2017-05-07",
+      "giornofine": "2017-05-07",
+      "città": "Pesaro",
+      "dojo": "Keiko Dojo",
+      "indirizzo": "c/o Keiko Dojo, via Gai, 19 - 61100 Pesaro (PU)",
+      "diretto": "",
+      "titolo": "Incontro di pratica intergruppi",
+      "immagine": "oir_logo.png"
+},{
+      "giornoinizio": "2017-02-05",
+      "giornofine": "2017-02-05",
+      "città": "Roma",
+      "dojo": "",
+      "indirizzo": "",
+      "diretto": "",
+      "titolo": "Incontro di pratica intergruppi",
+      "immagine": "oir_logo.png"
+},{
+      "giornoinizio": "2016-11-06",
+      "giornofine": "2016-11-06",
+      "città": "Pesaro",
+      "dojo": "Keiko Dojo",
+      "indirizzo": "via Gai, 19 - 61100 Pesaro (PU)",
+      "diretto": "",
+      "titolo": "Incontro di pratica intergruppi",
+      "immagine": "oir_logo.png"
+},{
       "giornoinizio": "2017-05-14",
       "giornofine": "2017-05-14",
       "città": "Fano",
@@ -33,7 +78,7 @@
       "dojo": "",
       "indirizzo": "c/o MUD Centro Danza, via Nurzia, 2 - Localit&agrave; Boschetto di Pile, 67100 L'Aquila (AQ)",
       "diretto": "",
-      "titolo": "Incontro di pratica",
+      "titolo": "Incontro di pratica intergruppi",
       "immagine": "oir_logo.png",
       "locandina": "20160910.pdf"      
 },{
@@ -57,7 +102,7 @@
       "immagine": "foto_ft2.jpg",
       "locandina": "20160924.pdf"      
 }, {
-      "giornoinizio": "2016-10-06",
+      "giornoinizio": "2016-10-07",
       "giornofine": "2016-10-09",
       "città": "Mosca",
       "dojo": "Crag",
@@ -65,7 +110,7 @@
       "diretto": "Osawa Shihan",
       "titolo": "Seminario di aikido",
       "immagine": "osawa.jpg",
-      "locandina": "20161006.pdf"      
+      "locandina": "20161007.pdf"      
 }, {
       "giornoinizio": "2016-10-29",
       "giornofine": "2016-10-30",
@@ -178,8 +223,8 @@
       "titolo": "Seminario di aikido",
       "immagine": "foto_ft2.jpg"
 }, {
-      "giornoinizio": "2017-02",
-      "giornofine": "2017-02",
+      "giornoinizio": "2017-02-17",
+      "giornofine": "2017-02-19",
       "città": "Velikiye Luki",
       "dojo": "",
       "indirizzo": "Russia",
