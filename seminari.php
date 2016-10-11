@@ -10,6 +10,7 @@
     $year = $util->getStartAcademicYear($today);
 ?>
 <html>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,6 +23,7 @@
     <!-- bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" media="screen" href="css/main.css" /> <!--Load CSS-->
+
 </head>
 <body id="seminari">
   <div class="container">
@@ -87,7 +89,7 @@
     					echo "<a name='" . str_replace("-", "", $firstday) ."'></a>";
     					echo "<div class='semimage col-lg-2 col-md-2 col-xs-6'><img alt='immagine segnaposto seminario' src='./stages/" . $sem[$i]['immagine'] . "' /></div>";
     					echo "<div class='semdate col-lg-2 col-md-2 col-xs-6 clearfix'>" . strtoupper($m) . "<br/>" . $d . "<br/>" . $y . "<br/><span class='septop'>" . $sem[$i]['città'] . "</span></div>";
-    					echo "<div class='seminartext col-lg-8 col-md-8 col-xs-12 '><div class='semdetails'><strong>" . $sem[$i]['titolo'] . "</strong>";
+    					echo "<div class='seminartext col-lg-8 col-md-8 col-xs-12'><div class='semdetails'><strong>" . $sem[$i]['titolo'] . "</strong>";
     					if($sem[$i]['diretto'] != "" && $sem[$i]['diretto'] != null) 
     						echo " <span class='nomobile'>|</span><span class='mobile'><br/></span> <span class='ulined'>" . $sem[$i]['diretto'] . "</span>";
     					echo "</div>";
@@ -114,15 +116,27 @@
     				}
     			?>
                 <p></p>
+                <div class='seminarwrapper col-lg-12 col-xs-12 col-md-12'>
+                    <div class='semimage col-lg-2 col-md-2 col-xs-6'><a href="stages/seminari201617.pdf" alt="lista seminari" class='noborder download'><img src="stages/semlistimg.png" /></a></div>
+                    <div class='semdate col-lg-10 col-md-10 col-xs-10 clearfix'>
+                        <div class='semdetails'><br/><br/>Scarica l'elenco di tutte le attivit&agrave; dell'anno in corso <a href="stages/seminari201617.pdf" alt="lista seminari" class='download'><i class='fa fa-download'></i></a></div>
+                    </div>
+                </div> 
+                <!--div class='clearfix'></div--> 
             </div>
         </div>
-        <!-- footer -->   
+        <div class="row">
+            <div class="col-lg-12 col-xm-12">
+                <br/>
+                <p>Pagina soggetta a variazioni. Ultimo aggiornamento: <strong>10 ottobre 2016</strong>.</p>
+            </div>
+        </div>        <!-- footer -->   
         <?php include_once("utils/footer.php") ?>
 	</div><!-- container -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>    
     <script src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
-    <script src="js/bootstrap-image-gallery.min.js"></script>  
+    <script src="js/blueimp-gallery.min.js"></script>  
 
     <!-- google tracking -->   
     <?php include_once("utils/analyticstracking.php") ?>
