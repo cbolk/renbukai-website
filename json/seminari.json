@@ -1,4 +1,13 @@
 [{
+      "giornoinizio": "2017-05-27",
+      "giornofine": "2017-05-28",
+      "città": "Pisa",
+      "dojo": "",
+      "indirizzo": "",
+      "diretto": "R. Foglietta",
+      "titolo": "Seminari di aikido",
+      "immagine": "rf4.jpg"     
+},{
       "giornoinizio": "2016-12-03",
       "giornofine": "2016-12-04",
       "città": "Bari",
@@ -214,8 +223,8 @@
       "titolo": "Seminario di armi",
       "immagine": "ft_armi.jpg"
 }, {
-      "giornoinizio": "2017-06-09",
-      "giornofine": "2017-06-12",
+      "giornoinizio": "2017-06-08",
+      "giornofine": "2017-06-11",
       "città": "Pskov",
       "dojo": "Crag",
       "indirizzo": "Pskov, Russia",
@@ -251,6 +260,16 @@
       "diretto": "M&deg; Foglietta & M&deg; Travaglini & Osawa Shihan",
       "titolo": "Seminario di aikido",
       "immagine": "laces2017.png",
+      "locandina": ""
+},{
+      "giornoinizio": "2017-08",
+      "giornofine": "2017-08",
+      "città": "Borgo Pace",
+      "dojo": "",
+      "indirizzo": "",
+      "diretto": "M&deg; Foglietta",
+      "titolo": "Seminario di aikido &amp; armi",
+      "immagine": "rf5.jpg",
       "locandina": ""
 }
 ]
