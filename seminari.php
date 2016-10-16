@@ -128,7 +128,7 @@
         <div class="row">
             <div class="col-lg-12 col-xm-12">
                 <br/>
-                <p>Pagina soggetta a variazioni. Ultimo aggiornamento: <strong>10 ottobre 2016</strong>.</p>
+                <p>Pagina soggetta a variazioni. Ultimo aggiornamento: <strong>16 ottobre 2016</strong>.</p>
             </div>
         </div>        <!-- footer -->   
         <?php include_once("utils/footer.php") ?>
