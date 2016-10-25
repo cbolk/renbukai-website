@@ -11,11 +11,12 @@
       "giornoinizio": "2016-12-03",
       "giornofine": "2016-12-04",
       "città": "Bari",
-      "dojo": "",
-      "indirizzo": "",
+      "dojo": "Waka Ki Dojo",
+      "indirizzo": "c/o Palazzetto dello Sport, via F. Turati - 70126 Bari (BA)",
       "diretto": "R. Foglietta",
       "titolo": "Seminari di aikido",
-      "immagine": "rf4.jpg"     
+      "immagine": "rf4.jpg",
+      "locandina": "20161203.pdf"      
 },{
       "giornoinizio": "2017-06-02",
       "giornofine": "2017-06-04",
@@ -69,7 +70,8 @@
       "indirizzo": "c/o palestra Sporting Club, via S. Bartolomeno, 28 - 03043 Cassino (FR)",
       "diretto": "R. Foglietta",
       "titolo": "Seminari di aikido",
-      "immagine": "rf2.jpg"      
+      "immagine": "rf2.jpg",
+      "locandina": "20170114.pdf"       
 },{
       "giornoinizio": "2016-11-12",
       "giornofine": "2016-11-13",
