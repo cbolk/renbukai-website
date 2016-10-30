@@ -152,7 +152,17 @@
       "titolo": "Seminario di aikido per Yudansha, I, II e III Kyu",
       "immagine": "foto_ft2.jpg",
       "locandina": "20161119.pdf" 
-},  {
+},{
+      "giornoinizio": "2016-12-11",
+      "giornofine": "2016-12-11",
+      "città": "Ostia",
+      "dojo": "Kikai Dojo",
+      "indirizzo": "c/o Yoshokan, via Genoese Zerbi, 27 - 00122 Ostia (Roma)",
+      "diretto": "R. Foglietta",
+      "titolo": "Seminari di aikido",
+      "immagine": "rf4.jpg",
+      "locandina": "20161211.pdf"     
+},{
       "giornoinizio": "2016-12-26",
       "giornofine": "2016-12-30",
       "città": "Milano",
