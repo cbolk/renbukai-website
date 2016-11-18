@@ -18,6 +18,16 @@
       "immagine": "rf4.jpg",
       "locandina": "20161203.pdf"      
 },{
+      "giornoinizio": "2016-12-11",
+      "giornofine": "2016-12-11",
+      "città": "Ostia",
+      "dojo": "Kikai Dojo",
+      "indirizzo": "c/o Yoshokan, Via Genoese Zerbi, 27 - 00122 Ostia (ROMA)",
+      "diretto": "R. Foglietta",
+      "titolo": "Seminari di aikido",
+      "immagine": "rf6.jpg",
+      "locandina": "20161211.pdf"      
+},{
       "giornoinizio": "2017-06-02",
       "giornofine": "2017-06-04",
       "città": "Gradara",
@@ -160,7 +170,8 @@
       "indirizzo": "c/o Aikikai Milano, ingresso da via Porpora 43/47 - 20131 Milano (MI)",
       "diretto": "P. Aiello &amp; R. Foglietta &amp; R. Travaglini",
       "titolo": "Seminario di fine anno",
-      "immagine": "foto_ft2.jpg"
+      "immagine": "foto_ft2.jpg",
+      "locandina": "20161226.pdf"     
 }, {
       "giornoinizio": "2017-01-28",
       "giornofine": "2017-01-29",
@@ -174,11 +185,13 @@
       "giornoinizio": "2017-02-11",
       "giornofine": "2017-02-12",
       "città": "Milano",
-      "dojo": "Aikikai Milano",
+      "dojo": "Aikido Renbukai, Aikikai Milano, Aikido Fujinami Bologna",
       "indirizzo": "",
       "diretto": "",
       "titolo": "Seminario Osawa Shihan",
-      "immagine": "osawa2.jpg"
+      "immagine": "osawa2.jpg",
+      "locandina": "20170211_it.pdf",
+      "locandina_en": "20170211_en.pdf"     
 }, {
       "giornoinizio": "2017-03-11",
       "giornofine": "2017-03-12",

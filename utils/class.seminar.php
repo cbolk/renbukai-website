@@ -11,6 +11,7 @@ class seminar {
     public $address;
     public $city;
     public $pdf;
+    public $pdfe;
     public $image;
     public $instructor;
     
@@ -46,6 +47,7 @@ class seminar {
 		'titolo' => $this->title, 
 		'dojo' => $this->dojo, 
 		'locandina' => $this->pdf, 
+		'locandina_en' => $this->pdfe, 
 		'immagine' => $this->image, 
 		'diretto' => $this->instructor, 
 		'città' => $this->city, 
@@ -148,6 +150,7 @@ class seminar {
 					$this->address = $sem['indirizzo'];
 					$this->city = $sem['città'];
 					$this->pdf = $sem['locandina'];
+					$this->pdfe = $sem['locandina_en'];
 					$this->image = $sem['immagine'];
 					return ;
 				}
