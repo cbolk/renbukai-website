@@ -45,7 +45,7 @@
                 <p><strong>c/o KeikoDojo</strong><br/>
                 <i class="fa fa-map-marker"></i>&nbsp;<span>Via Pietro Gai, 19 - 61100 Pesaro (PU)</span><br/><br/>
                 <i class="fa fa-mobile"></i>&nbsp;<span> 340-5996157 (aikido adulti)</span><br/>
-                <i class="fa fa-mobile"></i>&nbsp;<span> 334-3453259 (aikido bambini/ragazzi)</span><br/>
+                <i class="fa fa-mobile"></i>&nbsp;<span> 320-3696555 (aikido bambini/ragazzi)</span><br/>
                 <i class="fa fa-envelope-o"></i>&nbsp;<span> info@aikidorenbukai.it</span></p>
                 <div>
                     <iframe class="nomobile" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2874.725137263933!2d12.904746115505823!3d43.902959179113566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132d194fc615be2b%3A0xfa1abbad378072fc!2sVia+Gai+Pietro%2C+19%2C+61122+Pesaro+PU!5e0!3m2!1sen!2sit!4v1451164963649" width="95%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
