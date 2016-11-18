@@ -108,7 +108,7 @@
     	    				echo "</div>";
         				}
         				if($sem[$i]['locandina'] != null)
-    	    				echo "<div class='semdetails'><i class='fa fa-file-o'></i> locandina: <a  class='noborder' href='download.php?fp=stages/" . $sem[$i]['locandina'] . "'><i class='fa fa-file-pdf-o'></i></a></div>";
+    	    				echo "<div class='semdetails'><i class='fa fa-file-o'></i> locandina: <a  target=_blank class='noborder' href='download.php?fp=stages/" . $sem[$i]['locandina'] . "'><i class='fa fa-file-pdf-o'></i></a></div>";
     					echo "</div> <!-- .seminartext -->";
     					//echo "</div> <!-- .seminarentry -->";
     					echo "</div> <!-- .seminarwrapper -->";
@@ -117,9 +117,9 @@
     			?>
                 <p></p>
                 <div class='seminarwrapper col-lg-12 col-xs-12 col-md-12'>
-                    <div class='semimage col-lg-2 col-md-2 col-xs-6'><a href="download.php?fp=stages/seminari201617.pdf" alt="lista seminari" class='noborder download'><img src="stages/semlistimg.png" /></a></div>
+                    <div class='semimage col-lg-2 col-md-2 col-xs-6'><a href="download.php?fp=stages/seminari201617.pdf" alt="lista seminari" class='noborder download' target=_blank><img src="stages/semlistimg.png" /></a></div>
                     <div class='semdate col-lg-10 col-md-10 col-xs-10 clearfix'>
-                        <div class='semdetails'><br/><br/>Scarica l'elenco di tutte le attivit&agrave; dell'anno in corso <a href="download.php?fp=stages/seminari201617.pdf" alt="lista seminari" class='download'><i class='fa fa-download'></i></a></div>
+                        <div class='semdetails'><br/><br/>Scarica l'elenco di tutte le attivit&agrave; dell'anno in corso <a href="download.php?fp=stages/seminari201617.pdf"  target=_blank alt="lista seminari" class='download'><i class='fa fa-download'></i></a></div>
                     </div>
                 </div> 
                 <!--div class='clearfix'></div--> 
