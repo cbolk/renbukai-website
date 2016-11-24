@@ -56,7 +56,7 @@
 
         <div class="row">
           <div class="col-lg-4 col-med-4 col-md-4 col-xs-12 mainpage acenter">
-            <img alt="foto Roberto Foglietta" src="./images/ifront.jpg" alt="" />
+            <img alt="foto Roberto Foglietta" src="./images/ifront.new.jpg" alt="" />
           </div>        
           <div class="col-lg-8 col-md-8 col-xs-12 mainpage">
             <p>Benvenuti nel sito dell'Associazione Renbukai, scuola di <a href="./aikido.php">Aikido</a>, 
