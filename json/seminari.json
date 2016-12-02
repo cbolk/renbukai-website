@@ -1,11 +1,31 @@
 [{
+      "giornoinizio": "2017-01-28",
+      "giornofine": "2017-01-29",
+      "città": "Milano",
+      "dojo": "Aikikai Milano",
+      "indirizzo": "c/o Aikikai Milano, ingresso da via Porpora 43/47 - 20131 Milano (MI)",
+      "diretto": "F. Bottacin &amp; L. Benevelli",
+      "titolo": "Seminario di aikido per III, IV e V kyu",
+      "immagine": "aikido.jpg",
+      "locandina": "20170128.pdf"            
+},{
+      "giornoinizio": "2017-03-11",
+      "giornofine": "2017-03-12",
+      "città": "Milano",
+      "dojo": "Aikikai Milano",
+      "indirizzo": "c/o Aikikai Milano, ingresso da via Porpora 43/47 - 20131 Milano (MI)",
+      "diretto": "C. Sguinzo &amp; R. Costantini",
+      "titolo": "Seminario di aikido per V, VI e mu kyu",
+      "immagine": "aikido.jpg",
+      "locandina": "20170311.pdf"            
+},{
       "giornoinizio": "2017-05-27",
       "giornofine": "2017-05-28",
       "città": "Pisa",
       "dojo": "",
       "indirizzo": "",
       "diretto": "R. Foglietta",
-      "titolo": "Seminari di aikido",
+      "titolo": "Seminario di aikido",
       "immagine": "rf4.jpg"     
 },{
       "giornoinizio": "2016-12-03",
@@ -14,7 +34,7 @@
       "dojo": "Waka Ki Dojo",
       "indirizzo": "c/o Palazzetto dello Sport, via F. Turati - 70126 Bari (BA)",
       "diretto": "R. Foglietta",
-      "titolo": "Seminari di aikido",
+      "titolo": "Seminario di aikido",
       "immagine": "rf4.jpg",
       "locandina": "20161203.pdf"      
 },{
@@ -24,7 +44,7 @@
       "dojo": "Kikai Dojo",
       "indirizzo": "c/o Yoshokan, Via Genoese Zerbi, 27 - 00122 Ostia (ROMA)",
       "diretto": "R. Foglietta",
-      "titolo": "Seminari di aikido",
+      "titolo": "Seminario di aikido",
       "immagine": "rf6.jpg",
       "locandina": "20161211.pdf"      
 },{
@@ -70,7 +90,7 @@
       "dojo": "Shingen",
       "indirizzo": "c/o Dojo Shingen, Via IV Novembre, 36 - 80054 Fano (PU)",
       "diretto": "R. Foglietta",
-      "titolo": "Seminari di aikido",
+      "titolo": "Seminario di aikido",
       "immagine": "rf2.jpg"     
 },{
       "giornoinizio": "2017-01-14",
@@ -79,7 +99,7 @@
       "dojo": "Aikikai Cassino",
       "indirizzo": "c/o palestra Sporting Club, via S. Bartolomeno, 28 - 03043 Cassino (FR)",
       "diretto": "R. Foglietta",
-      "titolo": "Seminari di aikido",
+      "titolo": "Seminario di aikido",
       "immagine": "rf2.jpg",
       "locandina": "20170114.pdf"       
 },{
@@ -89,7 +109,7 @@
       "dojo": "Aikikai Nutsu",
       "indirizzo": "c/o Centro Sportivo Moscati, via Castellammare, 40 - 80054 Gragnano (NA)",
       "diretto": "R. Foglietta",
-      "titolo": "Seminari di aikido",
+      "titolo": "Seminario di aikido",
       "immagine": "rf2.jpg",
       "locandina": "20161112.pdf"      
 },{
@@ -173,15 +193,6 @@
       "immagine": "foto_ft2.jpg",
       "locandina": "20161226.pdf"     
 }, {
-      "giornoinizio": "2017-01-28",
-      "giornofine": "2017-01-29",
-      "città": "Milano",
-      "dojo": "Aikikai Milano",
-      "indirizzo": "c/o Aikikai Milano, ingresso da via Porpora 43/47 - 20131 Milano (MI)",
-      "diretto": "F. Bottacin &amp; L. Benevelli",
-      "titolo": "Seminario di aikido per III, IV e V Kyu",
-      "immagine": "aikido.jpg"
-}, {
       "giornoinizio": "2017-02-11",
       "giornofine": "2017-02-12",
       "città": "Milano",
@@ -192,15 +203,6 @@
       "immagine": "osawa2.jpg",
       "locandina": "20170211_it.pdf",
       "locandina_en": "20170211_en.pdf"     
-}, {
-      "giornoinizio": "2017-03-11",
-      "giornofine": "2017-03-12",
-      "città": "Milano",
-      "dojo": "Aikikai Milano",
-      "indirizzo": "c/o Aikikai Milano, ingresso da via Porpora 43/47 - 20131 Milano (MI)",
-      "diretto": "C. Sguinzo &amp; R. Costantini",
-      "titolo": "Seminario di aikido per V, VI e mu Kyu",
-      "immagine": "aikido.jpg"
 }, {
       "giornoinizio": "2017-03-18",
       "giornofine": "2017-03-19",
@@ -282,7 +284,7 @@
       "città": "Borgo Pace",
       "dojo": "",
       "indirizzo": "",
-      "diretto": "M&deg; Foglietta",
+      "diretto": "R. Foglietta",
       "titolo": "Seminario di aikido &amp; armi",
       "immagine": "rf5.jpg",
       "locandina": ""
