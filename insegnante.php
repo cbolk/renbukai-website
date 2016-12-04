@@ -61,7 +61,7 @@
             <div class="col-xs-12 col-sm-6 col-lg-6">  
                 <div class="acenter pad">
                     <img alt="foto Maestri Fujimoto, Tada e Hosokawa" src="http://www.musubi.it/images/dojo/tada-fuji-hoso02.jpg" alt="M&deg; Fujimoto, Tada e Hosokawa"/>
-                    <p class="notice">I M&deg; Fujimoto, Tada e Hosokawa a La Spezia nel 2002<br/>(foto Paolo Bottoni, sito <a target=_blank href='http://www.musubi.it/'>Musubi</a>).</p>
+                    <p class="notice">I Maestri Fujimoto, Tada e Hosokawa a La Spezia nel 2002<br/>(foto Paolo Bottoni, sito <a target=_blank href='http://www.musubi.it/'>Musubi</a>).</p>
                 </div>
             </div>            
         </div>
