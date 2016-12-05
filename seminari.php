@@ -119,7 +119,13 @@
                 <div class='seminarwrapper col-lg-12 col-xs-12 col-md-12'>
                     <div class='semimage col-lg-2 col-md-2 col-xs-6'><a href="download.php?fp=stages/seminari201617.pdf" alt="lista seminari" class='noborder download' target=_blank><img src="stages/semlistimg.png" /></a></div>
                     <div class='semdate col-lg-10 col-md-10 col-xs-10 clearfix'>
-                        <div class='semdetails'><br/><br/>Scarica l'elenco di tutte le attivit&agrave; dell'anno in corso <a href="download.php?fp=stages/seminari201617.pdf"  target=_blank alt="lista seminari" class='download'><i class='fa fa-download'></i></a></div>
+                        <div class='semdetails'><br/><br/>Scarica l'elenco di tutte le attivit&agrave; dell'anno in corso <a href="download.php?fp=stages/seminari201617.pdf"  target=_blank alt="lista attività" class='download'><i class='fa fa-download'></i></a></div>
+                    </div>
+                </div> 
+                <div class='seminarwrapper col-lg-12 col-xs-12 col-md-12'>
+                    <div class='semimage col-lg-2 col-md-2 col-xs-6'><a href="download.php?fp=stages/seminariaikido201617.pdf" alt="lista seminari" class='noborder download' target=_blank><img src="stages/aikilistimg.png" /></a></div>
+                    <div class='semdate col-lg-10 col-md-10 col-xs-10 clearfix'>
+                        <div class='semdetails'><br/><br/>Scarica l'elenco dei seminari di aikido dell'anno in corso <a href="download.php?fp=stages/seminariaikido201617.pdf"  target=_blank alt="lista seminari aikido" class='download'><i class='fa fa-download'></i></a></div>
                     </div>
                 </div> 
                 <!--div class='clearfix'></div--> 
@@ -129,7 +135,7 @@
         <div class="row">
             <div class="col-lg-12 col-xm-12">
                 <br/>
-                <p>Pagina soggetta a variazioni. Ultimo aggiornamento: <strong>16 ottobre 2016</strong>.</p>
+                <p>Pagina soggetta a variazioni. Ultimo aggiornamento: <strong>5 dicembre 2016</strong>.</p>
             </div>
         </div>        <!-- footer -->   
         <?php include_once("utils/footer.php") ?>
