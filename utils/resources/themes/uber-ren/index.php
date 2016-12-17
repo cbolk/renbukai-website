@@ -1,37 +1,95 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<?php 
+    setlocale(LC_TIME, 'ita');
+    date_default_timezone_set('Europe/Rome');
+    include("../../utils/class.utils.php");
+    include('../../utils/resources/UberGallery.php');
+    include("../../utils/class.seminar.php");
 
+    // Initialize the UberGallery object
+    $gallery = new UberGallery();
+
+    // Initialize the gallery array
+    $galleryArray = $gallery->readImageDirectory('photos/dojo/');
+    $util = new utils();
+    $s = new seminar();
+    $s->setSource("./json/seminari.json");
+
+    function sort_by_date($a, $b) {
+        $dA = strtotime($a['data']);
+        $dB = strtotime($b['data']);
+
+        return $dB - $dA;
+    }
+
+    // Define theme path
+    if (!defined('THEMEPATH')) {
+        define('THEMEPATH', $gallery->getThemePath());
+    }
+
+    // Set path to theme index
+    $themeIndex = $gallery->getThemePath(true) . '/index.php';
+
+    // Initialize the theme
+    if (file_exists($themeIndex)) {
+        include($themeIndex);
+    } else {
+        die('ERROR: Failed to initialize theme');
+    }
+
+?>
+<!DOCTYPE html>
+<html>
 <head>
-    <title>UberGallery</title>
-
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Foto | Associazione Renbukai</title>
+    <link rel="apple-touch-icon-precomposed" href="assets/favicon_t.png" />
+    <link rel="shortcut icon" href="assets/favicon.png">
+    <meta name="description" content="aikido scuola pesaro rimini renbukai jo bokken tanto arti marziali foglietta fujimoto osawa tada">
+    <meta name="author" content="cbolk">
+    <!-- bootstrap -->
+    <!-- bootstrap -->
     <link rel="shortcut icon" href="<?php echo THEMEPATH; ?>/img/favicon.png" />
 
     <link rel="stylesheet" type="text/css" href="<?php echo THEMEPATH; ?>/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo THEMEPATH; ?>/css/style.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo THEMEPATH; ?>/css/bootstrap-responsive.min.css" />
-    <?php echo $gallery->getColorboxStyles(1); ?>
+    <link rel="stylesheet" media="screen" href="css/main.css" /> <!--Load CSS-->
+    <link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
 
+<style>
+    .clear          { clear:both; }
+    .photo-link     { padding:5px; margin:5px; border:1px solid #ccc; display:block; width:200px; float:left; }
+    .photo-link:hover   { border-color:#999; }
+</style>
     <script type="text/javascript" src="//code.jquery.com/jquery-2.1.4.min.js"></script>
     <script type="text/javascript" src="<?php echo THEMEPATH; ?>/js/bootstrap.min.js"></script>
-    <?php echo $gallery->getColorboxScripts(); ?>
 
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <?php file_exists('googleAnalytics.inc') ? include('googleAnalytics.inc') : false; ?>
 </head>
 
-<body>
-
-    <div class="container">
-
-        <div class="navbar navbar-inverse">
-            <div class="navbar-inner">
-                <div class="container">
-                    <div class="brand">UberGallery</div>
-                </div>
-            </div>
+<body id="photodojo">
+  <div class="container">
+        <div id="headernomobile" class="nomobile col-lg-12">
+            <?php include('./utils/head_banner.php'); ?>
         </div>
+        <div class="header clearfix">
+            <div id="mmenu"><?php include('./utils/menumobile.php'); ?></div>
+            <div id="smenu"></div>          
+        </div>
+        <div id="headermobile" class="mobile">
+            <?php include('./utils/head_banner.php'); ?>
+        </div>
+
+        <div class="row">
+                <h3>Galleria fotografica Renbukai</h3>
+        </div>
+        <div class="row">
+            <?php echo $gallery->getColorboxStyles(1); ?>
+
+
+    <?php echo $gallery->getColorboxScripts(); ?>
+
 
         <?php if($gallery->getSystemMessages()): ?>
             <?php foreach($gallery->getSystemMessages() as $message): ?>
