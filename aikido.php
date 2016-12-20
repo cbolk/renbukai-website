@@ -29,7 +29,6 @@
     <meta name="description" content="aikido scuola pesaro rimini renbukai jo bokken tanto arti marziali foglietta fujimoto osawa tada">
     <meta name="author" content="cbolk">
     <!-- bootstrap -->
-    <!-- bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" media="screen" href="css/main.css" /> <!--Load CSS-->
 </head>

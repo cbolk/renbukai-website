@@ -219,65 +219,6 @@ class UberGallery {
         return $galleryArray;
     }
 
-
-   /**
-     * Returns an array of files and stats of the specified directory
-     *
-     * @param string $directory Relative path to images directory
-     * @return array File listing and statistics for specified directory
-     * @access public
-     */
-    public function readImageDirectories($topdirectory) {
-
-        foreach($dir as $k => $directory){
-            
-        }
-
-        // Set relative image directory
-        $this->setRelativeImageDirectory($directory);
-
-        // Instantiate gallery array
-        $galleryArray = array();
-
-        // Get the cached array
-        $galleryArray = $this->_readIndex($this->_index);
-
-        // If cached array is false, read the directory
-        if (!$galleryArray) {
-
-            // Get array of directory
-            $dirArray = $this->_readDirectory($directory);
-
-            // Loop through array and add additional info
-            foreach ($dirArray as $key => $image) {
-
-                // Get files relative path
-                $relativePath = $this->_rImgDir . '/' . $key;
-
-                $galleryArray['images'][htmlentities(pathinfo($image['real_path'], PATHINFO_BASENAME))] = array(
-                    'file_title'   => str_replace('_', ' ', pathinfo($image['real_path'], PATHINFO_FILENAME)),
-                    'file_path'    => htmlentities($relativePath),
-                    'thumb_path'   => $this->_createThumbnail($image['real_path'])
-                );
-
-            }
-
-            // Add statistics to gallery array
-            $galleryArray['stats'] = $this->_readGalleryStats($this->_readDirectory($directory, false));
-
-            // Add gallery paginator to the gallery array
-            $galleryArray['paginator'] = $this->_getPaginatorArray($galleryArray['stats']['current_page'], $galleryArray['stats']['total_pages']);
-
-            // Save the sorted array
-            if ($this->isCachingEnabled()) {
-                $this->_createIndex($galleryArray, $this->_index);
-            }
-        }
-
-        // Return the array
-        return $galleryArray;
-    }
-
     /**
      * Returns a template string with custom data injected into it
      *

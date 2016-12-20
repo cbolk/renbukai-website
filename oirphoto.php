@@ -7,7 +7,7 @@
     $gallery = new UberGallery();
 
     // Initialize the gallery array
-    $galleryArray = $gallery->readImageDirectory('./photos/dojo/');
+    $galleryArray = $gallery->readImageDirectory('./photos/oir/');
 
     // Define theme path
     if (!defined('THEMEPATH')) {
@@ -15,7 +15,7 @@
     }
 
     // Set path to theme index
-    $themeIndex = $gallery->getThemePath(true) . '/index.php';
+    $themeIndex = $gallery->getThemePath(true) . '/indexoir.php';
 
     // Initialize the theme
     if (file_exists($themeIndex)) {

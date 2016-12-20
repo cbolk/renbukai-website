@@ -21,7 +21,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Galleria fotografica | Associazione Renbukai</title>
+    <title>Galleria fotografica OIR | Associazione Renbukai</title>
     <link rel="apple-touch-icon-precomposed" href="assets/favicon_t.png" />
     <link rel="shortcut icon" href="assets/favicon.png">
     <meta name="description" content="aikido scuola pesaro rimini renbukai jo bokken tanto arti marziali foglietta fujimoto osawa tada">
@@ -58,7 +58,7 @@
         </div>
 
         <div class="row">
-                <h3>Galleria fotografica Associazione Renbukai</h3>
+                <h3>Foto Allenamento OIR 10-12-2016</h3>
         </div>
         <div class="row">
 
