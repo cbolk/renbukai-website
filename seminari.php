@@ -107,6 +107,8 @@
     	    				echo "<a class='noborder' target=_blank title='apre google maps' href='http://maps.google.com?q=" .  $map . "'><img alt='immagine segnaposto googlemap' src='./assets/gmaps.png' width='20px'/>&nbsp;<span class='mobile'>apri in GoogleMaps</span></a>";
     	    				echo "</div>";
         				}
+                        if($sem[$i]['url'] != null)
+                            echo "<div class='semdetails'><i class='fa fa-globe'></i> sito web <a href='$sem[$i]['url']' target=_blank>" . $sem[$i]['url'] . "</a></div>";
         				if($sem[$i]['locandina'] != null)
     	    				echo "<div class='semdetails'><i class='fa fa-file-o'></i> locandina: <a  target=_blank class='noborder' href='download.php?fp=stages/" . $sem[$i]['locandina'] . "'><i class='fa fa-file-pdf-o'></i></a></div>";
     					echo "</div> <!-- .seminartext -->";
@@ -135,7 +137,7 @@
         <div class="row">
             <div class="col-lg-12 col-xm-12">
                 <br/>
-                <p>Pagina soggetta a variazioni. Ultimo aggiornamento: <strong>5 dicembre 2016</strong>.</p>
+                <p>Pagina soggetta a variazioni. Ultimo aggiornamento: <strong>3 maggio 2017</strong>.</p>
             </div>
         </div>        <!-- footer -->   
         <?php include_once("utils/footer.php") ?>
