@@ -145,28 +145,27 @@
                           <tbody>
                           <tr>
                               <td class="time">16:00<span class='nomobile'> - </span><span class='mobile'><br/></span>18:30</td>
-                              <td rowspan="4" class="hour">&nbsp;</td>
-                              <td rowspan="2" class="hour">&nbsp;</td>
-                              <td rowspan="2" class="hour">&nbsp;</td>
-                              <td rowspan="2" class="hour">&nbsp;</td>
-                              <td rowspan="2" class="hour">&nbsp;</td>
+                              <td class="hour" rowspan="3">&nbsp;</td>
+                              <td class="hour" rowspan="2">&nbsp;</td>
+                              <td class="hour" rowspan="2">&nbsp;</td>
+                              <td class="hour" rowspan="2">&nbsp;</td>
+                              <td class="hour" rowspan="2">&nbsp;</td>
                               <td class="hour onohaittoryu"><span class='nomobile'>&nbsp;<br/>&nbsp;<br/>Onoha Itto Ryu</span><span class='mobile'>OIR</span><br/><a href="#note" class='noborder'><i class="fa fa-bookmark"></i></a><br/>&nbsp;</td>
                               <td class="time">16:00<span class='nomobile'> - </span><span class='mobile'><br/></span>18:30</td>
                           </tr>
                           <tr>
                               <td class="time"></td>
-                              <td class="hour adultipesaro" rowspan="2">&nbsp;<br/><span class='nomobile'>Avanzati</span><span class='mobile'>A</span><br/>&nbsp;</td>
-                              <td class="time" rowspan="2">18:30<span class='nomobile'>&nbsp;-&nbsp;</span><span class='mobile'><br/></span>20:00</td>
+                              <td class="hour adultipesaro">&nbsp;<br/><span class='nomobile'>Avanzati</span><span class='mobile'>A</span><br/>&nbsp;</td>
+                              <td class="time">18:30<span class='nomobile'>&nbsp;-&nbsp;</span><span class='mobile'><br/></span>20:00</td>
                           </tr>
                           <tr>
-                              <td class="time">19:30<span class='nomobile'>&nbsp;-&nbsp;</span><span class='mobile'><br/></span>21:00</td>
-                              <td class="hour adultipesaro" rowspan="2">&nbsp;<br/><span class='nomobile'>Avanzati</span><span class='mobile'>A</span><br/>&nbsp;</td>
-                              <td class="hour adultirimini" rowspan="2">&nbsp;<br/><span class='nomobile'>Avanzati</span><span class='mobile'>A</span><br/>&nbsp;</td>
-                              <td class="hour adultipesaro" rowspan="2">&nbsp;<br/><span class='nomobile'>Avanzati</span><span class='mobile'>A</span><br/>&nbsp;</td>
-                              <td class="hour adultirimini" rowspan="2">&nbsp;<br/><span class='nomobile'>Avanzati</span><span class='mobile'>A</span><br/>&nbsp;</td>
-                          </tr>
-                              <td class="time"></td>
+                              <td class="time">20:00<span class='nomobile'>&nbsp;-&nbsp;</span><span class='mobile'><br/></span>21:30</td>
+                              <td class="hour adultipesaro">&nbsp;<br/><span class='nomobile'>Avanzati</span><span class='mobile'>A</span><br/>&nbsp;</td>
+                              <td class="hour adultirimini">&nbsp;<br/><span class='nomobile'>Avanzati</span><span class='mobile'>A</span><br/>&nbsp;</td>
+                              <td class="hour adultipesaro">&nbsp;<br/><span class='nomobile'>Avanzati</span><span class='mobile'>A</span><br/>&nbsp;</td>
+                              <td class="hour adultirimini">&nbsp;<br/><span class='nomobile'>Avanzati</span><span class='mobile'>A</span><br/>&nbsp;</td>
                               <td class="hour">&nbsp;</td>
+                              <td class="time">20:00<span class='nomobile'>&nbsp;-&nbsp;</span><span class='mobile'><br/></span>21:30</td>
                           </tr>
                           </tbody>
                       </table>

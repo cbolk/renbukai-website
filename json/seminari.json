@@ -267,12 +267,12 @@
       "titolo": "Seminario di armi",
       "immagine": "ft_armi.jpg"
 }, {
-      "giornoinizio": "2017-06-08",
-      "giornofine": "2017-06-11",
+      "giornoinizio": "2017-06-09",
+      "giornofine": "2017-06-12",
       "città": "Pskov",
       "dojo": "Crag",
       "indirizzo": "Pskov, Russia",
-      "diretto": "R. Foglietta &amp; R. Travaglini",
+      "diretto": "R. Foglietta",
       "titolo": "Seminario di aikido",
       "immagine": "foto_ft2.jpg"
 }, {
@@ -294,8 +294,8 @@
       "indirizzo": "c/o Keiko Dojo, via Gai, 19 - 61100 Pesaro (PU)",
       "diretto": "R. Foglietta &amp; M. D'Amico",
       "titolo": "Seminario di aikido &amp; esami Kyu",
-      "immagine": "fogliettadamico.png"
-    
+      "immagine": "fogliettadamico.png",
+      "locandina": "20170617.pdf"    
 },{
       "giornoinizio": "2017-07-01",
       "giornofine": "2017-07-08",
