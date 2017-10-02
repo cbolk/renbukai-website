@@ -6,7 +6,8 @@
       "indirizzo": "c/o Fujinami, via Nardi, 13 - 40139 Bologna (BO)",
       "diretto": "R. Foglietta &amp; R. Travaglini",
       "titolo": "Seminario d'inizio anno",
-      "immagine": "20170916.jpg"
+      "immagine": "20170916.jpg",
+      "locandina": "20170916.pdf"
 },{
       "giornoinizio": "2017-09-24",
       "giornofine": "2017-09-24",
@@ -17,12 +18,21 @@
       "titolo": "Stage di Aikido per i 10 anni dell'Associazione Shingen",
       "immagine": "20170923.jpg"
 }, {
-      "giornoinizio": "2017-10-16",
-      "giornofine": "2017-10-17",
+      "giornoinizio": "2017-10-10",
+      "giornofine": "2017-10-10",
+      "città": "Pesaro",
+      "dojo": "Keiko Dojo",
+      "indirizzo": "c/o Keiko Dojo, via Gai, 19 - 61100 Pesaro (PU)",
+      "diretto": "M&deg; Ueda, VII dan Aikikai, praticante Hombu Dojo Tokyo",
+      "titolo": "Lezione M&deg; Kazumichi Ueda",
+      "immagine": "ueda.jpg"
+}, {
+      "giornoinizio": "2017-10-28",
+      "giornofine": "2017-10-29",
       "città": "Milano",
       "dojo": "Aikikai d'Italia",
       "indirizzo": "c/o Centro Sportivo Saini, via Corelli, 136 - 20134 Milano (MI)",
-      "diretto": "M&deg; Tada",
+      "diretto": "",
       "titolo": "Seminario d'autunno M&deg; Tada a Milano",
       "immagine": "tada.jpg"
 }, {
@@ -30,8 +40,8 @@
       "giornofine": "2017-10-22",
       "città": "Roma",
       "dojo": "Aikikai d'Italia",
-      "indirizzo": "c/o Villa Eur, Piazzale Marcellino Champagnat, 2 - 00144 ROMA (RM)",
-      "diretto": "M&deg; Tada",
+      "indirizzo": "c/o Villa Eur, Piazzale Marcellino Champagnat, 2 - 00144 Roma (RM)",
+      "diretto": "",
       "titolo": "Seminario d'autunno M&deg; Tada a Roma",
       "immagine": "tada.jpg"
 }, {
@@ -40,18 +50,212 @@
       "città": "Milano",
       "dojo": "Aikikai Milano",
       "indirizzo": "c/o Aikikai Milano, ingresso da via Porpora 43/47 - 20131 Milano (MI)",
-      "diretto": "R. Foglietta &amp; R. Travaglini",
+      "diretto": "R. Foglietta &amp; R. Travaglini  &amp; F. Bottacin",
       "titolo": "Seminario di aikido per Yudansha, I e II Kyu",
-      "immagine": "ft2017.jpg" 
+      "immagine": "dojomi.jpg" 
 },  {
       "giornoinizio": "2017-12-26",
       "giornofine": "2017-12-30",
       "città": "Milano",
       "dojo": "Aikikai Milano",
       "indirizzo": "c/o Aikikai Milano, ingresso da via Porpora 43/47 - 20131 Milano (MI)",
-      "diretto": "P. Aiello &amp; R. Foglietta &amp; R. Travaglini",
+      "diretto": "A. Fabbretti &amp; R. Foglietta &amp; R. Travaglini",
       "titolo": "Seminario di fine anno",
-      "immagine": "ft2017.jpg"     
+      "immagine": "dojomi.jpg"     
+}, {
+      "giornoinizio": "2018-02-10",
+      "giornofine": "2018-02-11",
+      "città": "Milano",
+      "dojo": "Aikikai Milano",
+      "indirizzo": "c/o Ronin Dojo, Via Savonarola, 19 - 20900 Monza",
+      "diretto": "",
+      "titolo": "Seminario Osawa Shihan",
+      "immagine": "osawa2.jpg",
+      "locandina": "20170211_it.pdf",
+      "locandina_en": "20170211_en.pdf"     
+}, {
+      "giornoinizio": "2018-03-24",
+      "giornofine": "2018-03-25",
+      "città": "Milano",
+      "dojo": "Aikikai d'Italia",
+      "indirizzo": "c/o Centro Sportivo 'Bernardi', Parco Lunetta Gamberini, 40137 Bologna (BO)",
+      "diretto": "",
+      "titolo": "Seminario di primavera del M&deg; Tada a Bologna",
+      "immagine": "tada.jpg"
+}, {
+      "giornoinizio": "2018-03-31",
+      "giornofine": "2018-04-02",
+      "città": "Roma",
+      "dojo": "Aikikai d'Italia",
+      "indirizzo": "c/o Villa Eur, Piazzale Marcellino Champagnat, 2 - 00144 Roma (RM)",
+      "diretto": "",
+      "titolo": "Seminario di Pasqua - M&deg; Tada a Roma",
+      "immagine": "tada.jpg"
+},{
+      "giornoinizio": "2018-07-07",
+      "giornofine": "2018-07-14",
+      "città": "Laces",
+      "dojo": "Aikido Fujinami Bologna, Aikido Renbukai Pesaro/Rimini",
+      "indirizzo": "c/o Sportzentrum, Annaberg Strasse - 39021 Laces (BZ)",
+      "diretto": "Osawa Shihan & M&deg; Foglietta & M&deg; Travaglini",
+      "titolo": "Aikido Summer Camp",
+      "immagine": "laces2017.png",
+      "url": "http://aikidosummercamp.com/",
+      "locandina": ""
+},{
+      "giornoinizio": "2017-10-14",
+      "giornofine": "2017-10-15",
+      "città": "Cassino",
+      "dojo": "Aikikai Cassino",
+      "indirizzo": "c/o palestra Sporting Club, via S. Bartolomeno, 28 - 03043 Cassino (FR)",
+      "diretto": "R. Foglietta",
+      "titolo": "Seminario di aikido",
+      "immagine": "rf2.jpg",
+      "locandina": "20171014.pdf"       
+},{
+      "giornoinizio": "2017-11-04",
+      "giornofine": "2017-11-05",
+      "città": "Gragnano",
+      "dojo": "Aikikai Nutsu",
+      "indirizzo": "c/o Centro Sportivo Moscati, via Castellammare, 40 - 80054 Gragnano (NA)",
+      "diretto": "R. Foglietta",
+      "titolo": "Seminario di aikido",
+      "immagine": "rf2.jpg"      
+}, {
+      "giornoinizio": "2017-11-24",
+      "giornofine": "2017-11-26",
+      "città": "Ekaterinburg",
+      "dojo": "Crag",
+      "indirizzo": "Ekaterinburg, Russia",
+      "diretto": "R. Foglietta",
+      "titolo": "Seminario di aikido",
+      "immagine": "rf2.jpg"
+},  {
+      "giornoinizio": "2018-01-27",
+      "giornofine": "2018-01-28",
+      "città": "Milano",
+      "dojo": "Aikikai Milano",
+      "indirizzo": "c/o Aikikai Milano, ingresso da via Porpora 43/47 - 20131 Milano (MI)",
+      "diretto": "",
+      "titolo": "Seminario di aikido per V, VI e mu kyu",
+      "immagine": "dojomi.jpg"     
+},  {
+      "giornoinizio": "2018-02-23",
+      "giornofine": "2018-02-24",
+      "città": "Milano",
+      "dojo": "Aikikai Milano",
+      "indirizzo": "c/o Aikikai Milano, ingresso da via Porpora 43/47 - 20131 Milano (MI)",
+      "diretto": "",
+      "titolo": "Seminario di aikido per III, IV e V kyu",
+      "immagine": "dojomi.jpg"     
+},{
+      "giornoinizio": "2018-04-15",
+      "giornofine": "2018-04-15",
+      "città": "Casalpusterlengo",
+      "dojo": "ASD Aikikai Lodi",
+      "indirizzo": "c/o Palestra ex Pacle, Via Felice Cavallotti, 53 - 26841 Casalpusterlengo (LO)",
+      "diretto": "R. Foglietta",
+      "titolo": "Seminario di Aikido",
+      "immagine": "rf.jpg"           
+},{
+      "giornoinizio": "2018-04-29",
+      "giornofine": "2018-04-29",
+      "città": "Navacchio",
+      "dojo": "Dojo Aikikai Valdera",
+      "indirizzo": "c/o Athletic Center, Via Tosco Romagnola Est, 1748 - 56021 Navacchio (PI)",
+      "diretto": "R. Foglietta",
+      "titolo": "Seminario di aikido",
+      "immagine": "rf4.jpg"      
+},{
+      "giornoinizio": "2018-05-04",
+      "giornofine": "2018-05-05",
+      "città": "Ostia",
+      "dojo": "Kikai Dojo",
+      "indirizzo": "c/o Yoshokan, Via Genoese Zerbi, 27 - 00122 Ostia (ROMA)",
+      "diretto": "R. Foglietta",
+      "titolo": "Seminario di aikido",
+      "immagine": "rf2.jpg"      
+},{
+      "giornoinizio": "2018-05-20",
+      "giornofine": "2018-05-20",
+      "città": "Foligno",
+      "dojo": "Aikido Fujinami Foligno",
+      "indirizzo": "c/o Fisiogym Foligno, piazza Vanvitelli, 1 - 06034 Foligno (PG)",
+      "diretto": "R. Foglietta",
+      "titolo": "Seminario di aikido",
+      "immagine": "rf_pro.jpg"
+}, {
+      "giornoinizio": "2018-06-16",
+      "giornofine": "2018-06-17",
+      "città": "Pesaro",
+      "dojo": "Aikido Renbukai",
+      "indirizzo": "c/o Keiko Dojo, via Gai, 19 - 61100 Pesaro (PU)",
+      "diretto": "R. Foglietta &amp; M. D'Amico",
+      "titolo": "Seminario di aikido &amp; esami Kyu",
+      "immagine": "fogliettadamico.png"
+},{
+      "giornoinizio": "2018-04-08",
+      "giornofine": "2018-04-08",
+      "città": "Fano",
+      "dojo": "Dojo Shingen Fano",
+      "indirizzo": "c/o Dojo Shingen, Via IV Novembre, 36 - 80054 Fano (PU)",
+      "diretto": "R. Foglietta",
+      "titolo": "Seminario di aikido",
+      "immagine": "rf2.jpg"     
+},{
+      "giornoinizio": "2018-09-01",
+      "giornofine": "2018-09-03",
+      "città": "Borgo Pace",
+      "dojo": "Aikido Renbukai",
+      "indirizzo": "c/o Golf Club Alpe della Luna, sala Metauro, via Taramone 2 - 61040 Borgo Pace (PU)",
+      "diretto": "R. Foglietta",
+      "titolo": "Seminario di aikido &amp; armi",
+      "immagine": "rf6.png"
+}, {
+      "giornoinizio": "2018-06-06",
+      "giornofine": "2018-06-10",
+      "città": "Pskov",
+      "dojo": "Crag",
+      "indirizzo": "Pskov, Russia",
+      "diretto": "R. Foglietta",
+      "titolo": "Seminario di aikido",
+      "immagine": "rf6.jpg"
+},{
+      "giornoinizio": "2017-10-01",
+      "giornofine": "2017-10-01",
+      "città": "L'Aquila",
+      "dojo": "",
+      "indirizzo": "c/o MUD Centro Danza, via Nurzia, 2 - Localit&agrave; Boschetto di Pile, 67100 L'Aquila (AQ)",
+      "diretto": "",
+      "titolo": "Incontro di pratica intergruppi",
+      "immagine": "oir_logo.png"      
+},{
+      "giornoinizio": "2017-12-03",
+      "giornofine": "2017-12-03",
+      "città": "Roma",
+      "dojo": "",
+      "indirizzo": "",
+      "diretto": "",
+      "titolo": "Assemblea soci",
+      "immagine": "oir_logo.png"      
+},{
+      "giornoinizio": "2018-02-17",
+      "giornofine": "2018-02-17",
+      "città": "Ferrara",
+      "dojo": "Keiko Dojo",
+      "indirizzo": "c/o Keiko Dojo, Via Eridania, 165 - 45030 S. Maria Maddalena (RO)",
+      "diretto": "",
+      "titolo": "Incontro di pratica intergruppi",
+      "immagine": "oir_logo.png"      
+},{
+      "giornoinizio": "2018-03-18",
+      "giornofine": "2018-03-18",
+      "città": "Pesaro",
+      "dojo": "Keiko Dojo",
+      "indirizzo": "c/o Keiko Dojo, via Gai, 19 - 61100 Pesaro (PU)",
+      "diretto": "",
+      "titolo": "Incontro di pratica intergruppi",
+      "immagine": "oir_logo.png"
 }
 ]
 
