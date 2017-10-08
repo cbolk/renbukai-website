@@ -45,12 +45,21 @@
       "titolo": "Seminario d'autunno M&deg; Tada a Roma",
       "immagine": "tada.jpg"
 }, {
+      "giornoinizio": "2017-11-11",
+      "giornofine": "2017-11-12",
+      "città": "Bari",
+      "dojo": "Waka Ki Dojo",
+      "indirizzo": "c/o Palazzetto dello Sport, via F. Turati - 70126 Bari (BA)",
+      "diretto": "R. Foglietta",
+      "titolo": "Seminario di aikido",
+      "immagine": "rf4.jpg"
+}, {
       "giornoinizio": "2017-11-18",
       "giornofine": "2017-11-19",
       "città": "Milano",
       "dojo": "Aikikai Milano",
       "indirizzo": "c/o Aikikai Milano, ingresso da via Porpora 43/47 - 20131 Milano (MI)",
-      "diretto": "R. Foglietta &amp; R. Travaglini",
+      "diretto": "R. Foglietta &amp; R. Travaglini &amp; F. Bottacin",
       "titolo": "Seminario di aikido per Yudansha, I e II Kyu",
       "immagine": "dojomi.jpg" 
 },  {
@@ -130,6 +139,15 @@
       "diretto": "R. Foglietta",
       "titolo": "Seminario di aikido",
       "immagine": "rf2.jpg"
+},  {
+      "giornoinizio": "2018-01-13",
+      "giornofine": "2018-01-14",
+      "città": "Torino",
+      "dojo": "Nuova Aikikai Torino",
+      "indirizzo": "da definire",
+      "diretto": "P. Villaverde &amp; R. Foglietta &amp; R. Travaglini &amp; A. Degani",
+      "titolo": "Seminario di aikido",
+      "immagine": "aikido.png"     
 },  {
       "giornoinizio": "2018-01-27",
       "giornofine": "2018-01-28",
