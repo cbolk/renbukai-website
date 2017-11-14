@@ -45,15 +45,6 @@
       "titolo": "Seminario d'autunno M&deg; Tada a Roma",
       "immagine": "tada.jpg"
 }, {
-      "giornoinizio": "2017-11-11",
-      "giornofine": "2017-11-12",
-      "città": "Bari",
-      "dojo": "Waka Ki Dojo",
-      "indirizzo": "c/o Palazzetto dello Sport, via F. Turati - 70126 Bari (BA)",
-      "diretto": "R. Foglietta",
-      "titolo": "Seminario di aikido",
-      "immagine": "rf4.jpg"
-}, {
       "giornoinizio": "2017-11-18",
       "giornofine": "2017-11-19",
       "città": "Milano",
@@ -61,7 +52,8 @@
       "indirizzo": "c/o Aikikai Milano, ingresso da via Porpora 43/47 - 20131 Milano (MI)",
       "diretto": "R. Foglietta &amp; R. Travaglini &amp; F. Bottacin",
       "titolo": "Seminario di aikido per Yudansha, I e II Kyu",
-      "immagine": "dojomi.jpg" 
+      "immagine": "dojomi.jpg",
+      "locandina": "20171118.pdf" 
 },  {
       "giornoinizio": "2017-12-26",
       "giornofine": "2017-12-30",
@@ -154,8 +146,8 @@
       "città": "Milano",
       "dojo": "Aikikai Milano",
       "indirizzo": "c/o Aikikai Milano, ingresso da via Porpora 43/47 - 20131 Milano (MI)",
-      "diretto": "",
-      "titolo": "Seminario di aikido per V, VI e mu kyu",
+      "diretto": "M. D'Amico &amp; R. Costantini",
+      "titolo": "Seminario di aikido per III, IV e V kyu",
       "immagine": "dojomi.jpg"     
 },  {
       "giornoinizio": "2018-02-23",
@@ -164,7 +156,7 @@
       "dojo": "Aikikai Milano",
       "indirizzo": "c/o Aikikai Milano, ingresso da via Porpora 43/47 - 20131 Milano (MI)",
       "diretto": "",
-      "titolo": "Seminario di aikido per III, IV e V kyu",
+      "titolo": "Seminario di aikido per V, VI e mu kyu",
       "immagine": "dojomi.jpg"     
 },{
       "giornoinizio": "2018-04-15",
@@ -185,8 +177,8 @@
       "titolo": "Seminario di aikido",
       "immagine": "rf4.jpg"      
 },{
-      "giornoinizio": "2018-05-04",
-      "giornofine": "2018-05-05",
+      "giornoinizio": "2018-05-05",
+      "giornofine": "2018-05-06",
       "città": "Ostia",
       "dojo": "Kikai Dojo",
       "indirizzo": "c/o Yoshokan, Via Genoese Zerbi, 27 - 00122 Ostia (ROMA)",
