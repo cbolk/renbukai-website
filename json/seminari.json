@@ -62,7 +62,8 @@
       "indirizzo": "c/o Aikikai Milano, ingresso da via Porpora 43/47 - 20131 Milano (MI)",
       "diretto": "A. Fabbretti &amp; R. Foglietta &amp; R. Travaglini",
       "titolo": "Seminario di fine anno",
-      "immagine": "dojomi.jpg"     
+      "immagine": "dojomi.jpg",
+      "locandina": "20171226.pdf"
 }, {
       "giornoinizio": "2018-02-10",
       "giornofine": "2018-02-11",
@@ -72,12 +73,13 @@
       "diretto": "",
       "titolo": "Seminario Osawa Shihan",
       "immagine": "osawa2.jpg",
+	  "facebook": "https://www.facebook.com/events/1997983580417357/",
       "locandina": "20170211_it.pdf",
       "locandina_en": "20170211_en.pdf"     
 }, {
       "giornoinizio": "2018-03-24",
       "giornofine": "2018-03-25",
-      "città": "Milano",
+      "città": "Bologna",
       "dojo": "Aikikai d'Italia",
       "indirizzo": "c/o Centro Sportivo 'Bernardi', Parco Lunetta Gamberini, 40137 Bologna (BO)",
       "diretto": "",
@@ -135,17 +137,18 @@
       "giornoinizio": "2018-01-13",
       "giornofine": "2018-01-14",
       "città": "Torino",
-      "dojo": "Nuova Aikikai Torino",
-      "indirizzo": "da definire",
+      "dojo": "Aikikai Torino &amp; Ken Yu Shin Dojo",
+      "indirizzo": "c/o Accademia Torino, P.zza Giovanni dalle Bande Nere, 15 - 10132 Torino (To)",
       "diretto": "P. Villaverde &amp; R. Foglietta &amp; R. Travaglini &amp; A. Degani",
       "titolo": "Seminario di aikido",
-      "immagine": "aikido.png"     
+      "immagine": "20180113.png",
+      "locandina": "20180113.pdf"     
 },  {
       "giornoinizio": "2018-01-27",
       "giornofine": "2018-01-28",
       "città": "Milano",
       "dojo": "Aikikai Milano",
-      "indirizzo": "c/o Aikikai Milano, ingresso da via Porpora 43/47 - 20131 Milano (MI)",
+      "indirizzo": "c/o Aikikai Milano, ingresso da via Porpora, 43/47 - 20131 Milano (MI)",
       "diretto": "M. D'Amico &amp; R. Costantini",
       "titolo": "Seminario di aikido per III, IV e V kyu",
       "immagine": "dojomi.jpg"     
@@ -154,17 +157,28 @@
       "giornofine": "2018-02-24",
       "città": "Milano",
       "dojo": "Aikikai Milano",
-      "indirizzo": "c/o Aikikai Milano, ingresso da via Porpora 43/47 - 20131 Milano (MI)",
-      "diretto": "",
+      "indirizzo": "c/o Aikikai Milano, ingresso da via Porpora, 43/47 - 20131 Milano (MI)",
+      "diretto": "K. Watanabe &amp. L. Benevelli",
       "titolo": "Seminario di aikido per V, VI e mu kyu",
       "immagine": "dojomi.jpg"     
+},  {
+      "giornoinizio": "2018-02-23",
+      "giornofine": "2018-02-25",
+      "città": "Russia",
+      "dojo": "Aikido Ufa",
+      "indirizzo": "Ufa, Russia",
+      "diretto": "R. Foglietta",
+	  "facebook": "https://www.facebook.com/events/171584550104440/",
+      "titolo": "Seminario di aikido",
+      "immagine": "rf2.jpg"     
 },{
-      "giornoinizio": "2018-04-15",
+      "giornoinizio": "2018-04-14",
       "giornofine": "2018-04-15",
       "città": "Casalpusterlengo",
       "dojo": "ASD Aikikai Lodi",
       "indirizzo": "c/o Palestra ex Pacle, Via Felice Cavallotti, 53 - 26841 Casalpusterlengo (LO)",
       "diretto": "R. Foglietta",
+	  "facebook": "https://www.facebook.com/events/1997983580417357/",
       "titolo": "Seminario di Aikido",
       "immagine": "rf.jpg"           
 },{
@@ -217,7 +231,7 @@
       "giornofine": "2018-09-03",
       "città": "Borgo Pace",
       "dojo": "Aikido Renbukai",
-      "indirizzo": "c/o Golf Club Alpe della Luna, sala Metauro, via Taramone 2 - 61040 Borgo Pace (PU)",
+      "indirizzo": "c/o Golf Club Alpe della Luna, sala Metauro, via Taramone, 2 - 61040 Borgo Pace (PU)",
       "diretto": "R. Foglietta",
       "titolo": "Seminario di aikido &amp; armi",
       "immagine": "rf6.png"
