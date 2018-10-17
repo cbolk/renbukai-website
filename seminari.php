@@ -127,9 +127,9 @@
                     </div>
                 </div--> 
                 <div class='seminarwrapper col-lg-12 col-xs-12 col-md-12'>
-                    <div class='semimage col-lg-2 col-md-2 col-xs-6'><a href="download.php?fp=stages/seminariaikido201718.pdf" alt="lista seminari" class='noborder download' target=_blank><img src="stages/aikilistimg.png" /></a></div>
+                    <!--div class='semimage col-lg-2 col-md-2 col-xs-6'><a href="download.php?fp=stages/seminariaikido201718.pdf" alt="lista seminari" class='noborder download' target=_blank><img src="stages/aikilistimg.png" /></a></div-->
                     <div class='semdate col-lg-10 col-md-10 col-xs-10 clearfix'>
-                        <div class='semdetails'><br/><br/>Scarica l'elenco dei seminari di aikido dell'anno in corso <a href="download.php?fp=stages/seminariaikido201718.pdf"  target=_blank alt="lista seminari aikido" class='download'><i class='fa fa-download'></i></a></div>
+                        <!--div class='semdetails'><br/><br/>Scarica l'elenco dei seminari di aikido dell'anno in corso <a href="download.php?fp=stages/seminariaikido201718.pdf"  target=_blank alt="lista seminari aikido" class='download'><i class='fa fa-download'></i></a></div-->
                     </div>
                 </div> 
                 <!--div class='clearfix'></div--> 
@@ -139,7 +139,7 @@
         <div class="row">
             <div class="col-lg-12 col-xm-12">
                 <br/>
-                <p>Pagina soggetta a variazioni. Ultimo aggiornamento: <strong>5 febbraio 2018</strong>.</p>
+                <p>Pagina soggetta a variazioni. Ultimo aggiornamento: <strong>3 ottobre 2018</strong>.</p>
             </div>
         </div>        <!-- footer -->   
         <?php include_once("utils/footer.php") ?>
