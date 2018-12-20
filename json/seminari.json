@@ -25,7 +25,8 @@
       "diretto": "R. Foglietta",
       "facebook": "https://www.facebook.com/events/499324727202211/",
       "titolo": "Seminario di aikido",
-      "immagine": "20181021.png"
+      "immagine": "20181021.png",
+      "locandina": "20181021.pdf"
 }, {
       "giornoinizio": "2018-11-10",
       "giornofine": "2018-11-11",
@@ -34,16 +35,18 @@
       "indirizzo": "c/o Centro Sportivo Saini, via Corelli, 136 - 20134 Milano (MI)",
       "diretto": "",
       "titolo": "Seminario d'autunno M&deg; Tada a Milano",
-      "immagine": "tada.jpg"
+      "immagine": "tada.jpg",
+      "locandina": "20181110.pdf" 
 }, {
       "giornoinizio": "2018-11-03",
       "giornofine": "2018-11-04",
-      "città": "Roma",
+      "città": "Ostia-Roma",
       "dojo": "Aikikai d'Italia",
-      "indirizzo": "c/o Villa Eur, Piazzale Marcellino Champagnat, 2 - 00144 Roma (RM)",
+      "indirizzo": "c/o Pala di Fiore, Via dei Pescatori, 71 - 00122 Ostia Lido (RM)",
       "diretto": "",
       "titolo": "Seminario d'autunno M&deg; Tada a Roma",
-      "immagine": "tada.jpg"
+      "immagine": "tada.jpg",
+      "locandina": "20181103.pdf"
 }, {
       "giornoinizio": "2018-11-24",
       "giornofine": "2018-11-25",
@@ -64,15 +67,6 @@
       "titolo": "Seminario di fine anno",
       "immagine": "dojomi.jpg",
       "locandina": "20181226.pdf"
-}, {
-      "giornoinizio": "2019-02-10",
-      "giornofine": "2019-02-11",
-      "città": "Milano",
-      "dojo": "Aikikai Milano",
-      "indirizzo": "c/o Ronin Dojo, Via Savonarola, 19 - 20900 Monza",
-      "diretto": "",
-      "titolo": "Seminario Osawa Shihan",
-      "immagine": "osawa2.jpg"     
 },{
       "giornoinizio": "2019-07-06",
       "giornofine": "2019-07-13",
@@ -84,17 +78,17 @@
       "immagine": "aikido.png",
       "url": "http://aikidosummercamp.com/"
 },{
-      "giornoinizio": "2018-10-28",
-      "giornofine": "2018-10-28",
+      "giornoinizio": "2018-12-01",
+      "giornofine": "2018-12-01",
       "città": "Cassino",
       "dojo": "Aikikai Cassino",
       "indirizzo": "c/o palestra Sporting Club, via S. Bartolomeno, 28 - 03043 Cassino (FR)",
       "diretto": "R. Foglietta",
       "titolo": "Seminario di aikido",
       "immagine": "rf2.jpg" ,
-      "locandina": "20181028.pdf"     
+      "locandina": "20181201.pdf"     
 },{
-      "giornoinizio": "2018-12-01",
+      "giornoinizio": "2018-12-02",
       "giornofine": "2018-12-02",
       "città": "Gragnano",
       "dojo": "Aikikai Nutsu",
@@ -112,14 +106,15 @@
       "titolo": "Seminario di aikido",
       "immagine": "20180113.png"     
 },  {
-      "giornoinizio": "2019-02-23",
-      "giornofine": "2019-02-24",
+      "giornoinizio": "2019-02-09",
+      "giornofine": "2019-02-10",
       "città": "Milano",
       "dojo": "Aikikai Milano",
       "indirizzo": "c/o Aikikai Milano, ingresso da via Porpora, 43/47 - 20131 Milano (MI)",
       "diretto": "S. Campagna &amp. K. Watanabe",
       "titolo": "Seminario di aikido per V, VI e mu kyu",
-      "immagine": "dojomi.jpg"     
+      "immagine": "dojomi.jpg",
+      "locandina": "20190209.pdf"     
 },{
       "giornoinizio": "2018-12-09",
       "giornofine": "2018-12-09",
@@ -166,7 +161,8 @@
       "indirizzo": "",
       "diretto": "",
       "titolo": "Seminario di Aikido Toshio Suzuki Shihan",
-      "immagine": "aikido.png"      
+      "immagine": "aikido.png",
+      "locandina": "20190126.pdf"      
 },{
       "giornoinizio": "2019-03-03",
       "giornofine": "2019-03-03",
